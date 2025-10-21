@@ -1,12 +1,12 @@
 {
     "version": 2,
-    "name": "shanghai-advent-journey",
+    "name": "shanghai-advent-calendar",
     "builds": [
         {
             "src": "build.sh",
             "use": "@vercel/static-build",
             "config": {
-                "distDir": "public"
+                "distDir": ".web/public"
             }
         }
     ],
@@ -17,7 +17,7 @@
         }
     ],
     "env": {
-        "NODE_VERSION": "18"
+        "NODE_VERSION": "20"
     },
     "functions": {
         "build.sh": {
