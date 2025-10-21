@@ -2,14 +2,18 @@ from enum import Enum
 
 
 class Color(Enum):
-    ACCENT = "#EA5940"
-    PRIMARY = "#212529"
-    SECONDARY = "#D3D3D3"
-    TERTIARY = "#37946E"
+    # Paleta Shanghai - Rojo y Dorado chino
+    ACCENT = "#DC143C"  # Rojo chino intenso
+    PRIMARY = "#1a1a1a"  # Negro profundo
+    SECONDARY = "#FFD700"  # Dorado chino
+    TERTIARY = "#B8860B"  # Dorado oscuro
+    QUATERNARY = "#8B0000"  # Rojo oscuro
+    BACKGROUND = "#FFF8DC"  # Crema suave
 
 
 class TextColor(Enum):
-    ACCENT = "#EA5940 !important"
+    ACCENT = "#DC143C !important"  # Rojo chino
     PRIMARY = "#FFFFFF"
-    SECONDARY = "#212529"
-    TERTIARY = "#D3D3D3"
+    SECONDARY = "#1a1a1a"  # Negro
+    TERTIARY = "#FFD700"  # Dorado
+    QUATERNARY = "#8B0000"  # Rojo oscuro

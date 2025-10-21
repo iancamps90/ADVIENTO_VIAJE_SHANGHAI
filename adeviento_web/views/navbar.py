@@ -8,22 +8,30 @@ def navbar() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.image(
-                src="mouredev.png",
-                alt="Imagen pixel art de MoureDev con estilo navideño.",
-                width="3em",
-                height="3em"
+                src="/culture_images/animalchino2025.jpg",
+                alt="Año del Dragón 2025",
+                width="5em",
+                height="3em",
+                border_radius="8px",
+                object_fit="cover"
             ),
-            rx.text("aDEViento 2024"),
+            rx.text(
+                "Calendario de Adviento Shanghai 2025 🇨🇳🏮🎁❄️🎊",
+                font_size=rx.breakpoints(
+                    initial="0.8em",
+                    xs="0.9em", 
+                    sm="1em",
+                    md="1.1em",
+                    lg="1.2em",
+                    xl="1.2em"
+                ),
+                font_weight="bold",
+                color="white"
+            ),
             rx.spacer(),
-            rx.tablet_and_desktop(
-                link_icon(
-                    "youtube",
-                    constants.YOUTUBE_URL
-                )
-            ),
             link_icon(
-                "twitch",
-                constants.TWITCH_URL
+                "instagram",
+                constants.INSTAGRAM_URL
             ),
             link_icon(
                 "github",

@@ -9,39 +9,30 @@ def partners() -> rx.Component:
         rx.vstack(
             header_text(
                 "star",
-                "Con la ayuda de",
+                "Información del Viaje",
                 False
             ),
-            rx.grid(
-                _partner_link(
-                    "elgato.png",
-                    "https://e.lga.to/MoureDev",
-                    "Elgato"
+            rx.vstack(
+                rx.text(
+                    "Del 25 de diciembre de 2025 al 3 de enero de 2026",
+                    font_size=Size.MEDIUM.value,
+                    color=styles.TextColor.SECONDARY.value,
+                    text_align="center"
                 ),
-                _partner_link(
-                    "raiola.png",
-                    "https://mouredev.link/raiola",
-                    "Raiola Networks"
+                rx.text(
+                    "Shanghai, China - La ciudad más poblada del mundo",
+                    font_size=Size.MEDIUM.value,
+                    color=styles.TextColor.SECONDARY.value,
+                    text_align="center"
                 ),
-                _partner_link(
-                    "nuwe.png",
-                    "https://nuwe.io",
-                    "NUWE"
+                rx.text(
+                    "5 amigos - ¡La aventura más épica!",
+                    font_size=Size.MEDIUM.value,
+                    color=styles.TextColor.SECONDARY.value,
+                    text_align="center"
                 ),
-                _partner_link(
-                    "mouredevpro.png",
-                    "https://mouredev.pro",
-                    "mouredev pro"
-                ),
-                columns=rx.breakpoints(
-                    initial="2",
-                    xs="2",
-                    sm="4",
-                    md="4",
-                    lg="4",
-                    xl="4"
-                ),
-                spacing=Size.VERY_BIG.value
+                align="center",
+                spacing="2"
             ),
             padding_y=Size.VERY_BIG.value,
             style=styles.max_width_style
@@ -61,5 +52,5 @@ def _partner_link(image: str, url: str, alt: str) -> rx.Component:
             alt=alt
         ),
         href=url,
-        is_external=True
+        external=True
     )

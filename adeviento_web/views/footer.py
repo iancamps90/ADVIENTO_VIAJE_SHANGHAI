@@ -9,27 +9,31 @@ def footer() -> rx.Component:
         rx.center(
             rx.vstack(
                 rx.text(
-                    "Calendario de aDEViento 2024",
+                    "Calendario de Adviento Shanghai 2025",
                     font_size=Size.MEDIUM.value,
-                    margin_bottom=Size.ZERO.value
+                    margin_bottom=Size.ZERO.value,
+                    class_name="chinese-text"
                 ),
-                rx.link(
+                rx.text(
                     "Creado con ",
                     rx.el.i(class_name="nes-icon is-small heart"),
-                    " (y gracias a ti) por MoureDev by Brais Moure",
-                    href=constants.MOUREDEV_URL,
-                    is_external=True,
+                    " para nuestro viaje épico a Shanghai",
                     font_size=Size.MEDIUM.value,
                     color=TextColor.TERTIARY.value
                 ),
+                rx.text(
+                    "Del 25 de diciembre de 2025 al 3 de enero de 2026 - ¡La aventura nos espera!",
+                    font_size=Size.SMALL.value,
+                    color=TextColor.QUATERNARY.value
+                ),
                 align_items="start",
-                spacing=Size.MEDIUM.value
+                spacing="3"
             ),
             rx.spacer(),
             rx.image(
-                src="logo.png",
-                alt="Logo MoureDev. Una letra \"eme\" entre dos corchetes.",
-                class_name="nes-avatar is-large"
+                src="gift.png",
+                alt="Regalo del viaje a Shanghai",
+                class_name="nes-avatar is-large lantern"
             ),
             width="100%"
         ),

@@ -1,6 +1,50 @@
+
+# Build outputs
+# IDE
+# OS
+# Python
+# Reflex
+# Shanghai Advent Journey - Git Ignore
+# Temporary files
+# Virtual Environment
 *.db
+*.egg
+*.egg-info/
+*.log
 *.py[cod]
-.venv
+*.so
+*.swo
+*.swp
+*.temp
+*.tmp
+*~
+.DS_Store
+.Python
+.eggs/
+.idea/
+.installed.cfg
+.states
+.states/
+.venv/
+.vscode/
 .web
+.web/
+ENV/
+Thumbs.db
 __pycache__/
 assets/external/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+env/
+frontend.zip
+lib/
+lib64/
+parts/
+public/
+sdist/
+var/
+venv/
+wheels/

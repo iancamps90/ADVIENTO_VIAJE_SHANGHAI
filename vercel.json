@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "name": "shanghai-advent-journey",
     "builds": [
         {
             "src": "build.sh",
@@ -14,5 +15,13 @@
             "src": "/(.*)",
             "dest": "/$1"
         }
-    ]
+    ],
+    "env": {
+        "NODE_VERSION": "18"
+    },
+    "functions": {
+        "build.sh": {
+            "maxDuration": 300
+        }
+    }
 }

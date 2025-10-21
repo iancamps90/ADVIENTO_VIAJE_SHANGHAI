@@ -11,11 +11,11 @@ def author() -> rx.Component:
     return rx.vstack(
         header_text(
             "like",
-            "Hola, mi nombre es Brais Moure"
+            "¡Hola! Somos 5 amigos"
         ),
         rx.flex(
             rx.image(
-                src="avatar.jpg",
+                src="/nosotros.png",
                 width="128px",
                 height="128px",
                 bg=Color.PRIMARY.value,
@@ -27,24 +27,20 @@ def author() -> rx.Component:
             ),
             rx.vstack(
                 rx.el.span(
-                    f"Soy ingeniero de software desde hace más de {
-                        _experience()} años."
+                    "Somos 5 amigos preparando la aventura más épica del año."
                 ),
                 rx.el.span(
-                    "En 2018 comencé a divulgar contenido sobre programación y desarrollo de software en redes sociales como ",
-                    rx.el.span(
-                        "@mouredev",
-                        color=TextColor.ACCENT.value,
-                        font_size=Size.DEFAULT.value
-                    ),
-                    "."
+                    "Todos listos para descubrir Shanghai y vivir una experiencia inolvidable juntos."
+                ),
+                rx.el.span(
+                    "¡Cada día nos acerca más a la aventura de nuestras vidas!"
                 ),
                 _author_buttons(),
                 width="100%",
                 align_items="start"
             ),
             align_items="start",
-            spacing=Size.BIG.value,
+            spacing="4",
             flex_direction=styles.FLEX_DIRECTION
         ),
         style=styles.max_width_style
@@ -54,16 +50,16 @@ def author() -> rx.Component:
 def _author_buttons() -> rx.Component:
     return rx.flex(
         button(
-            "YouTube",
-            constants.YOUTUBE_URL
+            "Ver Fotos del Viaje",
+            constants.INSTAGRAM_URL
         ),
         button(
-            "Twitch",
-            constants.TWITCH_URL
+            "Seguir la Aventura",
+            constants.TWITTER_URL
         ),
         button(
-            "Discord",
-            constants.DISCORD_URL
+            "Código del Proyecto",
+            constants.GITHUB_URL
         ),
         align_items="start",
         flex_direction=styles.FLEX_DIRECTION

@@ -20,22 +20,25 @@ class Size(Enum):
 STYLESHEETS = [
     "/css/main.css",
     "https://unpkg.com/nes.css@latest/css/nes.min.css",
-    "https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+    "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap"
 ]
 
 BASE_STYLE = {
     "font_family": Font.DEFAULT.value,
-    "color": TextColor.PRIMARY.value,
-    "background": Color.PRIMARY.value,
+    "color": TextColor.SECONDARY.value,
+    "background": f"linear-gradient(135deg, {Color.BACKGROUND.value} 0%, {Color.PRIMARY.value} 100%)",
+    "min_height": "100vh",
     rx.heading: {
         "font_family": Font.DEFAULT.value,
-        "color": TextColor.ACCENT.value
+        "color": TextColor.ACCENT.value,
+        "text_shadow": f"2px 2px 4px {Color.QUATERNARY.value}"
     },
     rx.link: {
         "text_decoration": "none",
         "_hover": {
             "color": TextColor.ACCENT.value,
-            "text_decoration": "none"
+            "text_decoration": "none",
+            "transform": "scale(1.05)"
         }
     },
     rx.el.span: {
@@ -45,8 +48,13 @@ BASE_STYLE = {
         "margin_bottom": Size.DEFAULT.value,
         "height": Size.BUTTON.value,
         "color": f"{TextColor.SECONDARY.value} !important",
+        "background": f"linear-gradient(45deg, {Color.ACCENT.value}, {Color.SECONDARY.value})",
+        "border": f"2px solid {Color.SECONDARY.value}",
+        "border_radius": "8px",
         "_hover": {
-            "color": f"{TextColor.PRIMARY.value} !important"
+            "color": f"{TextColor.PRIMARY.value} !important",
+            "transform": "translateY(-2px)",
+            "box_shadow": f"0 4px 8px {Color.QUATERNARY.value}"
         }
     }
 }

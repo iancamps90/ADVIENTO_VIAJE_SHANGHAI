@@ -5,14 +5,13 @@ from adeviento_web.styles.styles import Size
 
 def github() -> rx.Component:
     return rx.link(
-
         rx.vstack(
             rx.vstack(
                 rx.el.span(
-                    "Proyecto"
+                    "Calendario"
                 ),
                 rx.el.span(
-                    "en GitHub"
+                    "de Shanghai"
                 ),
                 align_items="start",
                 class_name="nes-balloon from-right is-dark",
@@ -20,7 +19,7 @@ def github() -> rx.Component:
             ),
             rx.box(
                 rx.el.span(
-                    constants.VERSION,
+                    "2025",
                     class_name="is-error"
                 ),
                 class_name="nes-badge"
@@ -30,7 +29,7 @@ def github() -> rx.Component:
             class_name="nes-octocat animate"
         ),
         href=constants.GITHUB_REPO_URL,
-        is_external=True,
+        external=True,
         align_items="end",
         display="flex",
         margin_top=Size.ZERO.value

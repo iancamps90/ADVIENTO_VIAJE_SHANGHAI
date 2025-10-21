@@ -1,17 +1,22 @@
-# Calendario de aDEViento Web
+# 🏮 Shanghai Advent Journey 2025
 
 [![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
 [![Reflex](https://img.shields.io/badge/Reflex-0.6.4+-5646ED?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://reflex.dev)
 [![NES.css](https://img.shields.io/badge/NES.css-2.3.0-007bff?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)](https://nostalgic-css.github.io/NES.css)
 [![Vercel](https://img.shields.io/badge/Vercel-static-gray?style=for-the-badge&logo=vercel&logoColor=white&labelColor=101010)](https://vercel.com)
 
-## Proyecto web "Calendario de aDEViento" con Python puro y Reflex
+## 🎯 Calendario de Adviento Personalizado para Viaje a Shanghai
 
-![https://adviento.dev](./images/preview.gif)
+> **Shanghai Advent Journey** es un calendario de adviento personalizado para nuestro viaje a Shanghai del 25 de diciembre de 2025 al 3 de enero de 2026. Cada día del 1 al 25 de diciembre revela una nueva sorpresa, recomendación o contenido especial para preparar la aventura más épica del año.
 
-> El "Calendario de aDEViento" es una actividad en la que cada día (durante el adviento) se sortea un regalo relacionado con programación y desarrollo de software (libros, cursos…). Su finalidad es ayudar a compartir conocimiento y fomentar el aprendizaje en comunidad.
+### ✨ Características Principales
 
-### Visita [https://adviento.dev](https://adviento.dev)
+- 🗓️ **25 días de sorpresas** - Del 1 al 25 de diciembre
+- 🔒 **Sistema de desbloqueo** - Solo días disponibles + día actual
+- 📱 **Contenido rico** - Videos, fotos, recomendaciones
+- ⏰ **Countdown timer** - Cuenta atrás hasta Shanghai
+- 🎨 **Diseño temático** - Colores chinos (rojo, dorado, negro)
+- ❄️ **Efectos visuales** - Nieve animada y efectos especiales
 
 #### Desarrollo realizado en directo desde [Twitch](https://twitch.tv/mouredev)
 > ##### Si consideras útil el proyecto, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
@@ -54,55 +59,54 @@ Esta es la estructura general del proyecto.
 * **build.sh**: script de generación estática de la web para producción en remoto
 * **[generado] public**: empaquetado estático del proyecto que se despliega en producción (HTML, CSS, JS e imágenes)
 
-## Configuración en local
+## 🚀 Configuración Local
 
-1. Haz un `Fork` del repositorio.
+### Prerrequisitos
+- Python 3.11+
+- Git
 
-2. Clona ese repositorio en tu máquina local.
+### Instalación Rápida
 
-    ```bash 
-    git clone https://github.com/<USERNAME>/adeviento-web.git
-    ```
+1. **Clona el repositorio**
+   ```bash
+   git clone https://github.com/<USERNAME>/adeviento-web.git
+   cd adeviento-web
+   ```
 
-3. Navega al directorio del proyecto.
+2. **Configura el entorno virtual**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate  # En Windows: .venv\Scripts\activate
+   ```
 
-    ```bash
-    cd adeviento
-    ```
+3. **Instala dependencias**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. Crea un entorno virtual.
+4. **Inicializa Reflex**
+   ```bash
+   reflex init
+   ```
 
-    ```bash
-    python3 -m venv venv
-    ```
+5. **Ejecuta en modo desarrollo**
+   ```bash
+   reflex run
+   ```
 
-5. Activa el entorno virtual.
+   🌐 **Accede a:** `http://localhost:3000`
 
-    ```bash
-    source venv/bin/activate
-    ```
+### 🏗️ Build para Producción
 
-6. Instala las dependencias.
+```bash
+# Build local
+./local_build.sh
 
-    ```bash
-    python -m pip install -r requirements.txt
-    ```
+# Build para Vercel
+./build.sh
+```
 
-7. Inicializa el proyecto de Reflex.
-
-    ```bash
-    reflex init
-    ```
-
-8. Ejecuta el proyecto en local.
-
-    ```bash
-    reflex run
-    ```
-
-    *Podrás acceder a él entrando en la url `http://localhost:3000/` desde el navegador.*
-    
-> Tienes más la información sobre [Reflex](https://reflex.dev/) en su [documentación oficial](https://reflex.dev/docs).
+> 📚 Más información sobre [Reflex](https://reflex.dev/) en su [documentación oficial](https://reflex.dev/docs).
 
 ## Despliegue
 
