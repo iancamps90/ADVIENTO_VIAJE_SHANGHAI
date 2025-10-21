@@ -5,8 +5,8 @@ from adeviento_web.views.header import header
 from adeviento_web.views.calendar import calendar
 from adeviento_web.views.footer import footer
 from adeviento_web.views.day_detail import day_detail
-from adeviento_web.views.admin import admin
-from adeviento_web.views.webhook import admin_panel
+# from adeviento_web.views.admin import admin  # Eliminado - no necesitamos automatización
+# from adeviento_web.views.webhook import admin_panel  # Eliminado - no necesitamos webhooks
 from adeviento_web.components.countdown import countdown_timer, countdown_script
 from adeviento_web.components.special_effects import special_effects_script, countdown_enhanced
 
@@ -88,23 +88,7 @@ app.add_page(
     ]
 )
 
-# Añadir página de administración
-app.add_page(
-    admin,
-    route="/admin",
-    title="Panel de Administración - Calendario de Adviento Shanghai 2025",
-    description="Panel de administración para gestionar el calendario de adviento",
-    image=preview
-)
-
-# Añadir página de administración de WhatsApp (comentado temporalmente)
-# app.add_page(
-#     admin_panel,
-#     route="/whatsapp-admin",
-#     title="Panel de WhatsApp - Calendario de Adviento Shanghai 2025",
-#     description="Panel de administración para gestionar mensajes de WhatsApp",
-#     image=preview
-# )
+# Páginas de administración eliminadas - usando sistema manual de mensajes
 
 # Añadir páginas para cada día del calendario (1-25)
 for day_num in range(1, 26):

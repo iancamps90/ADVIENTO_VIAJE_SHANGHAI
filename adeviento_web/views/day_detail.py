@@ -247,41 +247,13 @@ def day_detail(day_number: int) -> rx.Component:
                 ),
                 
                 # Botones de acción
-                rx.hstack(
-                    rx.link(
-                        button(
-                            "🏠 Volver al calendario",
-                            ""
-                        ),
-                        href="/",
-                        external=False
+                rx.link(
+                    button(
+                        "🏮 Volver al calendario",
+                        ""
                     ),
-                    rx.cond(
-                        day_number > 1,
-                        rx.link(
-                            button(
-                                "⬅️ Día anterior",
-                                ""
-                            ),
-                            href=f"/day/{day_number - 1}",
-                            external=False
-                        )
-                    ),
-                    rx.cond(
-                        day_number < 25 and _is_day_available(day_number + 1),
-                        rx.link(
-                            button(
-                                "Día siguiente ➡️",
-                                ""
-                            ),
-                            href=f"/day/{day_number + 1}",
-                            external=False
-                        )
-                    ),
-                    spacing="2",
-                    justify="center",
-                    flex_wrap="wrap",
-                    width="100%"
+                    href="/",
+                    external=False
                 ),
                 
                 align="center",
