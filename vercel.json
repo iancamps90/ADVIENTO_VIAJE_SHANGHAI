@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "buildCommand": "echo 'Build completed'",
-    "outputDirectory": ".",
-    "installCommand": "echo 'Install completed'"
+    "buildCommand": "pip3 install -r requirements.txt && python3 -m reflex export --frontend-only",
+    "outputDirectory": "web/_static",
+    "installCommand": "pip3 install -r requirements.txt"
 }
