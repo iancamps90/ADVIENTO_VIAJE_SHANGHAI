@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "name": "shanghai-advent-calendar",
     "builds": [
         {
             "src": "build.sh",
@@ -8,6 +7,14 @@
             "config": {
                 "distDir": "public"
             }
+        },
+        {
+            "src": "api/webhook.py",
+            "use": "@vercel/python"
+        },
+        {
+            "src": "api/daily-message.py",
+            "use": "@vercel/python"
         }
     ],
     "routes": [
@@ -25,14 +32,6 @@
         "META_ACCESS_TOKEN": "@meta_access_token",
         "META_PHONE_NUMBER_ID": "@meta_phone_number_id",
         "META_VERIFY_TOKEN": "@meta_verify_token"
-    },
-    "functions": {
-        "api/webhook.py": {
-            "runtime": "python3.9"
-        },
-        "api/daily-message.py": {
-            "runtime": "python3.9"
-        }
     },
     "headers": [
         {
