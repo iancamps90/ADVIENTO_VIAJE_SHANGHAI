@@ -1,6 +1,29 @@
 {
     "version": 2,
-    "buildCommand": "pip3 install -r requirements.txt && python3 -m reflex export --frontend-only",
+    "buildCommand": "pip install -r requirements.txt && python -m reflex export --frontend-only",
     "outputDirectory": "web/_static",
-    "installCommand": "pip3 install -r requirements.txt"
+    "installCommand": "pip install -r requirements.txt",
+    "functions": {
+        "adeviento_web/adeviento_web.py": {
+            "runtime": "python3.9"
+        }
+    },
+    "routes": [
+        {
+            "src": "/assets/(.*)",
+            "dest": "/assets/$1"
+        },
+        {
+            "src": "/js/(.*)",
+            "dest": "/js/$1"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/css/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/index.html"
+        }
+    ]
 }
