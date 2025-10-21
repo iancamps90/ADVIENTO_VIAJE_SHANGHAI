@@ -7,6 +7,14 @@
             "config": {
                 "distDir": "public"
             }
+        },
+        {
+            "src": "api/webhook.py",
+            "use": "@vercel/python"
+        },
+        {
+            "src": "api/daily-message.py",
+            "use": "@vercel/python"
         }
     ],
     "rewrites": [
@@ -14,5 +22,11 @@
             "source": "/api/(.*)",
             "destination": "/api/$1"
         }
-    ]
+    ],
+    "env": {
+        "META_ACCESS_TOKEN": "EAAaPcW5fJ6QBPnK4LXGuPs2dNmdATF0uTrZBMfsepYtaFANIJFOvswgLrcMzCbmNw2y5tCHiy7U6P5BIpVOWaXnqBBZCQUK7GIiczyswFLFIyP2cpsAYbziOLwkcJ1XZBxmE5C23E6ZB8AKnMd56a39AV6FLO4tY5YZCnA7OYuvDZAu6BPgz00GOsjkSlAggzx7dGxZCaROAkv2liAuZBbjUZCuJ6I1wNuJa8sxKOaZAZCyNkHmnPcCELaszhFyPqoZD",
+        "META_PHONE_NUMBER_ID": "749820511558307",
+        "META_VERIFY_TOKEN": "shanghai_2025_verify_token",
+        "META_BUSINESS_ACCOUNT_ID": "1136264458651873"
+    }
 }
