@@ -95,8 +95,8 @@ def header() -> rx.Component:
                         "#ShanghaiNosEspera25",
                         href="https://instagram.com/iaancamps90",
                         external=True,
-                        color="#FF6B35",
-                        text_shadow="3px 3px 6px rgba(0,0,0,0.9)",
+                        color="#FFD700",
+                        text_shadow="4px 4px 8px rgba(0,0,0,1)",
                         font_weight="bold",
                         font_size=rx.breakpoints(
                             initial="1.3em",

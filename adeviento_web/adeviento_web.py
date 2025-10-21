@@ -18,6 +18,25 @@ def index() -> rx.Component:
         rx.script("document.documentElement.lang='es'"),
         rx.script(src="/js/snow.js"),
         countdown_script(),
+        
+        # Elementos flotantes chinos
+        rx.box(
+            rx.text("🏮", class_name="lantern"),
+            rx.text("🏮", class_name="lantern"),
+            rx.text("🏮", class_name="lantern"),
+            rx.text("🏮", class_name="lantern"),
+            rx.text("🏮", class_name="lantern"),
+            class_name="floating-lanterns"
+        ),
+        
+        rx.box(
+            rx.text("龙", class_name="chinese-char"),
+            rx.text("福", class_name="chinese-char"),
+            rx.text("喜", class_name="chinese-char"),
+            rx.text("财", class_name="chinese-char"),
+            class_name="floating-characters"
+        ),
+        
         navbar(),
         rx.vstack(
             header(),

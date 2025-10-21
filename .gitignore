@@ -48,3 +48,4 @@ sdist/
 var/
 venv/
 wheels/
+.vercel

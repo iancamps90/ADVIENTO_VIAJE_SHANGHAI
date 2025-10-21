@@ -748,6 +748,109 @@ a:hover {
         font-size: 0.8em !important;
         padding: 10px !important;
     }
+}
+
+/* Chinese Lanterns Floating */
+@keyframes float-lanterns {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(5deg); }
+}
+
+.floating-lanterns {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 500;
+}
+
+.lantern {
+    position: absolute;
+    font-size: 20px;
+    animation: float-lanterns 6s ease-in-out infinite;
+    opacity: 0.3;
+}
+
+.lantern:nth-child(1) { left: 10%; animation-delay: 0s; }
+.lantern:nth-child(2) { left: 30%; animation-delay: 2s; }
+.lantern:nth-child(3) { left: 50%; animation-delay: 4s; }
+.lantern:nth-child(4) { left: 70%; animation-delay: 1s; }
+.lantern:nth-child(5) { left: 90%; animation-delay: 3s; }
+
+/* Chinese Characters Floating */
+@keyframes float-characters {
+    0%, 100% { transform: translateY(0px) scale(1); opacity: 0.1; }
+    50% { transform: translateY(-15px) scale(1.1); opacity: 0.2; }
+}
+
+.floating-characters {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 400;
+}
+
+.chinese-char {
+    position: absolute;
+    font-size: 24px;
+    color: rgba(255, 215, 0, 0.3);
+    animation: float-characters 8s ease-in-out infinite;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.chinese-char:nth-child(1) { left: 15%; top: 20%; animation-delay: 0s; }
+.chinese-char:nth-child(2) { left: 25%; top: 40%; animation-delay: 2s; }
+.chinese-char:nth-child(3) { left: 75%; top: 30%; animation-delay: 4s; }
+.chinese-char:nth-child(4) { left: 85%; top: 60%; animation-delay: 1s; }
+
+/* More Snow Effect Enhanced */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+        radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+        radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+        radial-gradient(2px 2px at 160px 30px, #eee, transparent),
+        radial-gradient(1px 1px at 200px 20px, #fff, transparent),
+        radial-gradient(2px 2px at 250px 60px, rgba(255,255,255,0.7), transparent),
+        radial-gradient(1px 1px at 300px 10px, #eee, transparent);
+    background-repeat: repeat;
+    background-size: 350px 120px;
+    animation: snow-fall 20s linear infinite;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(1px 1px at 30px 20px, #fff, transparent),
+        radial-gradient(1px 1px at 60px 50px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(2px 2px at 120px 30px, #eee, transparent),
+        radial-gradient(1px 1px at 180px 70px, rgba(255,255,255,0.7), transparent),
+        radial-gradient(1px 1px at 220px 40px, #fff, transparent),
+        radial-gradient(2px 2px at 280px 20px, rgba(255,255,255,0.8), transparent);
+    background-repeat: repeat;
+    background-size: 320px 100px;
+    animation: snow-fall 25s linear infinite reverse;
+    pointer-events: none;
+    z-index: 1000;
     
     /* Mejorar flex en móvil */
     .flex {
