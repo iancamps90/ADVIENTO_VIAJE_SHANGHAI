@@ -34,12 +34,12 @@ class WhatsAppService:
         content = f"*{day_name}*\n\n{day_message}"
         
         if day_motivation:
-            content += f"\n\n💫 *Frase del día:*\n\"{day_motivation}\""
+            content += f"\n\n*Frase del día:*\n\"{day_motivation}\""
         
         if day_recommendations:
             # Tomar solo las primeras 2 recomendaciones para el mensaje
             recommendations = day_recommendations.split('\n')[:2]
-            content += f"\n\n📋 *Recomendaciones:*\n" + "\n".join(recommendations)
+            content += f"\n\n*Recomendaciones:*\n" + "\n".join(recommendations)
         
         return {
             "content": content,
@@ -83,13 +83,13 @@ class WhatsAppService:
                 
                 # En una implementación real, aquí harías una llamada a la API de WhatsApp
                 # Por ahora, solo simulamos el envío
-                print(f"Enviando mensaje a {phone_number}: {message[:50]}...")
+                # print(f"Enviando mensaje a {phone_number}: {message[:50]}...")
                 
                 # Simular éxito
                 results[phone_number] = True
                 
             except Exception as e:
-                print(f"Error enviando a {phone_number}: {e}")
+                # print(f"Error enviando a {phone_number}: {e}")
                 results[phone_number] = False
         
         return results
