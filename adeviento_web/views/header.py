@@ -91,11 +91,9 @@ def header() -> rx.Component:
                         text_shadow="3px 3px 6px rgba(0,0,0,0.9)",
                         text_align="center"
                     ),
-                    rx.link(
+                    rx.text(
                         "#ShanghaiNosEspera25",
-                        href="https://instagram.com/iaancamps90",
-                        external=True,
-                        color="#FFD700",
+                        color="#F0F8FF",
                         text_shadow="4px 4px 8px rgba(0,0,0,1)",
                         font_weight="bold",
                         font_size=rx.breakpoints(
@@ -110,12 +108,7 @@ def header() -> rx.Component:
                         background="rgba(0,0,0,0.7)",
                         padding="0.5em 1em",
                         border_radius="25px",
-                        border="2px solid #FFD700",
-                        _hover={
-                            "background": "rgba(255,215,0,0.2)",
-                            "color": "#FFFFFF",
-                            "transform": "scale(1.05)"
-                        }
+                        border="2px solid #F0F8FF"
                     ),
                     align="center",
                     spacing="3",

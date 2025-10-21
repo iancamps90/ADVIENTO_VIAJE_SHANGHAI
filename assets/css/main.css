@@ -768,21 +768,23 @@ a:hover {
 
 .lantern {
     position: absolute;
-    font-size: 20px;
+    font-size: 30px;
     animation: float-lanterns 6s ease-in-out infinite;
-    opacity: 0.3;
+    opacity: 0.6;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
-.lantern:nth-child(1) { left: 10%; animation-delay: 0s; }
-.lantern:nth-child(2) { left: 30%; animation-delay: 2s; }
-.lantern:nth-child(3) { left: 50%; animation-delay: 4s; }
-.lantern:nth-child(4) { left: 70%; animation-delay: 1s; }
-.lantern:nth-child(5) { left: 90%; animation-delay: 3s; }
+.lantern:nth-child(1) { left: 10%; top: 15%; animation-delay: 0s; }
+.lantern:nth-child(2) { left: 30%; top: 25%; animation-delay: 2s; }
+.lantern:nth-child(3) { left: 50%; top: 35%; animation-delay: 4s; }
+.lantern:nth-child(4) { left: 70%; top: 45%; animation-delay: 1s; }
+.lantern:nth-child(5) { left: 90%; top: 55%; animation-delay: 3s; }
 
 /* Chinese Characters Floating */
 @keyframes float-characters {
-    0%, 100% { transform: translateY(0px) scale(1); opacity: 0.1; }
-    50% { transform: translateY(-15px) scale(1.1); opacity: 0.2; }
+    0%, 100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+    50% { transform: translateY(-15px) scale(1.1); opacity: 0.6; }
 }
 
 .floating-characters {
@@ -797,10 +799,11 @@ a:hover {
 
 .chinese-char {
     position: absolute;
-    font-size: 24px;
-    color: rgba(255, 215, 0, 0.3);
+    font-size: 28px;
+    color: rgba(255, 215, 0, 0.5);
     animation: float-characters 8s ease-in-out infinite;
     font-family: 'Noto Sans SC', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 .chinese-char:nth-child(1) { left: 15%; top: 20%; animation-delay: 0s; }
