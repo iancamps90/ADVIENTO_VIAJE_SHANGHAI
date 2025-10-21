@@ -107,10 +107,15 @@ def header() -> rx.Component:
                             xl="1.7em"
                         ),
                         text_align="center",
-                        background="rgba(255,255,255,0.2)",
+                        background="rgba(0,0,0,0.7)",
                         padding="0.5em 1em",
                         border_radius="25px",
-                        border="2px solid #FFD700"
+                        border="2px solid #FFD700",
+                        _hover={
+                            "background": "rgba(255,215,0,0.2)",
+                            "color": "#FFFFFF",
+                            "transform": "scale(1.05)"
+                        }
                     ),
                     align="center",
                     spacing="3",
