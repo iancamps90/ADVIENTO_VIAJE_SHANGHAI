@@ -6,7 +6,9 @@ from adeviento_web.views.calendar import calendar
 from adeviento_web.views.footer import footer
 from adeviento_web.views.day_detail import day_detail
 from adeviento_web.views.admin import admin
+from adeviento_web.views.webhook import admin_panel
 from adeviento_web.components.countdown import countdown_timer, countdown_script
+from adeviento_web.components.special_effects import special_effects_script, countdown_enhanced
 
 title = "Calendario de Adviento Shanghai 2025 | 25 días. 25 sorpresas para el viaje"
 description = "¡Calendario de adviento personalizado para nuestro viaje a Shanghai! Del 1 al 25 de diciembre de 2025, cada día una nueva sorpresa para calentar el viaje."
@@ -17,7 +19,11 @@ def index() -> rx.Component:
     return rx.box(
         rx.script("document.documentElement.lang='es'"),
         rx.script(src="/js/snow.js"),
+        rx.script(src="/js/mobile-animations.js"),
+        rx.script(src="/js/fireworks.js"),
+        rx.script(src="/js/sound-effects.js"),
         countdown_script(),
+        # special_effects_script(),  # Comentado temporalmente
         
         # Elementos flotantes chinos
         rx.box(
@@ -40,7 +46,7 @@ def index() -> rx.Component:
         navbar(),
         rx.vstack(
             header(),
-            countdown_timer(),
+            countdown_enhanced(),
             calendar(),
             footer(),
             align="center",
@@ -90,6 +96,15 @@ app.add_page(
     description="Panel de administración para gestionar el calendario de adviento",
     image=preview
 )
+
+# Añadir página de administración de WhatsApp (comentado temporalmente)
+# app.add_page(
+#     admin_panel,
+#     route="/whatsapp-admin",
+#     title="Panel de WhatsApp - Calendario de Adviento Shanghai 2025",
+#     description="Panel de administración para gestionar mensajes de WhatsApp",
+#     image=preview
+# )
 
 # Añadir páginas para cada día del calendario (1-25)
 for day_num in range(1, 26):

@@ -1,0 +1,28 @@
+{
+  "cron_jobs": [
+    {
+      "name": "daily-shanghai-message",
+      "description": "Envía mensaje diario del calendario de adviento a las 9:00 AM",
+      "schedule": "0 9 * * *",
+      "endpoint": "https://shanghai.iancamps.dev/api/daily-message",
+      "method": "GET",
+      "timezone": "Europe/Madrid",
+      "enabled": true
+    }
+  ],
+  "webhook_config": {
+    "url": "https://shanghai.iancamps.dev/api/webhook",
+    "verify_token": "shanghai_advent_2025_verify",
+    "events": [
+      "messages",
+      "message_deliveries",
+      "message_reads"
+    ]
+  },
+  "notification_settings": {
+    "daily_message_time": "09:00",
+    "timezone": "Europe/Madrid",
+    "enabled": true,
+    "test_mode": false
+  }
+}

@@ -3,7 +3,7 @@
 
 # Ejemplo: +34612345678 -> "34612345678"
 FRIENDS_PHONE_NUMBERS = [
-    "34612345678",  # Amigo 1 - Reemplaza con el número real
+    "34615784663",  # Tu número - Probando WhatsApp
     "34612345679",  # Amigo 2 - Reemplaza con el número real  
     "34612345680",  # Amigo 3 - Reemplaza con el número real
     "34612345681",  # Amigo 4 - Reemplaza con el número real

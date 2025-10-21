@@ -13,148 +13,708 @@ from adeviento_web.components.day import day
 # Estructura: (título, mensaje, frase_motivacional, recomendaciones, video_youtube, foto_url)
 _shanghai_days = [
     (
-        "🗓 Faltan 30 días para Shanghái 🇨🇳",
-        "🎉 ¡Empieza la cuenta atrás!\nHoy arranca la misión \"Shanghái 2025\".\nReto del día: cambia tu fondo de pantalla por algo relacionado y mándalo al grupo.\n🔥 Empieza la motivación.",
+        "🎊 ¡Empieza la cuenta atrás! 🧳✈️🎯",
+        "¡Bienvenidos a la aventura más épica del año! En 25 días estaremos en Shanghai. ¡Que empiece la magia! 🎊🏮\n\n**Reto del día:** Cambia tu fondo de pantalla por algo relacionado con Shanghai y mándalo al grupo. ¡Vamos a crear ambiente! 🔥\n\n**¿Listos para la aventura?** ¡Cada día una nueva sorpresa nos espera!",
         "La aventura comienza con un solo paso. ¡Y ese paso es hoy! 🚀",
-        "• 📄 Revisa tu pasaporte (debe tener 6+ meses de validez)\n• 📱 Descarga apps útiles: Google Translate, Maps\n• 🎒 Empieza a hacer lista de maletas",
+        "📋 **Checklist del día:**\n• 📄 Revisa tu pasaporte (debe tener 6+ meses de validez)\n• 📱 Descarga apps útiles: Google Translate, Maps, Alipay\n• 🎒 Empieza a hacer lista de maletas\n• 🎯 Cambia fondo de pantalla y comparte en el grupo\n\n💡 **Tip del día:** Shanghai significa 'Sobre el mar' - ¡perfecto para nuestra aventura!",
         "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        "/1.png"
+        "/calendar_enhanced/1.png"
     ),
     (
-        "🗓 Faltan 29 días para Shanghái 💳",
-        "Momento de ser responsables: toca descargar Alipay y activar el Tour Pass.\nComparte pantallazo cuando lo tengas listo.",
+        "💳 Apps esenciales para Shanghai 📱",
+        """¡Momento de ser responsables! Hoy toca preparar nuestro arsenal digital para conquistar Shanghai. 💪
+
+**Reto del día:** Descarga Alipay y activa el Tour Pass. ¡Comparte pantallazo cuando lo tengas listo! 📸
+
+**¿Por qué es importante?** En China se paga TODO con el móvil. ¡Sin Alipay no hay paraíso! 🏮
+
+**¿Qué nos espera?** Un mundo digital completamente diferente donde el móvil es tu llave para todo.
+
+**Dato curioso:** China tiene 1.4 mil millones de usuarios de pagos móviles. ¡Somos una gota en el océano!
+
+**¿Sabías que...?** Alipay procesa más transacciones que Visa y Mastercard juntas.""",
         "La preparación es la clave del éxito. ¡Cada app descargada es un paso más cerca! 🔑",
-        "• 🧥 Ropa de invierno (temperaturas 0-10°C)\n• 🔌 Adaptadores de corriente (tipo A/C)\n• 💊 Medicinas básicas\n• 🔋 Cargadores y powerbank",
-        "",
-        "/2.png"
+        """📱 **Apps imprescindibles:**
+• Alipay (pagos y transporte) - ¡LA MÁS IMPORTANTE!
+• WeChat (comunicación local) - WhatsApp chino
+• Google Translate (idioma) - Para traducir menús
+• Maps (navegación) - Aunque Baidu Maps es mejor
+• Didi (taxis) - Uber chino
+• Dianping (restaurantes) - Yelp chino
+• Meituan (delivery) - Para pedir comida
+
+🍽️ **Gastronomía del día:**
+• Aprende a pagar con Alipay
+• Configura tu Tour Pass
+• Practica escaneando códigos QR
+
+🏛️ **Lugares del día:**
+• Cualquier tienda para probar pagos
+• Metro para activar transporte
+• Restaurante para pedir comida
+
+📱 **Apps y tecnología:**
+• Alipay - Configuración desde cero
+• WeChat Pay - Alternativa a Alipay
+• Baidu Maps - Navegación local
+
+🎭 **Cultura y tradiciones:**
+• Pagos móviles como estilo de vida
+• Códigos QR en todas partes
+• Sin efectivo = normalidad
+
+💡 **Tip del día:** Descarga Alipay ANTES de llegar a China
+
+🎯 **Reto extra:** Graba un video pagando con Alipay""",
+        "https://www.youtube.com/embed/KNMz8WqRS-w",
+        "/calendar_enhanced/2.png"
     ),
     (
-        "Frase motivacional del día 💪",
+        "🏮 Curiosidades de Shanghai 🏙️",
+        "¡Descubramos juntos los secretos de la ciudad más fascinante de China! 🌟\n\n**¿Sabías que...?**\n• Shanghai significa 'Sobre el mar' 🌊\n• Es la ciudad más poblada del mundo (24 millones) 👥\n• Tiene el metro más largo del planeta 🚇\n• El Bund es Patrimonio de la Humanidad 🏛️\n\n**Reto del día:** Busca una foto icónica de Shanghai y compártela con una frase motivacional! 📸✨",
         "La distancia se mide en historias que vas a vivir, no en kilómetros. ¡Shanghai nos espera! 🏮",
-        "Cada paso que damos nos acerca más a nuestros sueños. ¡Shanghai nos espera!",
-        "• Visualiza el viaje perfecto\n• Comparte tu emoción con el grupo\n• ¡Mantén la actitud positiva!",
-        "",
-        "/3.png"
+        "🎯 **Actividades del día:**\n• Visualiza el viaje perfecto\n• Comparte tu emoción con el grupo\n• ¡Mantén la actitud positiva!\n• Investiga sobre el Bund y la Torre de Shanghai\n\n💡 **Dato curioso:** El metro de Shanghai tiene 831 km de vías - ¡más que cualquier otra ciudad!",
+        "https://www.youtube.com/embed/L_jWHffIx5E",
+        "/calendar_enhanced/3.png"
     ),
     (
-        "Documentos importantes 📄",
-        "¡No olvides revisar tu pasaporte! Debe tener al menos 6 meses de validez. ¡Mejor prevenir! ✈️",
-        "La preparación es la clave del éxito en cualquier aventura.",
-        "• Pasaporte con 6+ meses de validez\n• Copias de documentos importantes\n• Seguro de viaje\n• Reservas de vuelo y hotel",
-        "",
-        "/4.png"
+        "📄 Documentos y seguros ✈️",
+        """¡Momento de ser súper organizados! Hoy toca revisar que tenemos todos los papeles en regla. 📋
+
+**Reto del día:** Haz una foto de tu pasaporte (solo la portada) y compártela cuando esté todo listo. ¡Vamos a estar 100% preparados! 📸
+
+**¿Por qué es crucial?** Sin documentos en regla, no hay viaje. ¡Mejor prevenir que lamentar! 🛡️
+
+**¿Qué nos espera?** Un proceso de documentación que puede ser complejo pero es esencial.
+
+**Dato curioso:** China requiere pasaporte con 6+ meses de validez. ¡Muchos países no lo saben!
+
+**¿Sabías que...?** El seguro de viaje puede ahorrarte miles de euros en caso de emergencia.""",
+        "La preparación es la clave del éxito en cualquier aventura. ¡Cada documento revisado es tranquilidad ganada! 📋",
+        """📋 **Checklist de documentos:**
+• ✅ Pasaporte con 6+ meses de validez
+• ✅ Copias digitales de documentos importantes
+• ✅ Seguro de viaje internacional
+• ✅ Reservas de vuelo y hotel
+• ✅ Visado (si es necesario)
+• ✅ Certificado de vacunación
+• ✅ Reservas de hotel confirmadas
+
+🍽️ **Gastronomía del día:**
+• Documentos para restaurantes
+• Reservas en restaurantes especiales
+• Información dietética importante
+
+🏛️ **Lugares del día:**
+• Embajada/consulado chino
+• Oficina de seguros
+• Aeropuerto (documentos de vuelo)
+
+📱 **Apps y tecnología:**
+• Apps de seguros de viaje
+• Documentos digitales
+• Traductor de documentos
+
+🎭 **Cultura y tradiciones:**
+• Documentos culturales importantes
+• Permisos especiales
+• Regulaciones locales
+
+💡 **Tip del día:** Guarda copias en la nube y en el móvil - ¡nunca se sabe!
+
+🎯 **Reto extra:** Crea una carpeta digital con todos tus documentos""",
+        "https://www.youtube.com/embed/H3HrJgYtjjY",
+        "/calendar_enhanced/4.png"
     ),
     (
-        "Curiosidad de Shanghai 🏙️",
-        "¿Sabías que Shanghai significa 'Sobre el mar'? ¡La ciudad más poblada de China nos espera! 🌊",
-        "El conocimiento enriquece cada experiencia de viaje.",
-        "• Shanghai = 上海 (Sobre el mar)\n• Población: 24+ millones\n• Fundada en 1074\n• Centro financiero de Asia",
-        "https://www.youtube.com/embed/9bZkp7q19f0",
-        "/5.png"
+        "🍜 Comida china auténtica 🥢",
+        """¡Hora de preparar el estómago para la aventura culinaria más épica! 🍽️
+
+**Reto del día:** Busca un restaurante chino en tu ciudad y pide algo que nunca hayas probado. ¡Comparte foto y experiencia! 📸
+
+**¿Qué nos espera?** Dim sum, xiaolongbao, hot pot... ¡Shanghai es el paraíso de la comida callejera! 🌟
+
+**¿Por qué es importante?** La comida es la puerta de entrada a la cultura china. ¡Cada plato cuenta una historia!
+
+**Dato curioso:** Shanghai tiene más de 50,000 restaurantes. ¡Imposible probarlos todos en una vida!
+
+**¿Sabías que...?** El xiaolongbao se inventó en Shanghai en 1875 y se come con una técnica especial para no quemarse.""",
+        "La comida es el lenguaje universal que conecta culturas. ¡Cada bocado nos acerca más a Shanghai! 🥢",
+        """📋 **Checklist del día:**
+• ✅ Busca restaurante chino local
+• ✅ Pide algo nuevo y desconocido
+• ✅ Comparte foto y experiencia
+• ✅ Investiga sobre xiaolongbao
+
+🍽️ **Gastronomía del día:**
+• Xiaolongbao (sopa en bolsita) - ¡EL PLATO ESTRELLA!
+• Fideos de Shanghai - Tradición local
+• Cangrejo de Shanghai - Delicatessen
+• Mooncakes - Postre tradicional
+• Té chino tradicional - Ceremonia
+
+🏛️ **Lugares del día:**
+• Yu Garden Bazaar - Comida tradicional
+• Mercado de comida callejera
+• Restaurantes del Bund
+• Dim sum tradicional
+
+📱 **Apps y tecnología:**
+• Dianping (Yelp chino) - Reseñas
+• Meituan (delivery) - Pedidos
+• Alipay (pagos) - Pagar comida
+• Google Translate (menús) - Traducir
+
+🎭 **Cultura y tradiciones:**
+• Etiqueta en restaurantes
+• Uso de palillos correcto
+• Compartir platos familiares
+• Té chino como ritual
+
+💡 **Tip del día:** Aprende a usar palillos - ¡será súper útil!
+
+🎯 **Reto extra:** Graba un video comiendo con palillos""",
+        "https://www.youtube.com/embed/f1yIX7EMhQE",
+        "/calendar_enhanced/5.png"
     ),
     (
-        "Frase del día 🌟",
-        "Cada día nos acerca a una nueva aventura. ¡Mantén la emoción viva! 🎯",
-        "La emoción es el combustible de los grandes viajes.",
-        "• Comparte tu emoción en redes\n• Cuenta los días con ilusión\n• ¡Prepara tu cámara!",
-        "",
-        "/6.png"
+        "🚇 Transporte en Shanghai 🚌",
+        """¡Hora de dominar el sistema de transporte más eficiente del mundo! 🚇
+
+**Reto del día:** Descarga la app del metro de Shanghai y explora las líneas principales. ¡Comparte tu ruta favorita! 📱
+
+**¿Sabías que?** El metro de Shanghai transporta 10+ millones de personas al día. ¡Vamos a ser parte de esa estadística! 📊
+
+**¿Por qué es importante?** El transporte público es la clave para explorar Shanghai como un local.
+
+**Dato curioso:** Shanghai tiene el metro más largo del mundo con 831 km de vías. ¡Más que cualquier otra ciudad!
+
+**¿Sabías que...?** Puedes pagar el metro con Alipay escaneando códigos QR.""",
+        "La emoción es el combustible de los grandes viajes. ¡Cada línea de metro nos lleva a una nueva aventura! 🚇",
+        """📋 **Checklist del día:**
+• ✅ Descarga app del metro de Shanghai
+• ✅ Explora las líneas principales
+• ✅ Planifica rutas favoritas
+• ✅ Aprende a pagar con Alipay
+
+🍽️ **Gastronomía del día:**
+• Comida en estaciones de metro
+• Vendedores ambulantes
+• Tiendas de conveniencia
+
+🏛️ **Lugares del día:**
+• Estaciones principales del metro
+• Línea 2 (cruza el río Huangpu)
+• Estación de People's Square
+• Estación de Nanjing Road
+
+📱 **Apps y tecnología:**
+• Metro Shanghai (oficial)
+• Alipay (pagos QR)
+• Baidu Maps (navegación)
+• Didi (taxis alternativos)
+
+🎭 **Cultura y tradiciones:**
+• Etiqueta en el metro
+• Horarios de pico
+• Comportamiento local
+• Tradiciones de transporte
+
+💡 **Tip del día:** La línea 2 cruza el río Huangpu - ¡vistas espectaculares!
+
+🎯 **Reto extra:** Graba un video pagando el metro con Alipay""",
+        "https://www.youtube.com/embed/XVvhsfVz-WE",
+        "/calendar_enhanced/6.png"
     ),
     (
-        "Comida china que probar 🥢",
-        "¡Prepárate para el dim sum, el pato laqueado y los fideos de Shanghai! ¡Tu paladar te lo agradecerá! 🍜",
-        "La comida es el lenguaje universal que conecta culturas.",
-        "• Dim Sum (小笼包)\n• Pato laqueado (北京烤鸭)\n• Fideos de Shanghai (上海面条)\n• Hot Pot (火锅)",
-        "",
-        "/7.png"
+        "🏛️ Lugares imprescindibles 🎯",
+        """¡Hora de crear nuestra lista de deseos de Shanghai! 🗺️
+
+**Reto del día:** Elige tu top 3 lugares que NO te puedes perder y compártelos con el grupo. ¡Vamos a planificar la aventura perfecta! 📸
+
+**¿Cuáles son tus favoritos?** Bund, Torre de Shanghai, Templo del Buda de Jade... ¡Hay tanto que ver! 🌟
+
+**¿Por qué es importante?** Shanghai tiene lugares icónicos que definen la ciudad. ¡No podemos perdérnoslos!
+
+**Dato curioso:** El Bund tiene 52 edificios de diferentes estilos arquitectónicos. ¡Un museo al aire libre!
+
+**¿Sabías que...?** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.""",
+        "La comida es el lenguaje universal que conecta culturas. ¡Cada lugar que visitemos será una historia que contar! 🏛️",
+        """📋 **Checklist del día:**
+• ✅ Elige tu top 3 lugares
+• ✅ Comparte con el grupo
+• ✅ Planifica rutas
+• ✅ Investiga horarios y precios
+
+🍽️ **Gastronomía del día:**
+• Restaurantes con vistas al Bund
+• Comida en Yu Garden
+• Cafés en Xintiandi
+• Mercados de comida
+
+🏛️ **Lugares imprescindibles:**
+• 🌃 El Bund (paseo junto al río) - ¡ICÓNICO!
+• 🗼 Torre de Shanghai (632m) - Vistas espectaculares
+• 🏮 Templo del Buda de Jade - Tradición
+• 🏛️ Museo de Shanghai - Cultura
+• 🌸 Jardín Yuyuan - Historia
+• 🎭 Distrito de Xintiandi - Modernidad
+
+📱 **Apps y tecnología:**
+• Google Maps (navegación)
+• Dianping (reseñas)
+• Alipay (entradas)
+• Google Translate (información)
+
+🎭 **Cultura y tradiciones:**
+• Historia del Bund
+• Arquitectura colonial
+• Tradiciones del templo
+• Arte moderno
+
+💡 **Tip del día:** El Bund al atardecer es mágico - ¡no te lo pierdas!
+
+🎯 **Reto extra:** Haz una lista de 8 estafas a evitar en Shanghai""",
+        "https://www.youtube.com/embed/hk43UekQG4A",
+        "/calendar_enhanced/7.png"
     ),
     (
-        "Lugares imperdibles 🏮",
-        "El Bund, Yu Garden, Shanghai Tower... ¡Tantos lugares mágicos por descubrir! 📸",
-        "Cada lugar tiene una historia que contar.",
-        "• El Bund (外滩) - Vista del skyline\n• Yu Garden (豫园) - Jardín clásico\n• Shanghai Tower - Rascacielos\n• Tianzifang - Barrio artístico",
-        "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        "/8.png"
+        "🗣️ Idioma chino básico 📚",
+        """¡Hora de aprender las frases que nos salvarán en Shanghai! 🎯
+
+**Reto del día:** Graba un video diciendo 'Ni hao' (hola) y 'Xie xie' (gracias) en chino. ¡Comparte tu mejor pronunciación! 📹
+
+**¿Por qué es importante?** Los locales aprecian el esfuerzo. ¡Un simple 'Ni hao' puede abrir muchas puertas! 🚪✨
+
+**¿Qué nos espera?** Un idioma fascinante con 4 tonos diferentes. ¡Cada palabra es una aventura!
+
+**Dato curioso:** El chino mandarín tiene más de 50,000 caracteres, pero solo necesitas 3,000 para leer un periódico.
+
+**¿Sabías que...?** ChatGPT puede ayudarte a traducir chino en tiempo real usando la función de voz.""",
+        "El respeto por la cultura local abre puertas y corazones. ¡Cada palabra en chino es un puente hacia nuevas amistades! 🗣️",
+        """📋 **Checklist del día:**
+• ✅ Aprende 5 frases básicas
+• ✅ Graba video de pronunciación
+• ✅ Practica con Google Translate
+• ✅ Comparte tu progreso
+
+🍽️ **Gastronomía del día:**
+• Frases para pedir comida
+• Nombres de platos básicos
+• Cómo pedir la cuenta
+• Expresiones de cortesía
+
+🏛️ **Lugares del día:**
+• Frases para preguntar direcciones
+• Cómo pedir ayuda
+• Expresiones de agradecimiento
+• Frases de emergencia
+
+📱 **Apps y tecnología:**
+• Google Translate (traducción)
+• ChatGPT (voz y traducción)
+• Pleco (diccionario chino)
+• HelloChinese (aprendizaje)
+
+🎭 **Cultura y tradiciones:**
+• Frases de cortesía
+• Expresiones culturales
+• Títulos de respeto
+• Tradiciones del idioma
+
+💡 **Tip del día:** La pronunciación es clave - ¡practica con Google Translate!
+
+🎯 **Reto extra:** Usa ChatGPT en voz para traducir chino en tiempo real""",
+        "https://www.youtube.com/embed/yiXNOAdXlzk",
+        "/calendar_enhanced/8.png"
     ),
     (
-        "Frase motivacional 💫",
-        "Los viajes son la única inversión que te hace más rico. ¡Shanghai nos enriquecerá! 💎",
-        "Los recuerdos son la única riqueza que nadie puede quitarte.",
-        "• Invierte en experiencias\n• Documenta cada momento\n• ¡Vive intensamente!",
-        "",
-        "/9.png"
+        "🏮 Tradiciones chinas 🎊",
+        """¡Descubramos las tradiciones milenarias que hacen única a China! 🌟
+
+**Reto del día:** Busca información sobre el Año Nuevo Chino 2025 (Año del Dragón) y comparte un dato curioso. ¡Vamos a celebrar como locales! 🐉
+
+**¿Sabías que?** El dragón es símbolo de poder y buena fortuna. ¡2025 será nuestro año! 🍀
+
+**¿Por qué es importante?** Entender las tradiciones nos ayuda a conectar con la cultura local.
+
+**Dato curioso:** El Año Nuevo Chino se celebra durante 15 días, no solo una noche como en Occidente.
+
+**¿Sabías que...?** ChatGPT puede ayudarte a entender las tradiciones chinas y traducir frases tradicionales.""",
+        "Los recuerdos son la única riqueza que nadie puede quitarte. ¡Cada tradición que conozcamos será un tesoro para siempre! 🏮",
+        """📋 **Checklist del día:**
+• ✅ Investiga Año Nuevo Chino 2025
+• ✅ Comparte dato curioso
+• ✅ Aprende sobre el Año del Dragón
+• ✅ Descubre tradiciones locales
+
+🍽️ **Gastronomía del día:**
+• Comida tradicional del Año Nuevo
+• Dumplings (jiaozi)
+• Nian gao (pastel de año nuevo)
+• Té ceremonial
+
+🏛️ **Lugares del día:**
+• Templos tradicionales
+• Mercados de Año Nuevo
+• Barrios históricos
+• Centros culturales
+
+📱 **Apps y tecnología:**
+• ChatGPT (tradiciones y traducción)
+• Google Translate (frases tradicionales)
+• Apps de cultura china
+• Calendario lunar
+
+🎭 **Cultura y tradiciones:**
+• 🐉 Año Nuevo Chino (Febrero 2025)
+• 🏮 Farolillos rojos (buena suerte)
+• 🥢 Uso de palillos (etiqueta)
+• 🍵 Ceremonia del té
+• 🎭 Ópera china
+• 🧧 Sobres rojos (hongbao)
+
+💡 **Tip del día:** El rojo es color de buena suerte - ¡llévate algo rojo!
+
+🎯 **Reto extra:** Usa ChatGPT en voz para aprender frases tradicionales""",
+        "https://www.youtube.com/embed/AHpT7aCB4pY",
+        "/calendar_enhanced/9.png"
     ),
     (
-        "¿Listos para el vuelo? ✈️",
-        "¡Solo quedan 15 días! ¿Ya tienes todo listo para el vuelo? ¡La aventura está cada vez más cerca! 🎉",
-        "La preparación es la mitad del éxito.",
-        "• Check-in online 24h antes\n• Llegar 3h antes al aeropuerto\n• Documentos a mano\n• ¡Actitud aventurera!",
-        "",
-        "/10.png"
+        "🛍️ Compras en Shanghai 💰",
+        """¡Hora de planificar nuestra estrategia de compras! 🛒
+
+**Reto del día:** Haz una lista de 5 souvenirs que quieres comprar en Shanghai y compártela con el grupo. ¡Vamos a ser compradores inteligentes! 🎯
+
+**¿Dónde comprar?** Mercados tradicionales, centros comerciales, tiendas de lujo... ¡Shanghai lo tiene todo! 🏪✨
+
+**¿Por qué es importante?** Shanghai es un paraíso de compras con opciones para todos los presupuestos.
+
+**Dato curioso:** Nanjing Road es una de las calles comerciales más largas del mundo con 5.5 km.
+
+**¿Sabías que...?** Puedes regatear en los mercados tradicionales hasta un 50% del precio inicial.""",
+        "La preparación es la mitad del éxito. ¡Cada compra planificada será un recuerdo perfecto! 🛍️",
+        """📋 **Checklist del día:**
+• ✅ Haz lista de 5 souvenirs
+• ✅ Investiga precios
+• ✅ Planifica rutas de compras
+• ✅ Comparte tu lista con el grupo
+
+🍽️ **Gastronomía del día:**
+• Comida en centros comerciales
+• Cafés en tiendas de lujo
+• Mercados de comida
+• Restaurantes con vistas
+
+🏛️ **Lugares del día:**
+• 🏪 Nanjing Road (calle comercial) - ¡LA MÁS FAMOSA!
+• 🏮 Yu Garden Bazaar (souvenirs) - Tradición
+• 🏬 Xintiandi (marcas internacionales) - Lujo
+• 🎭 Tianzifang (arte y artesanía) - Arte
+• 🛒 Super Brand Mall (centro comercial) - Moderno
+• 🏮 Mercado de antigüedades - Historia
+
+📱 **Apps y tecnología:**
+• Alipay (pagos móviles)
+• Dianping (reseñas de tiendas)
+• Google Translate (etiquetas)
+• Maps (navegación)
+
+🎭 **Cultura y tradiciones:**
+• Arte de regatear
+• Etiqueta de compras
+• Tradiciones comerciales
+• Souvenirs culturales
+
+💡 **Tip del día:** Regatea en los mercados tradicionales - ¡es parte de la experiencia!
+
+🎯 **Reto extra:** Graba un video regateando en un mercado""",
+        "https://www.youtube.com/embed/shanghai-shopping-guide",
+        "/calendar_enhanced/10.png"
     ),
     (
-        "Cultura china 🇨🇳",
-        "¡Aprende a decir 'Ni hao' (hola) y 'Xie xie' (gracias)! ¡Los locales lo apreciarán! 🗣️",
-        "El respeto por la cultura local abre puertas y corazones.",
-        "• Ni hao (你好) - Hola\n• Xie xie (谢谢) - Gracias\n• Zai jian (再见) - Adiós\n• Bu ke qi (不客气) - De nada",
-        "",
-        "/11.png"
+        "🎨 Arte y cultura 🏛️",
+        """¡Shanghai es un museo al aire libre! ¡Descubramos su rica herencia cultural! 🎭
+
+**Reto del día:** Busca una obra de arte china famosa y compártela con una explicación de por qué te gusta. ¡Vamos a ser cultos! 📚
+
+**¿Qué nos espera?** Museos, galerías, arte callejero, arquitectura... ¡Shanghai respira cultura! 🌟
+
+**¿Por qué es importante?** El arte es la ventana al alma de una cultura. ¡Shanghai tiene milenios de historia artística!
+
+**Dato curioso:** Shanghai tiene más de 100 museos y galerías. ¡Imposible visitarlos todos!
+
+**¿Sabías que...?** El barrio de Tianzifang es famoso por su arte callejero y galerías independientes.""",
+        "El respeto por la cultura local abre puertas y corazones. ¡Cada obra de arte nos cuenta una historia milenaria! 🎨",
+        """📋 **Checklist del día:**
+• ✅ Busca obra de arte china famosa
+• ✅ Comparte con explicación
+• ✅ Investiga sobre el artista
+• ✅ Planifica visita a museos
+
+🍽️ **Gastronomía del día:**
+• Cafés en galerías de arte
+• Restaurantes en museos
+• Comida en barrios artísticos
+• Té en centros culturales
+
+🏛️ **Lugares del día:**
+• 🏛️ Museo de Shanghai (arte clásico) - ¡IMPRESCINDIBLE!
+• 🎭 Power Station of Art (arte moderno) - Vanguardia
+• 🏮 M50 Creative Park (galerías) - Arte contemporáneo
+• 🎪 Shanghai Grand Theatre - Ópera y ballet
+• 🏛️ Shanghai Museum (historia) - Antigüedades
+• 🎨 Tianzifang (arte callejero) - Barrio bohemio
+
+📱 **Apps y tecnología:**
+• Apps de museos
+• Google Arts & Culture
+• Traductores de arte
+• Guías culturales
+
+🎭 **Cultura y tradiciones:**
+• Historia del arte chino
+• Tradiciones artísticas
+• Artistas famosos
+• Movimientos culturales
+
+💡 **Tip del día:** Muchos museos son gratuitos los viernes - ¡aprovéchalo!
+
+🎯 **Reto extra:** Visita un barrio pobre para ver arte auténtico""",
+        "https://www.youtube.com/embed/hxVfrYNVO8A",
+        "/calendar_enhanced/11.png"
     ),
     (
-        "Frase del día 🌈",
-        "La vida es una aventura, atrévete a vivirla. ¡Shanghai será nuestro capítulo más emocionante! 📖",
-        "Cada día es una página nueva en el libro de tu vida.",
-        "• Escribe tu historia\n• Sé el protagonista\n• ¡Vive sin arrepentimientos!",
-        "",
-        "/12.png"
+        "🎵 Música y entretenimiento 🎪",
+        "¡Shanghai nunca duerme! ¡Descubramos su vibrante escena musical y de entretenimiento! 🎶\n\n**Reto del día:** Busca una canción china famosa y compártela con el grupo. ¡Vamos a ampliar nuestro repertorio musical! 🎵\n\n**¿Qué nos espera?** Karaoke, conciertos, shows tradicionales, discotecas... ¡Shanghai es pura energía! ⚡",
+        "Cada día es una página nueva en el libro de tu vida. ¡Cada canción que escuchemos será la banda sonora de nuestra aventura! 🎵",
+        "🎵 **Entretenimiento en Shanghai:**\n• 🎤 Karaoke (KTV) - ¡muy popular!\n• 🎭 Ópera china tradicional\n• 🎪 Shanghai Circus World\n• 🎵 Conciertos en Mercedes-Benz Arena\n• 🕺 Discotecas en Xintiandi\n• 🎨 Shows de acrobacias\n\n💡 **Tip del día:** El karaoke es una actividad social muy importante - ¡atrévete a cantar!",
+        "https://www.youtube.com/embed/shanghai-entertainment",
+        "/calendar_enhanced/12.png"
     ),
     (
-        "Compras en Shanghai 🛍️",
-        "¡Nanjing Road y Xintiandi te esperan! ¡Prepárate para las mejores compras de tu vida! 💳",
-        "Las mejores compras son las que cuentan una historia.",
-        "• Nanjing Road - Calle comercial\n• Xintiandi - Zona trendy\n• Mercados locales\n• ¡Regatea como un pro!",
-        "",
-        "/13.png"
+        "🏃‍♂️ Deportes y actividades 🧘‍♀️",
+        "¡Shanghai es perfecta para mantenerse activo! ¡Descubramos sus mejores actividades deportivas! 🏃‍♀️\n\n**Reto del día:** Busca un parque o actividad deportiva en Shanghai que te gustaría probar y compártela. ¡Vamos a estar en forma para la aventura! 💪\n\n**¿Qué nos espera?** Tai Chi en el parque, ciclismo, running, yoga... ¡Shanghai es saludable! 🌱",
+        "Las mejores compras son las que cuentan una historia. ¡Cada actividad deportiva será una historia de superación! 🏃‍♂️",
+        "🏃‍♂️ **Actividades deportivas:**\n• 🧘‍♀️ Tai Chi en People's Park\n• 🚴‍♂️ Ciclismo por el Bund\n• 🏃‍♀️ Running en Century Park\n• 🧘‍♂️ Yoga en Xintiandi\n• 🏊‍♀️ Natación en hoteles\n• 🎾 Tenis en clubes locales\n\n💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!",
+        "https://www.youtube.com/embed/shanghai-sports-activities",
+        "/calendar_enhanced/13.png"
     ),
     (
-        "Transporte en la ciudad 🚇",
-        "¡El metro de Shanghai es súper eficiente! ¡Descarga la app Metro Shanghai! 📱",
-        "Moverse como un local es la mejor forma de conocer una ciudad.",
-        "• App Metro Shanghai\n• Taxi con Didi\n• Bicicletas compartidas\n• ¡Explora caminando!",
-        "",
-        "/14.png"
+        "💻 Tecnología china 🚀",
+        "¡Shanghai es el Silicon Valley de Asia! ¡Descubramos las innovaciones tecnológicas más increíbles! 🤖\n\n**Reto del día:** Investiga sobre una empresa tecnológica china famosa (Alibaba, Tencent, Baidu) y comparte un dato curioso. ¡Vamos a ser tech-savvy! 💡\n\n**¿Qué nos espera?** Pagos móviles, delivery súper rápido, ciudades inteligentes... ¡Shanghai es el futuro! 🌟",
+        "Moverse como un local es la mejor forma de conocer una ciudad. ¡Cada innovación tecnológica nos muestra el futuro! 💻",
+        "💻 **Tecnología en Shanghai:**\n• 📱 Pagos móviles (Alipay/WeChat Pay)\n• 🚚 Delivery súper rápido (30 min)\n• 🚇 Metro inteligente\n• 🤖 Taxis autónomos\n• 🏪 Tiendas sin cajeros\n• 🚲 Bicicletas compartidas inteligentes\n\n💡 **Tip del día:** Todo se paga con el móvil - ¡incluso en mercados callejeros!",
+        "https://www.youtube.com/embed/shanghai-technology-innovation",
+        "/calendar_enhanced/14.png"
     ),
     (
-        "¡Mitad del camino! 🎯",
-        "¡Ya estamos a mitad del camino! ¡Solo quedan 10 días para la aventura más épica! 🚀",
-        "El punto medio es donde la emoción alcanza su pico.",
-        "• ¡Mantén la emoción!\n• Comparte con el grupo\n• ¡Prepara la cuenta atrás final!",
-        "https://www.youtube.com/embed/jNQXAC9IVRw",
-        "/15.png"
+        "🌃 Vida nocturna en Shanghai 🍸",
+        """¡Shanghai nunca duerme! ¡Descubramos su vibrante vida nocturna! 🌙
+
+**Reto del día:** Busca un bar o club famoso de Shanghai y compártelo con el grupo. ¡Vamos a planificar nuestras noches épicas! 🍻
+
+**¿Qué nos espera?** Bares con vistas, discotecas, karaoke, shows... ¡Shanghai es pura energía nocturna! ⚡
+
+**¿Por qué es importante?** La vida nocturna de Shanghai es legendaria. ¡Es una experiencia que no te puedes perder!
+
+**Dato curioso:** Shanghai tiene más de 10,000 bares y clubs. ¡Imposible visitarlos todos!
+
+**¿Sabías que...?** El Bund se ilumina de manera espectacular por la noche, creando un skyline único.""",
+        "La noche es joven y Shanghai nos espera. ¡Cada copa que tomemos será un brindis por la aventura! 🌃",
+        """📋 **Checklist del día:**
+• ✅ Busca bar o club famoso
+• ✅ Comparte con el grupo
+• ✅ Planifica rutas nocturnas
+• ✅ Investiga precios y horarios
+
+🍽️ **Gastronomía del día:**
+• Cócteles de autor
+• Tapas en bares
+• Comida nocturna
+• Bebidas tradicionales
+
+🏛️ **Lugares del día:**
+• 🍸 Bar Rouge (vistas al Bund) - ¡ICÓNICO!
+• 🕺 M1NT (discoteca de lujo) - Exclusivo
+• 🎤 Party World KTV (karaoke) - Tradición
+• 🍻 The Camel (bar expat) - Internacional
+• 🌙 Bar Rouge (vistas espectaculares) - Vistas
+• 🎭 Shanghai Grand Theatre (shows) - Cultura
+
+📱 **Apps y tecnología:**
+• Apps de bares y clubs
+• Reservas online
+• Mapas nocturnos
+• Apps de transporte nocturno
+
+🎭 **Cultura y tradiciones:**
+• Etiqueta en bares
+• Tradiciones nocturnas
+• Costumbres locales
+• Horarios típicos
+
+💡 **Tip del día:** Los bares con vistas al Bund son caros pero valen la pena - ¡reserva con antelación!
+
+🎯 **Reto extra:** Graba un video en un bar con vistas al Bund""",
+        "https://www.youtube.com/embed/dsVDXeGNh8M",
+        "/calendar_enhanced/15.png"
     ),
     (
-        "Frase motivacional ⭐",
-        "No cuentes los días, haz que los días cuenten. ¡Cada día nos acerca a Shanghai! ⏰",
-        "El tiempo es el recurso más valioso que tenemos.",
-        "• Vive cada día intensamente\n• Aprovecha cada momento\n• ¡Haz que cuente!",
-        "",
-        "/16.png"
+        "🍜 Comida callejera épica 🥢",
+        """¡100 horas de comida callejera china! ¡Prepárate para la aventura culinaria más intensa! 🍽️
+
+**Reto del día:** Busca un plato de comida callejera china que nunca hayas probado y compártelo. ¡Vamos a ser aventureros culinarios! 🎯
+
+**¿Qué nos espera?** Dim sum, baozi, jianbing, tanghulu... ¡Shanghai es el paraíso de la comida callejera! 🌟
+
+**¿Por qué es importante?** La comida callejera es el corazón de la cultura culinaria china. ¡No te la puedes perder!
+
+**Dato curioso:** Shanghai tiene más de 50,000 puestos de comida callejera. ¡Imposible probarlos todos!
+
+**¿Sabías que...?** La comida callejera china es considerada una de las mejores del mundo.""",
+        "La comida callejera es el alma de una ciudad. ¡Cada bocado nos acerca más a la cultura local! 🍜",
+        """📋 **Checklist del día:**
+• ✅ Busca plato de comida callejera nuevo
+• ✅ Comparte con el grupo
+• ✅ Investiga ingredientes
+• ✅ Planifica rutas de comida
+
+🍽️ **Gastronomía del día:**
+• 🥟 Dim sum (dumplings al vapor)
+• 🥖 Baozi (panecillos rellenos)
+• 🥞 Jianbing (crepes chinos)
+• 🍡 Tanghulu (frutas caramelizadas)
+• 🍜 Fideos de calle
+• 🥘 Hot pot callejero
+
+🏛️ **Lugares del día:**
+• Mercados de comida callejera
+• Puestos tradicionales
+• Calles famosas por comida
+• Mercados nocturnos
+
+📱 **Apps y tecnología:**
+• Dianping (reseñas de comida)
+• Meituan (delivery callejero)
+• Google Translate (menús)
+• Maps (ubicación de puestos)
+
+🎭 **Cultura y tradiciones:**
+• Etiqueta en comida callejera
+• Tradiciones culinarias
+• Ingredientes únicos
+• Técnicas de cocina
+
+💡 **Tip del día:** La comida callejera es más auténtica que los restaurantes - ¡atrévete a probar!
+
+🎯 **Reto extra:** Graba un video probando 5 platos diferentes""",
+        "https://www.youtube.com/embed/S1QzWUb4SnQ",
+        "/calendar_enhanced/16.png"
     ),
     (
-        "Nochevieja en Shanghai 🎊",
-        "¡Vamos a celebrar el Año Nuevo en Shanghai! ¡Será una nochevieja inolvidable! 🎆",
-        "Celebrar en un lugar nuevo es crear recuerdos únicos.",
-        "• Fuegos artificiales en el Bund\n• Cena especial\n• ¡Brindis con vista al skyline!\n• ¡Fotos épicas!",
-        "",
-        "/17.png"
+        "🏗️ Arquitectura moderna de Shanghai 🏙️",
+        """¡Shanghai es un museo de arquitectura al aire libre! ¡Descubramos sus rascacielos más impresionantes! 🌆
+
+**Reto del día:** Busca el rascacielos más alto de Shanghai y comparte un dato curioso sobre él. ¡Vamos a ser arquitectos por un día! 🏗️
+
+**¿Qué nos espera?** Torres futuristas, edificios históricos, arquitectura colonial... ¡Shanghai es pura innovación! ✨
+
+**¿Por qué es importante?** La arquitectura de Shanghai cuenta la historia de la ciudad. ¡Cada edificio tiene una historia!
+
+**Dato curioso:** Shanghai tiene más de 1,000 rascacielos. ¡Es una de las ciudades con más rascacielos del mundo!
+
+**¿Sabías que...?** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.""",
+        "La arquitectura es música congelada. ¡Cada edificio de Shanghai es una sinfonía visual! 🏗️",
+        """📋 **Checklist del día:**
+• ✅ Busca rascacielos más alto
+• ✅ Comparte dato curioso
+• ✅ Planifica ruta arquitectónica
+• ✅ Investiga historia de edificios
+
+🍽️ **Gastronomía del día:**
+• Restaurantes en rascacielos
+• Cafés con vistas panorámicas
+• Comida en edificios históricos
+• Bares en azoteas
+
+🏛️ **Lugares del día:**
+• 🏗️ Torre de Shanghai (632m) - ¡EL MÁS ALTO!
+• 🏢 Jin Mao Tower (420m) - Clásico
+• 🏙️ Shanghai World Financial Center (492m) - Icono
+• 🏛️ Bund (arquitectura colonial) - Historia
+• 🏗️ Oriental Pearl Tower (468m) - Futurista
+• 🏢 Shanghai Tower (632m) - Moderno
+
+📱 **Apps y tecnología:**
+• Apps de arquitectura
+• Guías de edificios
+• Mapas arquitectónicos
+• Realidad aumentada
+
+🎭 **Cultura y tradiciones:**
+• Historia arquitectónica
+• Estilos arquitectónicos
+• Tradiciones de construcción
+• Simbolismo cultural
+
+💡 **Tip del día:** Las vistas desde los rascacielos son espectaculares - ¡no te las pierdas!
+
+🎯 **Reto extra:** Graba un video desde la azotea de un rascacielos""",
+        "https://www.youtube.com/embed/51Op3A-8HSA",
+        "/calendar_enhanced/17.png"
     ),
     (
-        "Fotos épicas 📸",
-        "¡Prepárate para las fotos más increíbles! ¡Shanghai es un paraíso para Instagram! 📷",
-        "Una foto vale más que mil palabras, pero un recuerdo vale más que mil fotos.",
-        "• Bund al atardecer\n• Skyline nocturno\n• Yu Garden clásico\n• ¡Selfies en la Torre!",
-        "",
-        "/18.png"
+        "🌿 Parques y naturaleza en Shanghai 🌸",
+        """¡Descubre los oasis verdes de Shanghai! ¡Incluso en la ciudad más moderna hay naturaleza! 🌳
+
+**Reto del día:** Busca información sobre la antigua ciudad de Wuzhen y comparte por qué te gustaría visitarla. ¡Vamos a explorar la naturaleza! 🌿
+
+**¿Qué nos espera?** Parques urbanos, jardines tradicionales, lagos, canales... ¡Shanghai tiene naturaleza oculta! ✨
+
+**¿Por qué es importante?** La naturaleza nos conecta con la esencia de China. ¡Es una experiencia única!
+
+**Dato curioso:** Shanghai tiene más de 200 parques y jardines. ¡Es una de las ciudades más verdes de China!
+
+**¿Sabías que...?** Wuzhen es una ciudad acuática de 1,300 años considerada la Venecia de China.""",
+        "La naturaleza es el mejor antídoto contra el estrés urbano. ¡Cada parque es un refugio de paz! 🌿",
+        """📋 **Checklist del día:**
+• ✅ Investiga sobre Wuzhen
+• ✅ Comparte por qué te gustaría visitarla
+• ✅ Planifica rutas de naturaleza
+• ✅ Descubre parques locales
+
+🍽️ **Gastronomía del día:**
+• Comida en parques
+• Picnics tradicionales
+• Té en jardines
+• Comida local en Wuzhen
+
+🏛️ **Lugares del día:**
+• 🌿 Yu Garden (jardín clásico) - ¡IMPRESCINDIBLE!
+• 🌸 Century Park (parque moderno) - Grande
+• 🌳 Zhongshan Park (parque histórico) - Tradición
+• 🏮 Wuzhen (ciudad acuática) - ¡MÁGICA!
+• 🌊 Huangpu Park (junto al río) - Vistas
+• 🌺 Fuxing Park (parque francés) - Estilo europeo
+
+📱 **Apps y tecnología:**
+• Apps de parques
+• Guías de naturaleza
+• Mapas de senderos
+• Apps de turismo
+
+🎭 **Cultura y tradiciones:**
+• Jardines tradicionales chinos
+• Filosofía del Feng Shui
+• Tradiciones de la naturaleza
+• Simbolismo de plantas
+
+💡 **Tip del día:** Los jardines chinos están diseñados para la meditación - ¡disfruta la paz!
+
+🎯 **Reto extra:** Graba un video en un jardín tradicional chino""",
+        "https://www.youtube.com/embed/SkWSR6EgS3I",
+        "/calendar_enhanced/18.png"
     ),
     (
         "Frase del día 🌟",
@@ -189,12 +749,54 @@ _shanghai_days = [
         "/22.png"
     ),
     (
-        "Última noche en casa 🌙",
-        "¡Mañana volamos! ¡Disfruta tu última noche en casa, porque mañana... ¡SHANGHAI! ✈️",
-        "La última noche es la más emocionante de todas.",
-        "• Descansa bien\n• Revisa todo una vez más\n• ¡Disfruta la emoción!",
-        "",
-        "/23.png"
+        "🎄 Nochebuena en Shanghai 🎊",
+        """¡Vamos a celebrar la Nochebuena más épica en Shanghai! ¡Será una Navidad inolvidable! 🎆
+
+**Reto del día:** Planifica cómo vas a celebrar la Nochebuena en Shanghai y compártelo con el grupo. ¡Vamos a crear recuerdos únicos! 🎯
+
+**¿Qué nos espera?** Fuegos artificiales en el Bund, cena especial, brindis con vista al skyline... ¡Shanghai en Navidad es mágico! ✨
+
+**¿Por qué es importante?** Celebrar Navidad en Shanghai será una experiencia única que recordarás toda la vida.
+
+**Dato curioso:** Shanghai se ilumina de manera espectacular en Navidad. ¡Es una de las ciudades más bonitas del mundo!
+
+**¿Sabías que...?** El Bund se convierte en un espectáculo de luces durante las fiestas navideñas.""",
+        "Celebrar en un lugar nuevo es crear recuerdos únicos. ¡Esta Navidad será la más especial! 🎄",
+        """📋 **Checklist del día:**
+• ✅ Planifica celebración de Nochebuena
+• ✅ Comparte con el grupo
+• ✅ Reserva restaurante especial
+• ✅ Prepara brindis épico
+
+🍽️ **Gastronomía del día:**
+• Cena especial de Navidad
+• Comida tradicional china
+• Bebidas navideñas
+• Postres especiales
+
+🏛️ **Lugares del día:**
+• 🎆 Bund (fuegos artificiales) - ¡ESPECTACULAR!
+• 🍽️ Restaurantes con vistas
+• 🎪 Centros comerciales navideños
+• 🏮 Barrios iluminados
+
+📱 **Apps y tecnología:**
+• Apps de eventos navideños
+• Reservas de restaurantes
+• Mapas de luces navideñas
+• Apps de transporte festivo
+
+🎭 **Cultura y tradiciones:**
+• Tradiciones navideñas chinas
+• Celebraciones locales
+• Costumbres festivas
+• Simbolismo navideño
+
+💡 **Tip del día:** Reserva con antelación - ¡Shanghai en Navidad es muy popular!
+
+🎯 **Reto extra:** Graba un video del brindis de Nochebuena con vista al Bund""",
+        "https://www.youtube.com/embed/b1LkyFaXHtI",
+        "/calendar_enhanced/24.png"
     ),
     (
         "¡DÍA DEL VUELO! ✈️",
@@ -205,12 +807,56 @@ _shanghai_days = [
         "/24.png"
     ),
     (
-        "¡Llegamos a Shanghai! 🏮",
-        "¡FELIZ NAVIDAD EN SHANGHAI! ¡Hemos llegado a la ciudad de los sueños! ¡Que empiece la magia! ✨🎄",
-        "¡Hemos llegado! Ahora comienza la verdadera aventura.",
-        "• ¡Bienvenidos a Shanghai!\n• Primera foto en el aeropuerto\n• ¡Explora la ciudad!\n• ¡Disfruta cada momento!",
-        "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        "/25.png"
+        "🏮 ¡Llegamos a Shanghai! ✨",
+        """¡FELIZ NAVIDAD EN SHANGHAI! ¡Hemos llegado a la ciudad de los sueños! ¡Que empiece la magia! 🎄
+
+**¡MISIÓN CUMPLIDA!** Hemos llegado a Shanghai después de 25 días de preparación. ¡La aventura más épica comienza ahora! 🚀
+
+**¿Qué nos espera?** Una ciudad llena de sorpresas, cultura milenaria, tecnología futurista... ¡Shanghai nos espera! 🌟
+
+**¿Por qué es especial?** Este es el momento que hemos estado esperando durante 25 días. ¡Cada preparación ha valido la pena!
+
+**Dato curioso:** Shanghai recibe más de 30 millones de turistas al año. ¡Somos parte de esa estadística!
+
+**¿Sabías que...?** Hay cosas que no sabías antes de viajar que te habrían ayudado mucho.""",
+        "¡Hemos llegado! Ahora comienza la verdadera aventura. ¡Que empiece la magia de Shanghai! 🏮",
+        """📋 **Checklist del día:**
+• ✅ ¡Bienvenidos a Shanghai!
+• ✅ Primera foto en el aeropuerto
+• ✅ Activar Alipay y apps
+• ✅ ¡Explora la ciudad!
+
+🍽️ **Gastronomía del día:**
+• Primera comida en Shanghai
+• Xiaolongbao auténtico
+• Té chino tradicional
+• Comida callejera
+
+🏛️ **Lugares del día:**
+• 🏮 Aeropuerto de Shanghai - ¡PRIMER CONTACTO!
+• 🌃 Bund - Vistas espectaculares
+• 🏙️ Torre de Shanghai - Skyline
+• 🏮 Yu Garden - Tradición
+• 🚇 Metro de Shanghai - Movilidad
+• 🍜 Mercados de comida - Autenticidad
+
+📱 **Apps y tecnología:**
+• Alipay (pagos)
+• WeChat (comunicación)
+• Maps (navegación)
+• Google Translate (idioma)
+
+🎭 **Cultura y tradiciones:**
+• Primera impresión de China
+• Cultura local
+• Tradiciones milenarias
+• Costumbres chinas
+
+💡 **Tip del día:** Disfruta cada momento - ¡Shanghai te sorprenderá!
+
+🎯 **Reto extra:** Graba un video de tu primera impresión de Shanghai""",
+        "https://www.youtube.com/embed/WJd-BopESW0",
+        "/calendar_enhanced/25.png"
     )
 ]
 

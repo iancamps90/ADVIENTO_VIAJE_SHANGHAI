@@ -1,0 +1,74 @@
+name: Daily Shanghai Message
+
+on:
+  schedule:
+    # Ejecutar todos los días a las 9:00 AM (hora de Madrid)
+    - cron: '0 7 * * *'  # 7:00 UTC = 9:00 AM Madrid
+  workflow_dispatch:  # Permitir ejecución manual
+
+jobs:
+  send-daily-message:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check if it's December 2025
+        id: check-date
+        run: |
+          CURRENT_DATE=$(date +"%Y-%m")
+          if [ "$CURRENT_DATE" = "2025-12" ]; then
+            echo "is_december=true" >> $GITHUB_OUTPUT
+            echo "✅ Es diciembre 2025, enviando mensaje"
+          else
+            echo "is_december=false" >> $GITHUB_OUTPUT
+            echo "❌ No es diciembre 2025, saltando envío"
+          fi
+      
+      - name: Send daily message
+        if: steps.check-date.outputs.is_december == 'true'
+        run: |
+          echo "🚀 Enviando mensaje diario del calendario de Shanghai..."
+          
+          # Hacer petición al endpoint
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X GET "https://shanghai.iancamps.dev/api/daily-message")
+          
+          # Separar respuesta y código HTTP
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          
+          echo "📊 Código de respuesta: $HTTP_CODE"
+          echo "📝 Respuesta: $BODY"
+          
+          if [ "$HTTP_CODE" -eq 200 ]; then
+            echo "✅ Mensaje enviado correctamente"
+          else
+            echo "❌ Error al enviar mensaje"
+            exit 1
+          fi
+      
+      - name: Send test message (manual trigger)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "🧪 Enviando mensaje de prueba..."
+          
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "https://shanghai.iancamps.dev/api/daily-message" \
+            -H "Content-Type: application/json" \
+            -d '{"day": 1}')
+          
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          
+          echo "📊 Código de respuesta: $HTTP_CODE"
+          echo "📝 Respuesta: $BODY"
+          
+          if [ "$HTTP_CODE" -eq 200 ]; then
+            echo "✅ Mensaje de prueba enviado correctamente"
+          else
+            echo "❌ Error al enviar mensaje de prueba"
+            exit 1
+          fi
+      
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ El envío del mensaje diario falló"
+          echo "🔍 Revisa los logs para más detalles"

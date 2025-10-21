@@ -26,6 +26,7 @@
 .states
 .states/
 .venv/
+.vercel
 .vscode/
 .web
 .web/
@@ -48,4 +49,3 @@ sdist/
 var/
 venv/
 wheels/
-.vercel

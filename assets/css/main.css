@@ -570,6 +570,10 @@ a:hover {
         min-height: 80px;
         max-height: 100px;
         border-width: 2px;
+        /* Mejoras para animaciones móviles */
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .day-number {
@@ -602,6 +606,46 @@ a:hover {
     
     .chinese-card:hover {
         transform: translateY(-2px) scale(1.01);
+    }
+    
+    /* Efectos táctiles mejorados para móvil */
+    .day-card.available:active {
+        transform: scale(0.95) !important;
+        transition: transform 0.1s ease !important;
+    }
+    
+    .day-card.available:active::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background: radial-gradient(circle, rgba(255,215,0,0.3) 0%, transparent 70%);
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: ripple 0.6s ease-out;
+        pointer-events: none;
+        z-index: 10;
+    }
+    
+    /* Mejoras de rendimiento para móvil */
+    .day-card {
+        will-change: transform;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    }
+    
+    /* Efectos de vibración */
+    .vibrate {
+        animation: vibrate 0.3s ease-in-out;
+    }
+    
+    @keyframes vibrate {
+        0%, 100% { transform: translate(0); }
+        25% { transform: translate(-2px, 2px); }
+        50% { transform: translate(2px, -2px); }
+        75% { transform: translate(-2px, -2px); }
     }
     
     /* Mejorar navbar en móvil */

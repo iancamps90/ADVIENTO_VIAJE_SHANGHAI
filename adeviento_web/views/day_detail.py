@@ -3,9 +3,12 @@ import adeviento_web.styles.styles as styles
 from adeviento_web.styles.styles import Size
 from adeviento_web.styles.colors import TextColor, Color
 from adeviento_web.components.button import button
+from adeviento_web.components.photo_carousel import photo_carousel
+from adeviento_web.components.special_effects import celebration_banner, progress_bar
 from adeviento_web.views.calendar import (
     _shanghai_days, _shanghai_day_name, _shanghai_day_message, _shanghai_day_url,
-    _shanghai_day_motivation, _shanghai_day_recommendations, _shanghai_day_video, _shanghai_day_photo
+    _shanghai_day_motivation, _shanghai_day_recommendations, _shanghai_day_video, _shanghai_day_photo,
+    _is_day_available
 )
 
 
@@ -37,21 +40,49 @@ def day_detail(day_number: int) -> rx.Component:
     day_photo = _shanghai_day_photo(day_index)
     
     return rx.vstack(
+        # Banner de celebración para días especiales
+        celebration_banner(day_number),
+        
+        # Barra de progreso
+        progress_bar(day_number),
+        
         # Header con el número del día
         rx.box(
             rx.heading(
                 f"Día {day_number}",
-                size="8",
+                size=rx.breakpoints(
+                    initial="6",
+                    xs="7", 
+                    sm="8",
+                    md="8",
+                    lg="8",
+                    xl="8"
+                ),
                 color=TextColor.ACCENT.value,
                 class_name="chinese-text golden-glow"
             ),
             rx.text(
                 "Calendario de Adviento Shanghai 2025",
-                font_size=Size.MEDIUM.value,
-                color=TextColor.TERTIARY.value
+                font_size=rx.breakpoints(
+                    initial="0.8em",
+                    xs="0.9em", 
+                    sm="1em",
+                    md="1.1em",
+                    lg="1.1em",
+                    xl="1.1em"
+                ),
+                color="#FFFFFF",
+                text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
             ),
             align="center",
-            padding=Size.BIG.value,
+            padding=rx.breakpoints(
+                initial="1em",
+                xs="1.5em", 
+                sm="2em",
+                md="2em",
+                lg="2em",
+                xl="2em"
+            ),
             background=f"linear-gradient(135deg, {Color.BACKGROUND.value}, {Color.SECONDARY.value})",
             border_radius="12px",
             border=f"2px solid {Color.SECONDARY.value}",
@@ -63,31 +94,68 @@ def day_detail(day_number: int) -> rx.Component:
             rx.vstack(
                 rx.heading(
                     day_name,
-                    size="6",
-                    color=TextColor.SECONDARY.value,
+                    size=rx.breakpoints(
+                        initial="4",
+                        xs="5", 
+                        sm="6",
+                        md="6",
+                        lg="6",
+                        xl="6"
+                    ),
+                    color="#FFFFFF",
                     text_align="center",
-                    margin_bottom=Size.BIG.value
+                    margin_bottom=Size.BIG.value,
+                    text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
                 ),
                 
-                # Foto del día
+                # Carrusel de fotos del día
                 rx.cond(
                     day_photo != "",
-                    rx.image(
-                        src=day_photo,
-                        alt=f"Foto del día {day_number}",
-                        width="100%",
-                        max_width="400px",
-                        border_radius="8px",
-                        margin_bottom=Size.BIG.value
+                    photo_carousel(
+                        photos=_get_day_photos(day_number),
+                        interval=7000  # Cambia cada 7 segundos
                     )
                 ),
                 
                 rx.text(
                     day_message,
-                    font_size=Size.DEFAULT.value,
-                    color=TextColor.SECONDARY.value,
+                    font_size=rx.breakpoints(
+                        initial="0.9em",
+                        xs="1em", 
+                        sm="1.1em",
+                        md="1.2em",
+                        lg="1.2em",
+                        xl="1.2em"
+                    ),
+                    color="#FFFFFF",
                     text_align="center",
                     line_height="1.6",
+                    margin_bottom=Size.BIG.value,
+                    text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
+                ),
+                
+                # Tip del día (movido más arriba)
+                rx.box(
+                    rx.vstack(
+                        rx.text(
+                            "💡 Tip del día:",
+                            font_weight="bold",
+                            color=TextColor.ACCENT.value
+                        ),
+                        rx.text(
+                            _get_day_tip(day_number),
+                            color="#FFFFFF",
+                            text_align="center",
+                            text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
+                        ),
+                        align="center",
+                        spacing="2"
+                    ),
+                    padding=Size.BIG.value,
+                    background="rgba(0,0,0,0.8)",
+                    border_radius="8px",
+                    border=f"1px solid {Color.SECONDARY.value}",
+                    width="100%",
                     margin_bottom=Size.BIG.value
                 ),
                 
@@ -124,15 +192,16 @@ def day_detail(day_number: int) -> rx.Component:
                             ),
                             rx.text(
                                 day_recommendations,
-                                color=TextColor.SECONDARY.value,
+                                color="#FFFFFF",
                                 white_space="pre-line",
-                                text_align="left"
+                                text_align="left",
+                                text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
                             ),
                             align="start",
                             spacing="2"
                         ),
                         padding=Size.BIG.value,
-                        background=Color.BACKGROUND.value,
+                        background="rgba(0,0,0,0.8)",
                         border_radius="8px",
                         border=f"2px solid {Color.SECONDARY.value}",
                         width="100%",
@@ -154,14 +223,22 @@ def day_detail(day_number: int) -> rx.Component:
                             rx.el.iframe(
                                 src=day_video,
                                 width="100%",
-                                height="200px",
-                                border_radius="8px"
+                                height=rx.breakpoints(
+                                    initial="180px",
+                                    xs="200px", 
+                                    sm="220px",
+                                    md="250px",
+                                    lg="280px",
+                                    xl="300px"
+                                ),
+                                border_radius="8px",
+                                max_width="560px"
                             ),
                             align="center",
                             spacing="2"
                         ),
                         padding=Size.BIG.value,
-                        background=Color.BACKGROUND.value,
+                        background="rgba(0,0,0,0.8)",
                         border_radius="8px",
                         border=f"2px solid {Color.SECONDARY.value}",
                         width="100%",
@@ -173,73 +250,123 @@ def day_detail(day_number: int) -> rx.Component:
                 rx.hstack(
                     rx.link(
                         button(
-                            "Volver al calendario",
+                            "🏠 Volver al calendario",
                             ""
                         ),
                         href="/",
                         external=False
                     ),
-                    rx.link(
-                        button(
-                            "Ver día anterior",
-                            ""
-                        ),
-                        href=f"/day/{day_number - 1}" if day_number > 1 else "/",
-                        external=False
+                    rx.cond(
+                        day_number > 1,
+                        rx.link(
+                            button(
+                                "⬅️ Día anterior",
+                                ""
+                            ),
+                            href=f"/day/{day_number - 1}",
+                            external=False
+                        )
                     ),
-                    rx.link(
-                        button(
-                            "Ver día siguiente",
-                            ""
-                        ),
-                        href=f"/day/{day_number + 1}" if day_number < 25 else "/",
-                        external=False
+                    rx.cond(
+                        day_number < 25 and _is_day_available(day_number + 1),
+                        rx.link(
+                            button(
+                                "Día siguiente ➡️",
+                                ""
+                            ),
+                            href=f"/day/{day_number + 1}",
+                            external=False
+                        )
                     ),
-                    spacing="3",
+                    spacing="2",
                     justify="center",
-                    flex_wrap="wrap"
+                    flex_wrap="wrap",
+                    width="100%"
                 ),
                 
                 align="center",
                 spacing="3"
             ),
-            padding=Size.VERY_BIG.value,
+            padding=rx.breakpoints(
+                initial="1em",
+                xs="1.5em", 
+                sm="2em",
+                md="2.5em",
+                lg="3em",
+                xl="3em"
+            ),
             background=f"linear-gradient(135deg, {Color.PRIMARY.value}, {Color.QUATERNARY.value})",
             border_radius="12px",
             border=f"2px solid {Color.ACCENT.value}",
             box_shadow=f"0 8px 16px {Color.QUATERNARY.value}",
             width="100%",
+            max_width=rx.breakpoints(
+                initial="95%",
+                xs="90%", 
+                sm="85%",
+                md="900px",
+                lg="1000px",
+                xl="1100px"
+            ),
             class_name="chinese-card fade-in"
         ),
         
-        # Información adicional
-        rx.box(
-            rx.vstack(
-                rx.text(
-                    "💡 Tip del día:",
-                    font_weight="bold",
-                    color=TextColor.ACCENT.value
-                ),
-                rx.text(
-                    _get_day_tip(day_number),
-                    color=TextColor.TERTIARY.value,
-                    text_align="center"
-                ),
-                align="center",
-                spacing="2"
-            ),
-            padding=Size.BIG.value,
-            background=Color.BACKGROUND.value,
-            border_radius="8px",
-            border=f"1px solid {Color.SECONDARY.value}",
-            width="100%"
-        ),
-        
         align="center",
-        spacing="4",
+        spacing=rx.breakpoints(
+            initial="2",
+            xs="3", 
+            sm="4",
+            md="4",
+            lg="4",
+            xl="4"
+        ),
         style=styles.max_width_style,
-        padding=Size.BIG.value
+        padding=rx.breakpoints(
+            initial="0.5em",
+            xs="1em", 
+            sm="1.5em",
+            md="2em",
+            lg="2em",
+            xl="2em"
+        )
     )
+
+
+def _get_day_photos(day_number: int) -> list[str]:
+    """Obtiene múltiples fotos para el carrusel de cada día"""
+    # Fotos base del calendario
+    base_photos = [f"/calendar_enhanced/{day_number}.png"]
+    
+    # Fotos adicionales según el día
+    extra_photos = {
+        1: ["/calendar_enhanced/1.png", "/calendar_enhanced/2.png", "/calendar_enhanced/3.png"],
+        2: ["/calendar_enhanced/2.png", "/calendar_enhanced/4.png", "/calendar_enhanced/5.png"],
+        3: ["/calendar_enhanced/3.png", "/calendar_enhanced/6.png", "/calendar_enhanced/7.png"],
+        4: ["/calendar_enhanced/4.png", "/calendar_enhanced/8.png", "/calendar_enhanced/9.png"],
+        5: ["/calendar_enhanced/5.png", "/calendar_enhanced/10.png", "/calendar_enhanced/11.png"],
+        6: ["/calendar_enhanced/6.png", "/calendar_enhanced/12.png", "/calendar_enhanced/13.png"],
+        7: ["/calendar_enhanced/7.png", "/calendar_enhanced/14.png", "/calendar_enhanced/15.png"],
+        8: ["/calendar_enhanced/8.png", "/calendar_enhanced/16.png", "/calendar_enhanced/17.png"],
+        9: ["/calendar_enhanced/9.png", "/calendar_enhanced/18.png", "/calendar_enhanced/19.png"],
+        10: ["/calendar_enhanced/10.png", "/calendar_enhanced/20.png", "/calendar_enhanced/21.png"],
+        11: ["/calendar_enhanced/11.png", "/calendar_enhanced/22.png", "/calendar_enhanced/23.png"],
+        12: ["/calendar_enhanced/12.png", "/calendar_enhanced/24.png", "/calendar_enhanced/25.png"],
+        13: ["/calendar_enhanced/13.png", "/calendar_enhanced/1.png", "/calendar_enhanced/2.png"],
+        14: ["/calendar_enhanced/14.png", "/calendar_enhanced/3.png", "/calendar_enhanced/4.png"],
+        15: ["/calendar_enhanced/15.png", "/calendar_enhanced/5.png", "/calendar_enhanced/6.png"],
+        16: ["/calendar_enhanced/16.png", "/calendar_enhanced/7.png", "/calendar_enhanced/8.png"],
+        17: ["/calendar_enhanced/17.png", "/calendar_enhanced/9.png", "/calendar_enhanced/10.png"],
+        18: ["/calendar_enhanced/18.png", "/calendar_enhanced/11.png", "/calendar_enhanced/12.png"],
+        19: ["/calendar_enhanced/19.png", "/calendar_enhanced/13.png", "/calendar_enhanced/14.png"],
+        20: ["/calendar_enhanced/20.png", "/calendar_enhanced/15.png", "/calendar_enhanced/16.png"],
+        21: ["/calendar_enhanced/21.png", "/calendar_enhanced/17.png", "/calendar_enhanced/18.png"],
+        22: ["/calendar_enhanced/22.png", "/calendar_enhanced/19.png", "/calendar_enhanced/20.png"],
+        23: ["/calendar_enhanced/23.png", "/calendar_enhanced/21.png", "/calendar_enhanced/22.png"],
+        24: ["/calendar_enhanced/24.png", "/calendar_enhanced/23.png", "/calendar_enhanced/24.png"],
+        25: ["/calendar_enhanced/25.png", "/calendar_enhanced/1.png", "/calendar_enhanced/2.png"]
+    }
+    
+    return extra_photos.get(day_number, base_photos)
 
 
 def _get_day_tip(day_number: int) -> str:
