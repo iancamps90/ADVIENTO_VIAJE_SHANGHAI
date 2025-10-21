@@ -1,18 +1,17 @@
 """
 API endpoint para webhooks de WhatsApp en Vercel
-Este archivo debe estar en la carpeta /api/ para que Vercel lo reconozca como endpoint
+Versión ultra-simple para garantizar compatibilidad
 """
 
 from http.server import BaseHTTPRequestHandler
 import json
 import urllib.parse
-import os
 
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         """Maneja las peticiones GET para verificación del webhook"""
-        if self.path.startswith('/api/webhook'):
+        try:
             # Parsear query parameters
             query_params = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
             
@@ -20,54 +19,51 @@ class handler(BaseHTTPRequestHandler):
             token = query_params.get('hub.verify_token', [None])[0]
             challenge = query_params.get('hub.challenge', [None])[0]
             
-            # Verificar webhook
-            verify_token = os.environ.get('META_VERIFY_TOKEN', 'shanghai_2025_verify_token')
+            # Verificar webhook - token hardcodeado para garantizar funcionamiento
+            verify_token = 'shanghai_2025_verify_token'
             
-            if mode == 'subscribe' and token == verify_token:
+            if mode == 'subscribe' and token == verify_token and challenge:
                 self.send_response(200)
                 self.send_header('Content-type', 'text/plain')
                 self.end_headers()
                 self.wfile.write(challenge.encode())
-            else:
-                self.send_response(403)
-                self.send_header('Content-type', 'text/plain')
-                self.end_headers()
-                self.wfile.write(b'Verification failed')
-        else:
-            self.send_response(404)
+                return
+            
+            # Si no es verificación, devolver error
+            self.send_response(403)
+            self.send_header('Content-type', 'text/plain')
             self.end_headers()
+            self.wfile.write(b'Forbidden')
+            
+        except Exception as e:
+            self.send_response(500)
+            self.send_header('Content-type', 'text/plain')
+            self.end_headers()
+            self.wfile.write(f'Error: {str(e)}'.encode())
     
     def do_POST(self):
         """Maneja las peticiones POST para recibir mensajes"""
-        if self.path.startswith('/api/webhook'):
+        try:
             # Leer el cuerpo de la petición
-            content_length = int(self.headers['Content-Length'])
+            content_length = int(self.headers.get('Content-Length', 0))
             post_data = self.rfile.read(content_length)
             
-            try:
-                # Parsear JSON
-                data = json.loads(post_data.decode('utf-8'))
-                
-                # Log del webhook recibido
-                print(f"Webhook recibido: {json.dumps(data, indent=2)}")
-                
-                # Respuesta simple
-                result = {"status": "received", "message": "Webhook processed successfully"}
-                
-                self.send_response(200)
-                self.send_header('Content-type', 'application/json')
-                self.end_headers()
-                self.wfile.write(json.dumps(result).encode())
-                
-            except Exception as e:
-                print(f"Error en webhook: {str(e)}")
-                self.send_response(500)
-                self.send_header('Content-type', 'application/json')
-                self.end_headers()
-                self.wfile.write(json.dumps({"error": str(e)}).encode())
-        else:
-            self.send_response(404)
+            # Parsear JSON
+            data = json.loads(post_data.decode('utf-8'))
+            
+            # Respuesta simple
+            result = {"status": "ok"}
+            
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
             self.end_headers()
+            self.wfile.write(json.dumps(result).encode())
+            
+        except Exception as e:
+            self.send_response(500)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps({"error": str(e)}).encode())
     
     def do_OPTIONS(self):
         """Maneja las peticiones OPTIONS para CORS"""
