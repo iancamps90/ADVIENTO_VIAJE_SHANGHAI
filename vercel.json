@@ -18,10 +18,5 @@
     ],
     "env": {
         "NODE_VERSION": "20"
-    },
-    "functions": {
-        "build.sh": {
-            "maxDuration": 300
-        }
     }
 }
