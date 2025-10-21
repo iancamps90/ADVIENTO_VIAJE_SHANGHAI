@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "name": "shanghai-advent-calendar",
     "builds": [
         {
             "src": "build.sh",

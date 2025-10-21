@@ -5,11 +5,14 @@ echo "🚀 Iniciando build para Vercel..."
 
 # Instalar dependencias
 echo "📦 Instalando dependencias..."
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
 # Exportar la aplicación Reflex
 echo "🔨 Exportando aplicación Reflex..."
-python -m reflex export --frontend-only
+python3 -m reflex export --frontend-only
+
+# Crear directorio de salida si no existe
+mkdir -p web/_static
 
 # Copiar assets a la carpeta de salida
 echo "📁 Copiando assets..."
