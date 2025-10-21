@@ -1,6 +1,3 @@
 {
-    "version": 2,
-    "buildCommand": "python -m pip install -r requirements.txt && python -m reflex export --frontend-only",
-    "outputDirectory": "web/_static",
-    "installCommand": "python -m pip install -r requirements.txt"
+    "version": 2
 }
