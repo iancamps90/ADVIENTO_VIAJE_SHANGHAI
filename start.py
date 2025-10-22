@@ -9,6 +9,5 @@ subprocess.run([
     "--env", "prod",
     "--frontend-port", port,
     "--backend-port", port,
-    "--frontend-host", "0.0.0.0",
     "--backend-host", "0.0.0.0"
 ])
