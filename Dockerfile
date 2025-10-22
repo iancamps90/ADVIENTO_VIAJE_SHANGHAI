@@ -27,4 +27,3 @@ EXPOSE 8000
 # 🧠 Ejecutamos Reflex con el puerto expandido dinámicamente
 ENTRYPOINT ["/bin/bash", "-c"]
 CMD ["reflex run --env prod --backend-port ${PORT:-8000} --frontend-port ${PORT:-8000}"]
-
