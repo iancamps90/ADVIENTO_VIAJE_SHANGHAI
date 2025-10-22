@@ -28,4 +28,4 @@ ENV REFLEX_ENV=prod
 EXPOSE 8000
 
 # Start the application
-CMD ["reflex", "run", "--env", "prod", "--backend-port", "8000"]
+CMD bash -c "reflex run --env prod --backend-port ${PORT:-8000}"
