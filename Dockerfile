@@ -26,5 +26,5 @@ RUN python -m reflex export --frontend-only
 # Expose port
 EXPOSE 8000
 
-# Start the application
-CMD ["sh", "-c", "python -m reflex run --env prod --port ${PORT:-8000} --host 0.0.0.0"]
+# Start a simple static server for the exported app
+CMD ["sh", "-c", "cd web/_static && python -m http.server ${PORT:-8000}"]
