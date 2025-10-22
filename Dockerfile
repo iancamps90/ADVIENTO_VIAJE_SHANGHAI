@@ -20,11 +20,8 @@ RUN pip install --upgrade reflex
 # Copy the application
 COPY . .
 
-# Build the frontend
+# Build the frontend (static export handled by Reflex; no manual copy needed)
 RUN python -m reflex export --frontend-only
-
-# Copy static files to the correct location
-RUN cp -r web/_static/* /app/
 
 # Expose port
 EXPOSE 8000
