@@ -717,36 +717,204 @@ _shanghai_days = [
         "/calendar_enhanced/18.png"
     ),
     (
-        "Frase del día 🌟",
-        "Los recuerdos son el único tesoro que puedes llevarte contigo. ¡Shanghai nos dará tesoros infinitos! 💎",
+        "💭 ¡Frase del día! ✨",
+        """Los recuerdos son el único tesoro que puedes llevarte contigo. ¡Shanghai nos dará tesoros infinitos! 💎
+
+**Reto del día:** Haz una foto de algo que te recuerde a Shanghai en tu ciudad. ¡Puede ser un farolillo, dragón, o lo que se te ocurra! ¡El más creativo gana! 📸🏮🏆
+
+**¿Qué nos espera?** Cada día que pasa nos acerca más a Shanghai. ¡Los recuerdos que crearemos serán únicos!
+
+**¿Por qué es importante?** Los recuerdos son lo único que realmente nos llevamos de los viajes. ¡Shanghai nos dará recuerdos para toda la vida!
+
+**Dato curioso:** Shanghai tiene más de 24 millones de habitantes. ¡Cada uno tiene su propia historia!
+
+**¿Sabías que...?** Los recuerdos se fortalecen cuando los compartes con otros.""",
         "Los recuerdos son el único tesoro que aumenta con el tiempo.",
-        "• Documenta todo\n• Vive intensamente\n• ¡Crea recuerdos únicos!",
-        "",
-        "/19.png"
+        """📋 **Checklist del día:**
+• ✅ Haz foto de algo que te recuerde a Shanghai
+• ✅ Comparte con el grupo
+• ✅ Documenta tu progreso
+• ✅ ¡Crea recuerdos únicos!
+
+🍽️ **Gastronomía del día:**
+• Comida que te recuerde a China
+• Restaurante chino local
+• Ingredientes asiáticos
+• Té chino tradicional
+
+🏛️ **Lugares del día:**
+• 🏮 Tiendas de productos chinos
+• 🐉 Estatuas o decoraciones asiáticas
+• 🏛️ Museos con arte oriental
+• 🌸 Jardines con estilo asiático
+
+📱 **Apps y tecnología:**
+• Apps de fotografía
+• Google Photos (backup)
+• Apps de recuerdos
+• Redes sociales
+
+🎭 **Cultura y tradiciones:**
+• Simbolismo chino
+• Tradiciones locales
+• Arte asiático
+• Filosofía oriental
+
+💡 **Tip del día:** Los recuerdos se fortalecen cuando los compartes
+
+🎯 **Reto extra:** Crea un álbum digital de preparación para Shanghai""",
+        "https://www.youtube.com/embed/memories-shanghai",
+        "/calendar_enhanced/19.png"
     ),
     (
-        "Últimos preparativos 🎒",
-        "¡Solo quedan 5 días! ¡Revisa que tengas todo: cargadores, medicinas, ¡y muchas ganas! ⚡",
+        "🎒 ¡Últimos preparativos! ✈️",
+        """¡Solo quedan 5 días! ¡Revisa que tengas todo: cargadores, medicinas, ¡y muchas ganas! ⚡
+
+**Reto del día:** Haz una foto de tu maleta/equipaje preparado para Shanghai. ¡Incluye algo especial que te lleves! ¡El más organizado gana! 🧳✈️🏆
+
+**¿Qué nos espera?** Los últimos detalles son cruciales. ¡Una buena preparación es la clave del éxito!
+
+**¿Por qué es importante?** Los últimos detalles son los que marcan la diferencia entre un buen viaje y un viaje perfecto.
+
+**Dato curioso:** Shanghai tiene un clima subtropical. ¡Necesitarás ropa para diferentes temperaturas!
+
+**¿Sabías que...?** El enchufe en China es diferente - necesitarás un adaptador universal.""",
         "Los últimos detalles son los que marcan la diferencia.",
-        "• Lista final de maletas\n• Cargadores y adaptadores\n• Medicinas básicas\n• ¡Actitud aventurera!",
-        "",
-        "/20.png"
+        """📋 **Checklist del día:**
+• ✅ Lista final de maletas
+• ✅ Cargadores y adaptadores
+• ✅ Medicinas básicas
+• ✅ ¡Actitud aventurera!
+
+🍽️ **Gastronomía del día:**
+• Snacks para el viaje
+• Medicinas para el estómago
+• Vitaminas y suplementos
+• Comida de emergencia
+
+🏛️ **Lugares del día:**
+• 🏥 Farmacia (medicinas)
+• 🛒 Tienda de electrónicos (adaptadores)
+• 🧳 Tienda de maletas
+• 📱 Tienda de móviles (cargadores)
+
+📱 **Apps y tecnología:**
+• Apps de viaje
+• Cargadores universales
+• Adaptadores de enchufe
+• Power banks
+
+🎭 **Cultura y tradiciones:**
+• Preparación cultural
+• Últimas tradiciones locales
+• Despedidas familiares
+• Emoción por el viaje
+
+💡 **Tip del día:** Haz una lista de verificación - ¡no olvides nada!
+
+🎯 **Reto extra:** Graba un video de tu maleta preparada""",
+        "https://www.youtube.com/embed/travel-packing-guide",
+        "/calendar_enhanced/20.png"
     ),
     (
-        "Frase motivacional final 💪",
-        "La aventura comienza cuando sales de tu zona de confort. ¡Shanghai nos espera! 🌍",
+        "💪 ¡Frase motivacional final! 🚀",
+        """La aventura comienza cuando sales de tu zona de confort. ¡Shanghai nos espera! 🌍
+
+**Reto del día:** Haz un video de 10 segundos diciendo por qué estás emocionado por Shanghai. ¡Que se note la pasión! ¡El más emocionado gana! 🎬🔥🏆
+
+**¿Qué nos espera?** Solo quedan 4 días para la aventura más épica de nuestras vidas. ¡La emoción está por las nubes!
+
+**¿Por qué es importante?** La magia sucede fuera de tu zona de confort. ¡Shanghai nos sacará de nuestra rutina!
+
+**Dato curioso:** Shanghai está a 9,000 km de distancia. ¡Vamos a cruzar medio mundo!
+
+**¿Sabías que...?** La aventura comienza en el momento en que decides salir de tu zona de confort.""",
         "La magia sucede fuera de tu zona de confort.",
-        "• Abraza lo desconocido\n• Sé valiente\n• ¡Vive la aventura!",
-        "",
-        "/21.png"
+        """📋 **Checklist del día:**
+• ✅ Abraza lo desconocido
+• ✅ Sé valiente
+• ✅ ¡Vive la aventura!
+• ✅ Comparte tu emoción
+
+🍽️ **Gastronomía del día:**
+• Última comida favorita local
+• Comida que extrañarás
+• Bebidas especiales
+• Postres de despedida
+
+🏛️ **Lugares del día:**
+• 🏠 Lugares favoritos de tu ciudad
+• 🍽️ Restaurantes que extrañarás
+• 🌳 Parques locales
+• 🏛️ Lugares con recuerdos
+
+📱 **Apps y tecnología:**
+• Apps de video
+• Redes sociales
+• Apps de motivación
+• Calendario de cuenta atrás
+
+🎭 **Cultura y tradiciones:**
+• Últimas tradiciones locales
+• Despedidas emocionales
+• Preparación mental
+• ¡Emoción por Shanghai!
+
+💡 **Tip del día:** La aventura comienza con la decisión
+
+🎯 **Reto extra:** Graba un video motivacional para el grupo""",
+        "https://www.youtube.com/embed/motivation-travel",
+        "/calendar_enhanced/21.png"
     ),
     (
-        "¡Casi llegamos! 🎉",
-        "¡Solo quedan 3 días! ¡La emoción está por las nubes! ¡Shanghai está a la vuelta de la esquina! 🏮",
+        "⏰ ¡Casi llegamos! 🎯",
+        """¡Solo quedan 3 días! ¡La emoción está por las nubes! ¡Shanghai está a la vuelta de la esquina! 🏮
+
+**Reto del día:** Haz un video contando del 3 al 1 y gritando "¡SHANGHAI NOS ESPERA!" ¡Que se escuche en toda la casa! ¡El más ruidoso gana! 🎊📢🏆
+
+**¿Qué nos espera?** Solo quedan 3 días para la aventura más épica. ¡La cuenta atrás final ha comenzado!
+
+**¿Por qué es importante?** La emoción es el mejor equipaje para cualquier viaje. ¡Mantén esa energía alta!
+
+**Dato curioso:** En 3 días estaremos volando hacia Shanghai. ¡El tiempo vuela cuando te diviertes!
+
+**¿Sabías que...?** La emoción previa al viaje es tan importante como el viaje mismo.""",
         "La emoción es el mejor equipaje para cualquier viaje.",
-        "• ¡Mantén la emoción!\n• Comparte con el grupo\n• ¡Prepara la cuenta atrás final!",
-        "",
-        "/22.png"
+        """📋 **Checklist del día:**
+• ✅ ¡Mantén la emoción!
+• ✅ Comparte con el grupo
+• ✅ ¡Prepara la cuenta atrás final!
+• ✅ ¡Disfruta estos últimos días!
+
+🍽️ **Gastronomía del día:**
+• Comida de celebración
+• Bebidas especiales
+• Postres de cuenta atrás
+• ¡Últimas comidas locales!
+
+🏛️ **Lugares del día:**
+• 🏠 Casa - ¡últimos días!
+• 🍽️ Restaurantes favoritos
+• 🌳 Lugares especiales
+• 🏛️ Lugares con recuerdos
+
+📱 **Apps y tecnología:**
+• Apps de cuenta atrás
+• Redes sociales
+• Apps de emoción
+• Calendario final
+
+🎭 **Cultura y tradiciones:**
+• Últimas tradiciones locales
+• Despedidas emocionales
+• Preparación final
+• ¡Emoción por Shanghai!
+
+💡 **Tip del día:** ¡Disfruta cada momento de la cuenta atrás!
+
+🎯 **Reto extra:** Crea un video de cuenta atrás épico""",
+        "https://www.youtube.com/embed/countdown-shanghai",
+        "/calendar_enhanced/22.png"
     ),
     (
         "🎄 ¡Última noche antes del viaje! 🏮",
