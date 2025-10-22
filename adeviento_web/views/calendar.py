@@ -14,7 +14,7 @@ from adeviento_web.components.day import day
 _shanghai_days = [
     (
         "🎊 ¡Empieza la cuenta atrás! 🧳✈️🎯",
-        "¡Bienvenidos a la aventura más épica del año! En 25 días estaremos en Shanghai. ¡Que empiece la magia! 🎊🏮\n\n**Reto del día:** Cambia tu fondo de pantalla por algo relacionado con Shanghai y mándalo al grupo. ¡Vamos a crear ambiente! 🔥\n\n**¿Listos para la aventura?** ¡Cada día una nueva sorpresa nos espera!",
+        "¡Bienvenidos a la aventura más épica del año! En 25 días estaremos en Shanghai. ¡Que empiece la magia! 🎊🏮\n\n**Reto del día:** ¡FOTO ÉPICA DE CUENTA ATRÁS! Haz una foto con los dedos mostrando 25 y grita '¡25 DÍAS PARA SHANGHAI!' ¡El más emocionado gana! 📸🎉🏆\n\n**¿Listos para la aventura?** ¡Cada día una nueva sorpresa nos espera!",
         "La aventura comienza con un solo paso. ¡Y ese paso es hoy! 🚀",
         "📋 **Checklist del día:**\n• 📄 Revisa tu pasaporte (debe tener 6+ meses de validez)\n• 📱 Descarga apps útiles: Google Translate, Maps, Alipay\n• 🎒 Empieza a hacer lista de maletas\n• 🎯 Cambia fondo de pantalla y comparte en el grupo\n\n💡 **Tip del día:** Shanghai significa 'Sobre el mar' - ¡perfecto para nuestra aventura!",
         "https://www.youtube.com/embed/dQw4w9WgXcQ",
@@ -24,7 +24,7 @@ _shanghai_days = [
         "💳 Apps esenciales para Shanghai 📱",
         """¡Momento de ser responsables! Hoy toca preparar nuestro arsenal digital para conquistar Shanghai. 💪
 
-**Reto del día:** Descarga Alipay y activa el Tour Pass. ¡Comparte pantallazo cuando lo tengas listo! 📸
+**Reto del día:** ¡DESAFÍO ALIPAY ÉPICO! Descarga Alipay y activa el Tour Pass. ¡Luego haz un video pagando algo con Alipay y grita '¡YA PUEDO PAGAR EN SHANGHAI!' ¡El más rápido gana! 💳🎬🏆
 
 **¿Por qué es importante?** En China se paga TODO con el móvil. ¡Sin Alipay no hay paraíso! 🏮
 
@@ -71,7 +71,7 @@ _shanghai_days = [
     ),
     (
         "🏮 Curiosidades de Shanghai 🏙️",
-        "¡Descubramos juntos los secretos de la ciudad más fascinante de China! 🌟\n\n**¿Sabías que...?**\n• Shanghai significa 'Sobre el mar' 🌊\n• Es la ciudad más poblada del mundo (24 millones) 👥\n• Tiene el metro más largo del planeta 🚇\n• El Bund es Patrimonio de la Humanidad 🏛️\n\n**Reto del día:** Busca una foto icónica de Shanghai y compártela con una frase motivacional! 📸✨",
+        "¡Descubramos juntos los secretos de la ciudad más fascinante de China! 🌟\n\n**¿Sabías que...?**\n• Shanghai significa 'Sobre el mar' 🌊\n• Es la ciudad más poblada del mundo (24 millones) 👥\n• Tiene el metro más largo del planeta 🚇\n• El Bund es Patrimonio de la Humanidad 🏛️\n\n**Reto del día:** ¡FOTO ÉPICA DE SHANGHAI! Busca la foto más espectacular de Shanghai que encuentres y compártela con tu mejor pose imitando el lugar. ¡El más creativo gana! 📸🏮🏆",
         "La distancia se mide en historias que vas a vivir, no en kilómetros. ¡Shanghai nos espera! 🏮",
         "🎯 **Actividades del día:**\n• Visualiza el viaje perfecto\n• Comparte tu emoción con el grupo\n• ¡Mantén la actitud positiva!\n• Investiga sobre el Bund y la Torre de Shanghai\n\n💡 **Dato curioso:** El metro de Shanghai tiene 831 km de vías - ¡más que cualquier otra ciudad!",
         "https://www.youtube.com/embed/L_jWHffIx5E",
@@ -81,7 +81,7 @@ _shanghai_days = [
         "📄 Documentos y seguros ✈️",
         """¡Momento de ser súper organizados! Hoy toca revisar que tenemos todos los papeles en regla. 📋
 
-**Reto del día:** Haz una foto de tu pasaporte (solo la portada) y compártela cuando esté todo listo. ¡Vamos a estar 100% preparados! 📸
+**Reto del día:** ¡PASAPORTE ÉPICO! Haz una foto de tu pasaporte (solo la portada) y compártela con tu mejor pose de '¡LISTO PARA SHANGHAI!' ¡El más preparado gana! 📸✈️🏆
 
 **¿Por qué es crucial?** Sin documentos en regla, no hay viaje. ¡Mejor prevenir que lamentar! 🛡️
 
@@ -130,7 +130,7 @@ _shanghai_days = [
         "🍜 Comida china auténtica 🥢",
         """¡Hora de preparar el estómago para la aventura culinaria más épica! 🍽️
 
-**Reto del día:** Busca un restaurante chino en tu ciudad y pide algo que nunca hayas probado. ¡Comparte foto y experiencia! 📸
+**Reto del día:** ¡DESAFÍO CULINARIO ÉPICO! Ve a un restaurante chino y pide algo que nunca hayas probado. ¡Haz un video comiendo y grita '¡PRACTICANDO PARA SHANGHAI!' ¡El más valiente gana! 🥢🎬🏆
 
 **¿Qué nos espera?** Dim sum, xiaolongbao, hot pot... ¡Shanghai es el paraíso de la comida callejera! 🌟
 
@@ -282,7 +282,7 @@ _shanghai_days = [
         "🗣️ Idioma chino básico 📚",
         """¡Hora de aprender las frases que nos salvarán en Shanghai! 🎯
 
-**Reto del día:** Graba un video diciendo 'Ni hao' (hola) y 'Xie xie' (gracias) en chino. ¡Comparte tu mejor pronunciación! 📹
+**Reto del día:** ¡DESAFÍO CHINO ÉPICO! Graba un video diciendo 'Ni hao' (hola) y 'Xie xie' (gracias) en chino con tu mejor acento. ¡Luego grita '¡YA HABLO CHINO!' ¡El más chino gana! 🗣️🎬🏆
 
 **¿Por qué es importante?** Los locales aprecian el esfuerzo. ¡Un simple 'Ni hao' puede abrir muchas puertas! 🚪✨
 
@@ -384,7 +384,7 @@ _shanghai_days = [
         "🛍️ Compras en Shanghai 💰",
         """¡Hora de planificar nuestra estrategia de compras! 🛒
 
-**Reto del día:** Haz una lista de 5 souvenirs que quieres comprar en Shanghai y compártela con el grupo. ¡Vamos a ser compradores inteligentes! 🎯
+**Reto del día:** ¡LISTA DE COMPRAS ÉPICA! Haz una lista de 5 souvenirs que quieres comprar en Shanghai y compártela con el grupo. ¡Luego haz un video mostrando tu lista y grita '¡SHANGHAI, AQUÍ VENGO A COMPRAR!' ¡El más comprador gana! 🛍️🎬🏆
 
 **¿Dónde comprar?** Mercados tradicionales, centros comerciales, tiendas de lujo... ¡Shanghai lo tiene todo! 🏪✨
 
@@ -494,7 +494,7 @@ _shanghai_days = [
     ),
     (
         "🏃‍♂️ Deportes y actividades 🧘‍♀️",
-        "¡Shanghai es perfecta para mantenerse activo! ¡Descubramos sus mejores actividades deportivas! 🏃‍♀️\n\n**Reto del día:** Busca un parque o actividad deportiva en Shanghai que te gustaría probar y compártela. ¡Vamos a estar en forma para la aventura! 💪\n\n**¿Qué nos espera?** Tai Chi en el parque, ciclismo, running, yoga... ¡Shanghai es saludable! 🌱",
+        "¡Shanghai es perfecta para mantenerse activo! ¡Descubramos sus mejores actividades deportivas! 🏃‍♀️\n\n**Reto del día:** ¡DESAFÍO DEPORTIVO ÉPICO! Busca una actividad deportiva de Shanghai que te gustaría probar y haz un video imitándola. ¡Luego grita '¡EN SHANGHAI SERÉ DEPORTISTA!' ¡El más atlético gana! 🏃‍♂️🎬🏆\n\n**¿Qué nos espera?** Tai Chi en el parque, ciclismo, running, yoga... ¡Shanghai es saludable! 🌱",
         "Las mejores compras son las que cuentan una historia. ¡Cada actividad deportiva será una historia de superación! 🏃‍♂️",
         "🏃‍♂️ **Actividades deportivas:**\n• 🧘‍♀️ Tai Chi en People's Park\n• 🚴‍♂️ Ciclismo por el Bund\n• 🏃‍♀️ Running en Century Park\n• 🧘‍♂️ Yoga en Xintiandi\n• 🏊‍♀️ Natación en hoteles\n• 🎾 Tenis en clubes locales\n\n💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!",
         "https://www.youtube.com/embed/shanghai-sports-activities",
@@ -564,7 +564,7 @@ _shanghai_days = [
         "🍜 Comida callejera épica 🥢",
         """¡100 horas de comida callejera china! ¡Prepárate para la aventura culinaria más intensa! 🍽️
 
-**Reto del día:** Busca un plato de comida callejera china que nunca hayas probado y compártelo. ¡Vamos a ser aventureros culinarios! 🎯
+**Reto del día:** ¡DESAFÍO COMIDA CALLEJERA ÉPICO! Busca un plato de comida callejera china que nunca hayas probado y haz un video comiéndolo. ¡Luego grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
 
 **¿Qué nos espera?** Dim sum, baozi, jianbing, tanghulu... ¡Shanghai es el paraíso de la comida callejera! 🌟
 
@@ -616,7 +616,7 @@ _shanghai_days = [
         "🏗️ Arquitectura moderna de Shanghai 🏙️",
         """¡Shanghai es un museo de arquitectura al aire libre! ¡Descubramos sus rascacielos más impresionantes! 🌆
 
-**Reto del día:** Busca el rascacielos más alto de Shanghai y comparte un dato curioso sobre él. ¡Vamos a ser arquitectos por un día! 🏗️
+**Reto del día:** ¡DESAFÍO ARQUITECTÓNICO ÉPICO! Busca el rascacielos más alto de Shanghai y haz un video imitando su forma. ¡Luego grita '¡EN SHANGHAI SERÉ ARQUITECTO!' ¡El más creativo gana! 🏗️🎬🏆
 
 **¿Qué nos espera?** Torres futuristas, edificios históricos, arquitectura colonial... ¡Shanghai es pura innovación! ✨
 
@@ -668,7 +668,7 @@ _shanghai_days = [
         "🌿 Parques y naturaleza en Shanghai 🌸",
         """¡Descubre los oasis verdes de Shanghai! ¡Incluso en la ciudad más moderna hay naturaleza! 🌳
 
-**Reto del día:** Busca información sobre la antigua ciudad de Wuzhen y comparte por qué te gustaría visitarla. ¡Vamos a explorar la naturaleza! 🌿
+**Reto del día:** ¡DESAFÍO NATURALEZA ÉPICO! Busca información sobre Wuzhen y haz un video imitando el Tai Chi. ¡Luego grita '¡EN SHANGHAI SERÉ ZEN!' ¡El más relajado gana! 🌿🎬🏆
 
 **¿Qué nos espera?** Parques urbanos, jardines tradicionales, lagos, canales... ¡Shanghai tiene naturaleza oculta! ✨
 
