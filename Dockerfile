@@ -1,8 +1,9 @@
 # Use Python 3.11 slim image
 FROM python:3.11-slim
 
-# Install system dependencies
+# Instalar bash y dependencias del sistema
 RUN apt-get update && apt-get install -y \
+    bash \
     unzip \
     curl \
     wget \
@@ -11,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy requirements first for better caching
+# Copiar requirements y instalarlos primero (mejor caché)
 COPY requirements.txt .
 
 # Install Python dependencies
