@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+/* Viewport responsive */
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
 /* Variables CSS para colores navideños y chinos */
 :root {
     --primary-red: #DC143C;
@@ -557,6 +570,24 @@ a:hover {
 }
 
 /* Responsive Design */
+
+/* Tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .calendar-grid {
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 12px !important;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    .calendar-container {
+        padding: 15px;
+    }
+}
+
+/* Móviles */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
@@ -566,10 +597,23 @@ a:hover {
         padding: 10px;
     }
     
+    /* Grid responsive mejorado para móvil */
+    .calendar-grid {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 8px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 10px !important;
+    }
+    
     .day-card {
         min-height: 80px;
         max-height: 100px;
         border-width: 2px;
+        width: 100% !important;
+        aspect-ratio: 1 !important;
         /* Mejoras para animaciones móviles */
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
@@ -758,9 +802,18 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+    /* Grid para móviles muy pequeños - 2 columnas */
+    .calendar-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 6px !important;
+        padding: 5px !important;
+    }
+    
     .day-card {
         min-height: 70px;
         max-height: 80px;
+        width: 100% !important;
+        aspect-ratio: 1 !important;
     }
     
     .day-number {
@@ -791,6 +844,15 @@ a:hover {
     .nes-balloon {
         font-size: 0.8em !important;
         padding: 10px !important;
+    }
+    
+    /* Contenedores más compactos */
+    .container {
+        padding: 5px !important;
+    }
+    
+    .calendar-container {
+        padding: 5px !important;
     }
 }
 
