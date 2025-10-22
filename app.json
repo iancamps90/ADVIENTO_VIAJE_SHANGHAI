@@ -1,0 +1,19 @@
+{
+  "name": "Calendario Adviento Shanghai",
+  "description": "Calendario de adviento personalizado para viaje a Shanghai 2025",
+  "repository": "https://github.com/iancamps90/ADVIENTO_VIAJE_SHANGHAI",
+  "logo": "https://raw.githubusercontent.com/iancamps90/ADVIENTO_VIAJE_SHANGHAI/main/assets/logo.png",
+  "keywords": ["reflex", "python", "calendar", "shanghai", "advent"],
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "REFLEX_ENV": {
+      "description": "Environment for Reflex app",
+      "value": "prod"
+    }
+  }
+}
