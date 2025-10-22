@@ -20,19 +20,19 @@ RUN pip install --upgrade reflex
 # Copy the application
 COPY . .
 
-# Build the frontend (static export handled by Reflex; no manual copy needed)
+# Build the frontend (static export)
 RUN python -m reflex export --frontend-only
 
-# Debug: see what was created
-RUN echo "=== Current directory structure ==="
-RUN ls -la
-RUN echo "=== Looking for HTML files ==="
-RUN find . -name "*.html" -type f | head -10 || echo "No HTML files found"
-RUN echo "=== Looking for any web directory ==="
-RUN find . -name "web" -type d || echo "No web directory found"
+# Collect exported site into a stable path
+RUN mkdir -p /srv/site \
+    && if [ -d .web/_static ]; then cp -r .web/_static/* /srv/site/; \
+    elif [ -d web/_static ]; then cp -r web/_static/* /srv/site/; \
+    elif [ -d public ]; then cp -r public/* /srv/site/; \
+    fi \
+    && ls -la /srv/site || true
 
 # Expose port
 EXPOSE 8000
 
-# Serve the exported static site. Prefer .web/_static, fallback to web/_static or public
-CMD ["sh", "-c", "DIR=.web/_static; [ -d $DIR ] || DIR=web/_static; [ -d $DIR ] || DIR=public; cd $DIR && python -m http.server ${PORT:-8000}"]
+# Serve the exported static site
+CMD ["sh", "-c", "cd /srv/site && python -m http.server ${PORT:-8000}"]
