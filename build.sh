@@ -3,6 +3,10 @@
 # Script de build para Vercel
 echo "🚀 Iniciando build para Vercel..."
 
+# Actualizar pip y setuptools primero
+echo "🔄 Actualizando pip y setuptools..."
+python3 -m pip install --upgrade pip setuptools wheel
+
 # Instalar dependencias
 echo "📦 Instalando dependencias..."
 python3 -m pip install -r requirements.txt

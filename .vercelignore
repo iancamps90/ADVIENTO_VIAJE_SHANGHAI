@@ -35,3 +35,10 @@ shanghai-advent-calendar/
 # Archivos temporales
 .DS_Store
 Thumbs.db
+
+# Archivos de build locales
+.web/
+*.egg-info/
+dist/
+build/
+
