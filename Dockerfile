@@ -34,5 +34,5 @@ RUN find . -name "web" -type d || echo "No web directory found"
 # Expose port
 EXPOSE 8000
 
-# Start the application with single-port mode (Railway PORT) and bind backend host
-CMD ["sh", "-c", "python -m reflex run --env prod --single-port ${PORT:-8000} --backend-host 0.0.0.0"]
+# Serve the exported static site. Prefer .web/_static, fallback to web/_static or public
+CMD ["sh", "-c", "DIR=.web/_static; [ -d $DIR ] || DIR=web/_static; [ -d $DIR ] || DIR=public; cd $DIR && python -m http.server ${PORT:-8000}"]
