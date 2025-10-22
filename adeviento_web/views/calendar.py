@@ -749,62 +749,156 @@ _shanghai_days = [
         "/22.png"
     ),
     (
-        "🎄 Nochebuena en Shanghai 🎊",
-        """¡Vamos a celebrar la Nochebuena más épica en Shanghai! ¡Será una Navidad inolvidable! 🎆
+        "🎄 ¡Última noche antes del viaje! 🏮",
+        """¡Mañana es Nochebuena y pasado mañana... ¡NOS VAMOS A SHANGHAI! 🎄🏮
+¡Última noche para preparar todo y disfrutar de la emoción!
 
-**Reto del día:** Planifica cómo vas a celebrar la Nochebuena en Shanghai y compártelo con el grupo. ¡Vamos a crear recuerdos únicos! 🎯
+**Reto del día:** Haz una foto de tu maleta/equipaje preparado para Shanghai. ¡Incluye algo especial que te lleves! ¡El más organizado gana! 🧳✈️🏆
 
-**¿Qué nos espera?** Fuegos artificiales en el Bund, cena especial, brindis con vista al skyline... ¡Shanghai en Navidad es mágico! ✨
+**¿Qué nos espera?** Mañana cenamos con nuestras familias y pasado mañana... ¡VOLAMOS A SHANGHAI! ¡La aventura más épica comienza en 2 días!
 
-**¿Por qué es importante?** Celebrar Navidad en Shanghai será una experiencia única que recordarás toda la vida.
+**¿Por qué es importante?** Esta es la última noche en casa antes de la aventura más increíble de nuestras vidas.
 
-**Dato curioso:** Shanghai se ilumina de manera espectacular en Navidad. ¡Es una de las ciudades más bonitas del mundo!
+**Dato curioso:** Shanghai está a 9,000 km de distancia. ¡Vamos a cruzar medio mundo!
 
-**¿Sabías que...?** El Bund se convierte en un espectáculo de luces durante las fiestas navideñas.""",
-        "Celebrar en un lugar nuevo es crear recuerdos únicos. ¡Esta Navidad será la más especial! 🎄",
+**¿Sabías que...?** El vuelo dura aproximadamente 12 horas. ¡Tendremos Navidad en el aire!""",
+        "¡La aventura más épica de nuestras vidas comienza en 2 días! ¡Nochebuena + vuelo a Shanghai = ¡NAVIDAD PERFECTA!",
         """📋 **Checklist del día:**
-• ✅ Planifica celebración de Nochebuena
-• ✅ Comparte con el grupo
-• ✅ Reserva restaurante especial
-• ✅ Prepara brindis épico
+• ✅ Última revisión de maletas
+• ✅ Documentos finales
+• ✅ Cargadores y electrónicos
+• ✅ ¡Disfruta la última noche en casa!
 
 🍽️ **Gastronomía del día:**
-• Cena especial de Navidad
-• Comida tradicional china
-• Bebidas navideñas
-• Postres especiales
+• Última cena en casa
+• Comida favorita local
+• Bebidas especiales
+• Postres de despedida
 
 🏛️ **Lugares del día:**
-• 🎆 Bund (fuegos artificiales) - ¡ESPECTACULAR!
-• 🍽️ Restaurantes con vistas
-• 🎪 Centros comerciales navideños
-• 🏮 Barrios iluminados
+• 🏠 Casa - ¡Última noche!
+• 🧳 Maletas preparadas
+• 📱 Apps descargadas
+• ✈️ Documentos listos
 
 📱 **Apps y tecnología:**
-• Apps de eventos navideños
-• Reservas de restaurantes
-• Mapas de luces navideñas
-• Apps de transporte festivo
+• Alipay configurado
+• WeChat listo
+• Maps descargados
+• Traductor preparado
 
 🎭 **Cultura y tradiciones:**
-• Tradiciones navideñas chinas
-• Celebraciones locales
-• Costumbres festivas
-• Simbolismo navideño
+• Últimas tradiciones locales
+• Despedida familiar
+• Preparación emocional
+• ¡Emoción por Shanghai!
 
-💡 **Tip del día:** Reserva con antelación - ¡Shanghai en Navidad es muy popular!
+💡 **Tip del día:** ¡Última noche en casa! ¡Disfruta y descansa bien!
 
-🎯 **Reto extra:** Graba un video del brindis de Nochebuena con vista al Bund""",
+🎯 **Reto extra:** Graba un video de despedida antes del viaje""",
         "https://www.youtube.com/embed/b1LkyFaXHtI",
+        "/calendar_enhanced/23.png"
+    ),
+    (
+        "🎄 ¡Nochebuena épica! 🏮",
+        """¡HOY ES NOCHEBUENA! ¡Cenamos con nuestras familias y mañana... ¡NOS VAMOS A SHANGHAI! 🎄🏮
+¡Salimos a las 3 de la madrugada hacia Madrid, esperamos en el aeropuerto y volamos el 25 por la mañana!
+
+**Reto del día:** ¡Hoy cenamos con nuestras familias y mañana... ¡NOS VAMOS A SHANGHAI! 🎄✈️ Comparte una foto de tu cena navideña + tu cara de "¡mañana estoy en el avión!" ¡Que se note la emoción! ¡El más emocionado gana! 🏮🎊🏆
+
+**¿Qué nos espera?** Una cena navideña especial con la familia, despedidas emocionantes, y preparación para la aventura más épica.
+
+**¿Por qué es importante?** Es la última Nochebuena en casa antes de volar a Shanghai. ¡Momento único e irrepetible!
+
+**Dato curioso:** Pasaremos Navidad en el aire, volando hacia Shanghai. ¡Una Navidad literalmente por las nubes!
+
+**¿Sabías que...?** El vuelo sale a las 10 de la mañana del 25. ¡Navidad en el avión!""",
+        "¡La aventura más épica de nuestras vidas comienza MAÑANA! ¡Nochebuena + vuelo a Shanghai = ¡NAVIDAD PERFECTA!",
+        """📋 **Checklist del día:**
+• ✅ Cena navideña con familia
+• ✅ Despedidas emocionantes
+• ✅ Última revisión de maletas
+• ✅ ¡Salida a las 3 AM hacia Madrid!
+
+🍽️ **Gastronomía del día:**
+• Cena navideña especial
+• Comida familiar tradicional
+• Bebidas de celebración
+• Postres navideños
+
+🏛️ **Lugares del día:**
+• 🏠 Casa familiar - ¡Última cena!
+• 🚗 Camino a Madrid (3 AM)
+• ✈️ Aeropuerto de Madrid
+• 🛫 Preparación para el vuelo
+
+📱 **Apps y tecnología:**
+• Apps de vuelo activadas
+• Notificaciones de aeropuerto
+• Maps para llegar a Madrid
+• ¡Todo listo para Shanghai!
+
+🎭 **Cultura y tradiciones:**
+• Últimas tradiciones navideñas
+• Despedidas familiares
+• Emoción por el viaje
+• ¡Preparación para la aventura!
+
+💡 **Tip del día:** ¡Disfruta cada momento de la cena familiar!
+
+🎯 **Reto extra:** Graba un video del brindis navideño con la familia""",
+        "https://www.youtube.com/embed/9bZkp7q19f0",
         "/calendar_enhanced/24.png"
     ),
     (
-        "¡DÍA DEL VUELO! ✈️",
-        "¡HOY ES EL DÍA! ¡Nos vamos a Shanghai! ¡Que empiece la aventura más épica del año! 🎊🇨🇳",
-        "Hoy comienza la aventura que recordarás toda la vida.",
-        "• ¡Llegar temprano al aeropuerto!\n• Documentos a mano\n• ¡Actitud aventurera!\n• ¡Disfruta cada momento!",
-        "https://www.youtube.com/embed/9bZkp7q19f0",
-        "/24.png"
+        "✈️ ¡DÍA DEL VUELO A SHANGHAI! 🎊",
+        """¡HOY VOLAMOS A SHANGHAI! ¡Después de la Nochebuena épica, hoy es el gran día! ¡El avión nos lleva a la aventura más increíble!
+
+**Reto del día:** Haz una foto en el aeropuerto con tu mejor pose de "¡me voy a Shanghai!" ¡Que se note que es el día más emocionante! ¡El más épico gana! ✈️🎊🏆
+
+**¿Qué nos espera?** Un vuelo de 12 horas hacia Shanghai. ¡Pasaremos Navidad literalmente por las nubes!
+
+**¿Por qué es especial?** Es el día que hemos estado esperando durante 25 días. ¡La aventura más épica comienza ahora!
+
+**Dato curioso:** El vuelo cruza 9,000 km y 7 zonas horarias. ¡Vamos a cruzar medio mundo!
+
+**¿Sabías que...?** Llegaremos a Shanghai el 26 por la mañana. ¡Navidad en el aire y llegada épica!""",
+        "¡El avión despega y con él nuestros sueños! ¡Shanghai nos espera al otro lado del mundo!",
+        """📋 **Checklist del día:**
+• ✅ ¡Llegar temprano al aeropuerto!
+• ✅ Documentos a mano
+• ✅ ¡Actitud aventurera!
+• ✅ ¡Disfruta cada momento!
+
+🍽️ **Gastronomía del día:**
+• Comida del avión
+• Snacks para el vuelo
+• Bebidas especiales
+• ¡Navidad en el aire!
+
+🏛️ **Lugares del día:**
+• ✈️ Aeropuerto de Madrid - ¡DESPEGUE!
+• ☁️ Cielos internacionales
+• 🌍 Cruce de continentes
+• 🛬 Aeropuerto de Shanghai (mañana)
+
+📱 **Apps y tecnología:**
+• Apps de vuelo activas
+• Entretenimiento del avión
+• Maps de Shanghai
+• ¡Todo listo para aterrizar!
+
+🎭 **Cultura y tradiciones:**
+• Primera impresión de China
+• Cultura local
+• Tradiciones milenarias
+• Costumbres chinas
+
+💡 **Tip del día:** ¡Disfruta el vuelo! ¡Es parte de la aventura!
+
+🎯 **Reto extra:** Graba un video del despegue hacia Shanghai""",
+        "https://www.youtube.com/embed/WJd-BopESW0",
+        "/calendar_enhanced/25.png"
     ),
     (
         "🏮 ¡Llegamos a Shanghai! ✨",
@@ -812,13 +906,15 @@ _shanghai_days = [
 
 **¡MISIÓN CUMPLIDA!** Hemos llegado a Shanghai después de 25 días de preparación. ¡La aventura más épica comienza ahora! 🚀
 
+**Reto del día:** ¡Primera foto en Shanghai! Haz una foto en el aeropuerto con tu mejor pose de "¡HEMOS LLEGADO!" ¡Que se note la emoción! ¡El más emocionado gana! 🏮🎊🏆
+
 **¿Qué nos espera?** Una ciudad llena de sorpresas, cultura milenaria, tecnología futurista... ¡Shanghai nos espera! 🌟
 
 **¿Por qué es especial?** Este es el momento que hemos estado esperando durante 25 días. ¡Cada preparación ha valido la pena!
 
 **Dato curioso:** Shanghai recibe más de 30 millones de turistas al año. ¡Somos parte de esa estadística!
 
-**¿Sabías que...?** Hay cosas que no sabías antes de viajar que te habrían ayudado mucho.""",
+**¿Sabías que...?** Llegamos el 26 por la mañana después de volar toda la Navidad!""",
         "¡Hemos llegado! Ahora comienza la verdadera aventura. ¡Que empiece la magia de Shanghai! 🏮",
         """📋 **Checklist del día:**
 • ✅ ¡Bienvenidos a Shanghai!
@@ -856,11 +952,11 @@ _shanghai_days = [
 
 🎯 **Reto extra:** Graba un video de tu primera impresión de Shanghai""",
         "https://www.youtube.com/embed/WJd-BopESW0",
-        "/calendar_enhanced/25.png"
+        "/calendar_enhanced/26.png"
     )
 ]
 
-_current_day = len(_shanghai_days) - 1
+_current_day = len(_shanghai_days) - 1  # Ahora tenemos 26 días (1-25 + llegada el 26)
 
 
 def _is_day_available(day_number: int) -> bool:

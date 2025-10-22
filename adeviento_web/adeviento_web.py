@@ -91,8 +91,8 @@ app.add_page(
 
 # Páginas de administración eliminadas - usando sistema manual de mensajes
 
-# Añadir páginas para cada día del calendario (1-25)
-for day_num in range(1, 26):
+# Añadir páginas para cada día del calendario (1-26)
+for day_num in range(1, 27):
     day_title = f"Día {day_num} - Calendario de Adviento Shanghai 2025"
     day_description = f"Sorpresa del día {day_num} para nuestro viaje a Shanghai"
     
