@@ -34,5 +34,5 @@ RUN find . -name "web" -type d || echo "No web directory found"
 # Expose port
 EXPOSE 8000
 
-# Start the application with single-port mode (Railway PORT)
-CMD ["sh", "-c", "python -m reflex run --env prod --single-port ${PORT:-8000} --host 0.0.0.0"]
+# Start the application with single-port mode (Railway PORT) and bind backend host
+CMD ["sh", "-c", "python -m reflex run --env prod --single-port ${PORT:-8000} --backend-host 0.0.0.0"]
