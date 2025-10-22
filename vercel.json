@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "adeviento_web.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9"
+      }
     },
     {
       "src": "web/**",
@@ -19,10 +22,5 @@
       "src": "/(.*)",
       "dest": "/web/$1"
     }
-  ],
-  "functions": {
-    "adeviento_web.py": {
-      "runtime": "python3.9"
-    }
-  }
+  ]
 }
