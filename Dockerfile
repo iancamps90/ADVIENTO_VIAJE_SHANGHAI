@@ -27,4 +27,4 @@ RUN python -m reflex export --frontend-only
 EXPOSE 8000
 
 # Start the application
-CMD ["python", "-m", "reflex", "run", "--env", "prod", "--port", "8000", "--host", "0.0.0.0"]
+CMD ["sh", "-c", "python -m reflex run --env prod --port ${PORT:-8000} --host 0.0.0.0"]

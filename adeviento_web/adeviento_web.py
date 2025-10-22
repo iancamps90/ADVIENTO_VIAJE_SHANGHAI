@@ -110,3 +110,8 @@ for day_num in range(1, 26):
             {"name": "twitter:site", "content": "@shanghaiadvent"}
         ]
     )
+
+# Healthcheck endpoint for Railway
+@rx.page(route="/health")
+def health_check() -> rx.Component:
+    return rx.text("OK", status_code=200)
