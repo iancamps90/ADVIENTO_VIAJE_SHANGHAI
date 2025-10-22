@@ -24,9 +24,11 @@ COPY . .
 # Set environment variables
 ENV PYTHONPATH=/app
 ENV REFLEX_ENV=prod
+ENV ALLOWED_HOSTS=*
 
 # Expose port
 EXPOSE 8000
 
 # Start the application
-CMD bash -c "reflex run --env prod --backend-port ${PORT:-8000}"
+CMD ["bash", "-c", "reflex run --env prod --frontend-port ${PORT:-8000} --backend-port ${PORT:-8000}"]
+
