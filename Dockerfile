@@ -5,6 +5,7 @@ WORKDIR /app
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     curl \
+    unzip \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Node.js
@@ -14,6 +15,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
 # Copy requirements and install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade reflex
 
 # Copy the application
 COPY . .
