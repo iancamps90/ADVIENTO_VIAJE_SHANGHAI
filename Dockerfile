@@ -23,8 +23,11 @@ COPY . .
 # Build the frontend
 RUN python -m reflex export --frontend-only
 
+# Copy static files to the correct location
+RUN cp -r web/_static/* /app/
+
 # Expose port
 EXPOSE 8000
 
 # Start the application
-CMD ["python", "-m", "reflex", "run", "--env", "prod", "--port", "8000"]
+CMD ["python", "-m", "reflex", "run", "--env", "prod", "--port", "8000", "--host", "0.0.0.0"]
