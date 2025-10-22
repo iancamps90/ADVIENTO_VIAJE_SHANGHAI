@@ -1,0 +1,13 @@
+[reflex]
+# Configuración para el despliegue
+app_name = "adeviento_web"
+frontend_port = 3000
+backend_port = 8000
+
+# Configuración de build
+export = true
+export_dir = "web"
+
+# Configuración de producción
+api_url = "https://your-app.vercel.app"
+frontend_url = "https://your-app.vercel.app"
