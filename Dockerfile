@@ -23,8 +23,12 @@ COPY . .
 # Build the frontend (static export handled by Reflex; no manual copy needed)
 RUN python -m reflex export --frontend-only
 
+# List contents to see where the export went
+RUN ls -la web/ || echo "web directory not found"
+RUN find . -name "*.html" -type f | head -10 || echo "No HTML files found"
+
 # Expose port
 EXPOSE 8000
 
 # Start a simple static server for the exported app
-CMD ["sh", "-c", "cd web/_static && python -m http.server ${PORT:-8000}"]
+CMD ["sh", "-c", "cd web && python -m http.server ${PORT:-8000}"]
