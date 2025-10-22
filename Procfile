@@ -1,1 +1,1 @@
-web: reflex run --env prod --port $PORT
+web: reflex run --env prod --backend-port $PORT
