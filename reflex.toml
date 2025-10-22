@@ -9,5 +9,6 @@ export = true
 export_dir = "web"
 
 # Configuración de producción
-api_url = "https://your-app.vercel.app"
-frontend_url = "https://your-app.vercel.app"
+# Actualiza estas URLs con tu dominio real de Vercel
+api_url = "https://adviento-viaje-shanghai.vercel.app"
+frontend_url = "https://adviento-viaje-shanghai.vercel.app"
