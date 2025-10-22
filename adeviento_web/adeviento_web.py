@@ -9,7 +9,7 @@ from adeviento_web.views.day_detail import day_detail
 # from adeviento_web.views.webhook import admin_panel  # Eliminado - no necesitamos webhooks
 from adeviento_web.components.countdown import countdown_timer, countdown_script
 from adeviento_web.components.special_effects import special_effects_script, countdown_enhanced
-from starlette.responses import JSONResponse
+
 
 title = "Calendario de Adviento Shanghai 2025 | 25 días. 25 sorpresas para el viaje"
 description = "¡Calendario de adviento personalizado para nuestro viaje a Shanghai! Del 1 al 25 de diciembre de 2025, cada día una nueva sorpresa para calentar el viaje."
@@ -112,6 +112,6 @@ for day_num in range(1, 26):
         ]
     )
 
-@app.get("/health")
-def health_check():
-    return JSONResponse({"status": "ok"}, status_code=200)
+@rx.page(route="/health")
+def health_check() -> rx.Component:
+    return rx.text("ok")
