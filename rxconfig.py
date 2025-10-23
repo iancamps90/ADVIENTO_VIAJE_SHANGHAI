@@ -1,8 +1,8 @@
 import reflex as rx
 import os
 
-# Detecta si estás en Render o local
-backend_url = os.getenv("BACKEND_URL", "http://localhost:8000")
+# Detecta automáticamente el backend_url
+backend_url = os.getenv("BACKEND_URL", "http://localhost:8080")
 
 config = rx.Config(
     app_name="adeviento_web",
