@@ -1,8 +1,8 @@
 FROM python:3.11-slim
 
-# Instalar dependencias del sistema
+# Instalar dependencias mínimas del sistema
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl unzip \
+    curl \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
@@ -23,10 +23,9 @@ ENV PYTHONPATH=/app
 ENV REFLEX_ENV=prod
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
-ENV PORT=10000
+# Railway inyecta $PORT dinámicamente
+EXPOSE 8000
 
-EXPOSE 10000
-
-# Render solo necesita el backend escuchando
-CMD ["reflex", "run", "--env", "prod", "--backend-host", "0.0.0.0", "--backend-port", "10000", "--backend-only"]
+# Ejecutar el script de inicio
+CMD ["python", "start.py"]
 

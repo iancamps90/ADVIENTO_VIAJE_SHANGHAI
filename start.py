@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-port = os.getenv("PORT", "10000")
+port = os.getenv("PORT", "8000")
 
 print(f"🚀 Starting Reflex backend on port {port}")
 
