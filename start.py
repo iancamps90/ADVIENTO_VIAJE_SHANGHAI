@@ -6,8 +6,9 @@ import threading
 import time
 
 # Obtener puerto desde Railway
-port = os.getenv("PORT", "8080")
-print(f"🚀 Starting Reflex backend on port {port}")
+railway_port = os.getenv("PORT", "8080")
+reflex_port = "8081"  # Puerto separado para Reflex
+print(f"🚀 Starting Reflex backend on port {reflex_port}")
 
 # Servidor de healthcheck simple
 class HealthHandler(BaseHTTPRequestHandler):
@@ -26,8 +27,8 @@ class HealthHandler(BaseHTTPRequestHandler):
 
 def start_healthcheck_server():
     try:
-        server = HTTPServer(("0.0.0.0", 8080), HealthHandler)
-        print("🏥 Health check server running on port 8080")
+        server = HTTPServer(("0.0.0.0", int(railway_port)), HealthHandler)
+        print(f"🏥 Health check server running on port {railway_port}")
         server.serve_forever()
     except Exception as e:
         print(f"❌ Health check server error: {e}")
@@ -49,9 +50,9 @@ cmd = [
     "run",
     "--env", "prod",
     "--backend-host", "0.0.0.0",
-    "--backend-port", port,
+    "--backend-port", reflex_port,
     "--loglevel", "warning"
 ]
 
-print(f"🎯 Starting Reflex on port {port}")
+print(f"🎯 Starting Reflex on port {reflex_port}")
 subprocess.run(cmd, check=True)
