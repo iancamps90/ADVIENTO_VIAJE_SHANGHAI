@@ -643,39 +643,15 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La magia sucede fuera de tu zona de confort.",
-        """📋 **Checklist del día:**
-• ✅ Abraza lo desconocido
-• ✅ Sé valiente
-• ✅ ¡Vive la aventura!
-• ✅ Comparte tu emoción
-
-🍽️ **Gastronomía del día:**
-• Última comida favorita local
-• Comida que extrañarás
-• Bebidas especiales
-• Postres de despedida
-
-🏛️ **Lugares del día:**
+        """💪 **Preparándote para la aventura:**
 • 🏠 Lugares favoritos de tu ciudad
 • 🍽️ Restaurantes que extrañarás
 • 🌳 Parques locales
 • 🏛️ Lugares con recuerdos
 
-📱 **Apps y tecnología:**
-• Apps de video
-• Redes sociales
-• Apps de motivación
-• Calendario de cuenta atrás
+💡 **Dato curioso:** Shanghai está a 9,000 km de distancia. ¡Vamos a cruzar medio mundo!
 
-🎭 **Cultura y tradiciones:**
-• Últimas tradiciones locales
-• Despedidas emocionales
-• Preparación mental
-• ¡Emoción por Shanghai!
-
-💡 **Tip del día:** La aventura comienza con la decisión
-
-🎯 **Reto extra:** Graba un video motivacional para el grupo""",
+🚀 **Consejo de experto:** Abraza lo desconocido y sé valiente - la magia sucede fuera de tu zona de confort.""",
         "https://www.youtube.com/embed/motivation-travel",
         "/calendar_enhanced/21.png"
     ),
@@ -698,39 +674,15 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La emoción es el mejor equipaje para cualquier viaje.",
-        """📋 **Checklist del día:**
-• ✅ ¡Mantén la emoción!
-• ✅ Comparte con el grupo
-• ✅ ¡Prepara la cuenta atrás final!
-• ✅ ¡Disfruta estos últimos días!
-
-🍽️ **Gastronomía del día:**
-• Comida de celebración
-• Bebidas especiales
-• Postres de cuenta atrás
-• ¡Últimas comidas locales!
-
-🏛️ **Lugares del día:**
+        """⏰ **Últimos días antes del viaje:**
 • 🏠 Casa - ¡últimos días!
 • 🍽️ Restaurantes favoritos
 • 🌳 Lugares especiales
 • 🏛️ Lugares con recuerdos
 
-📱 **Apps y tecnología:**
-• Apps de cuenta atrás
-• Redes sociales
-• Apps de emoción
-• Calendario final
+💡 **Dato curioso:** En 3 días estaremos volando hacia Shanghai. ¡El tiempo vuela cuando te diviertes!
 
-🎭 **Cultura y tradiciones:**
-• Últimas tradiciones locales
-• Despedidas emocionales
-• Preparación final
-• ¡Emoción por Shanghai!
-
-💡 **Tip del día:** ¡Disfruta cada momento de la cuenta atrás!
-
-🎯 **Reto extra:** Crea un video de cuenta atrás épico""",
+⏰ **Consejo de experto:** Mantén la emoción y comparte con el grupo - ¡estos últimos días son especiales!""",
         "https://www.youtube.com/embed/countdown-shanghai",
         "/calendar_enhanced/22.png"
     ),
@@ -754,39 +706,15 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡La aventura más épica de nuestras vidas comienza en 2 días! ¡Nochebuena + vuelo a Shanghai = ¡NAVIDAD PERFECTA!",
-        """📋 **Checklist del día:**
-• ✅ Última revisión de maletas
-• ✅ Documentos finales
-• ✅ Cargadores y electrónicos
-• ✅ ¡Disfruta la última noche en casa!
-
-🍽️ **Gastronomía del día:**
-• Última cena en casa
-• Comida favorita local
-• Bebidas especiales
-• Postres de despedida
-
-🏛️ **Lugares del día:**
+        """🎄 **Última noche antes del viaje:**
 • 🏠 Casa - ¡Última noche!
 • 🧳 Maletas preparadas
 • 📱 Apps descargadas
 • ✈️ Documentos listos
 
-📱 **Apps y tecnología:**
-• Alipay configurado
-• WeChat listo
-• Maps descargados
-• Traductor preparado
+💡 **Dato curioso:** El vuelo dura aproximadamente 12 horas. ¡Tendremos Navidad en el aire!
 
-🎭 **Cultura y tradiciones:**
-• Últimas tradiciones locales
-• Despedida familiar
-• Preparación emocional
-• ¡Emoción por Shanghai!
-
-💡 **Tip del día:** ¡Última noche en casa! ¡Disfruta y descansa bien!
-
-🎯 **Reto extra:** Graba un video de despedida antes del viaje""",
+🎄 **Consejo de experto:** Disfruta la última noche en casa y prepárate para la aventura más épica de nuestras vidas.""",
         "https://www.youtube.com/embed/b1LkyFaXHtI",
         "/calendar_enhanced/23.png"
     ),
@@ -810,39 +738,15 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡La aventura más épica de nuestras vidas comienza MAÑANA! ¡Nochebuena + vuelo a Shanghai = ¡NAVIDAD PERFECTA!",
-        """📋 **Checklist del día:**
-• ✅ Cena navideña con familia
-• ✅ Despedidas emocionantes
-• ✅ Última revisión de maletas
-• ✅ ¡Salida a las 3 AM hacia Madrid!
-
-🍽️ **Gastronomía del día:**
-• Cena navideña especial
-• Comida familiar tradicional
-• Bebidas de celebración
-• Postres navideños
-
-🏛️ **Lugares del día:**
+        """🎄 **Nochebuena épica:**
 • 🏠 Casa familiar - ¡Última cena!
 • 🚗 Camino a Madrid (3 AM)
 • ✈️ Aeropuerto de Madrid
 • 🛫 Preparación para el vuelo
 
-📱 **Apps y tecnología:**
-• Apps de vuelo activadas
-• Notificaciones de aeropuerto
-• Maps para llegar a Madrid
-• ¡Todo listo para Shanghai!
+💡 **Dato curioso:** El vuelo sale a las 10 de la mañana del 25. ¡Navidad en el avión!
 
-🎭 **Cultura y tradiciones:**
-• Últimas tradiciones navideñas
-• Despedidas familiares
-• Emoción por el viaje
-• ¡Preparación para la aventura!
-
-💡 **Tip del día:** ¡Disfruta cada momento de la cena familiar!
-
-🎯 **Reto extra:** Graba un video del brindis navideño con la familia""",
+🎄 **Consejo de experto:** Disfruta la cena navideña con la familia y prepárate para la aventura más épica de nuestras vidas.""",
         "https://www.youtube.com/embed/9bZkp7q19f0",
         "/calendar_enhanced/24.png"
     ),
@@ -865,39 +769,15 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡El avión despega y con él nuestros sueños! ¡Shanghai nos espera al otro lado del mundo!",
-        """📋 **Checklist del día:**
-• ✅ ¡Llegar temprano al aeropuerto!
-• ✅ Documentos a mano
-• ✅ ¡Actitud aventurera!
-• ✅ ¡Disfruta cada momento!
-
-🍽️ **Gastronomía del día:**
-• Comida del avión
-• Snacks para el vuelo
-• Bebidas especiales
-• ¡Navidad en el aire!
-
-🏛️ **Lugares del día:**
+        """✈️ **Día del vuelo a Shanghai:**
 • ✈️ Aeropuerto de Madrid - ¡DESPEGUE!
 • ☁️ Cielos internacionales
 • 🌍 Cruce de continentes
 • 🛬 Aeropuerto de Shanghai (mañana)
 
-📱 **Apps y tecnología:**
-• Apps de vuelo activas
-• Entretenimiento del avión
-• Maps de Shanghai
-• ¡Todo listo para aterrizar!
+💡 **Dato curioso:** El vuelo cruza 9,000 km y 7 zonas horarias. ¡Vamos a cruzar medio mundo!
 
-🎭 **Cultura y tradiciones:**
-• Primera impresión de China
-• Cultura local
-• Tradiciones milenarias
-• Costumbres chinas
-
-💡 **Tip del día:** ¡Disfruta el vuelo! ¡Es parte de la aventura!
-
-🎯 **Reto extra:** Graba un video del despegue hacia Shanghai""",
+✈️ **Consejo de experto:** Disfruta cada momento del vuelo - ¡es parte de la aventura!""",
         "https://www.youtube.com/embed/WJd-BopESW0",
         "/calendar_enhanced/25.png"
     ),
@@ -920,19 +800,7 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡Hemos llegado! Ahora comienza la verdadera aventura. ¡Que empiece la magia de Shanghai! 🏮",
-        """📋 **Checklist del día:**
-• ✅ ¡Bienvenidos a Shanghai!
-• ✅ Primera foto en el aeropuerto
-• ✅ Activar Alipay y apps
-• ✅ ¡Explora la ciudad!
-
-🍽️ **Gastronomía del día:**
-• Primera comida en Shanghai
-• Xiaolongbao auténtico
-• Té chino tradicional
-• Comida callejera
-
-🏛️ **Lugares del día:**
+        """🏮 **Llegada a Shanghai:**
 • 🏮 Aeropuerto de Shanghai - ¡PRIMER CONTACTO!
 • 🌃 Bund - Vistas espectaculares
 • 🏙️ Torre de Shanghai - Skyline
@@ -940,21 +808,9 @@ _shanghai_days = [
 • 🚇 Metro de Shanghai - Movilidad
 • 🍜 Mercados de comida - Autenticidad
 
-📱 **Apps y tecnología:**
-• Alipay (pagos)
-• WeChat (comunicación)
-• Maps (navegación)
-• Google Translate (idioma)
+💡 **Dato curioso:** Shanghai recibe más de 30 millones de turistas al año. ¡Somos parte de esa estadística!
 
-🎭 **Cultura y tradiciones:**
-• Primera impresión de China
-• Cultura local
-• Tradiciones milenarias
-• Costumbres chinas
-
-💡 **Tip del día:** Disfruta cada momento - ¡Shanghai te sorprenderá!
-
-🎯 **Reto extra:** Graba un video de tu primera impresión de Shanghai""",
+🏮 **Consejo de experto:** Disfruta cada momento de la llegada - ¡es el comienzo de la aventura más épica de nuestras vidas!""",
         "https://www.youtube.com/embed/WJd-BopESW0",
         "/calendar_enhanced/26.png"
     )
