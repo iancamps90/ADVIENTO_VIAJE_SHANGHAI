@@ -1,17 +1,30 @@
 FROM python:3.11-slim
 
-RUN apt-get update && apt-get install -y unzip curl wget && rm -rf /var/lib/apt/lists/*
+# Instalar solo dependencias mínimas necesarias
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get clean
 
 WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
 
+# Copiar solo archivos necesarios para reducir tamaño de imagen
+COPY requirements.txt .
+RUN pip install --no-cache-dir --no-deps -r requirements.txt
+
+# Copiar solo archivos esenciales
+COPY adeviento_web/ ./adeviento_web/
+COPY rxconfig.py .
+COPY start.py .
+
+# Variables de entorno para optimizar memoria
 ENV PYTHONPATH=/app
 ENV REFLEX_ENV=prod
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
 
-EXPOSE 10000
+# No exponer puerto específico - Render lo maneja
+EXPOSE 8000
 
-# Usa solo backend: Reflex no recompila frontend cada vez
-ENTRYPOINT ["/bin/bash", "-c"]
-CMD ["reflex run --env prod --backend-host 0.0.0.0 --backend-port ${PORT:-10000} --frontend-port ${PORT:-10000} --no-frontend"]
+# Usar start.py que ya tiene la configuración optimizada
+CMD ["python", "start.py"]

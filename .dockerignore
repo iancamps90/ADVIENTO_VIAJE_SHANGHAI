@@ -1,0 +1,83 @@
+# Archivos de desarrollo
+.git
+.gitignore
+README.md
+*.md
+.env
+.env.local
+.env.prod
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Archivos de build
+.web/
+.states/
+frontend/
+assets/
+public/
+api/
+config/
+services/
+shanghai-advent-calendar/
+
+# Archivos de deployment
+.vercel/
+.github/
+vercel.json
+railway.json
+railway.toml
+railway.env
+nixpacks.toml
+app.json
+build.sh
+local_build.sh
+
+# Archivos de backup
+*.zip
+*.tar.gz
+backend.zip
+frontend.zip
+
+# Archivos de desarrollo
+añadir-videos.py
+expandir-contenido.py
+contenido_dias_plantilla.md
+estructura-dias-mejorada.md
