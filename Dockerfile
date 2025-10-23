@@ -24,7 +24,8 @@ ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 
 # Render inyecta $PORT dinámicamente
-EXPOSE 8000
+EXPOSE 10000
 
-# Usar start.py que maneja el puerto correctamente
-CMD ["python", "start.py"]
+# Lanzar Reflex escuchando en 0.0.0.0 y el puerto de Render
+ENTRYPOINT ["/bin/bash", "-c"]
+CMD ["reflex run --env prod --backend-host 0.0.0.0 --backend-port ${PORT:-10000} --frontend-port ${PORT:-10000} --no-frontend"]
