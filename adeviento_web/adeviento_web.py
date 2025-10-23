@@ -71,6 +71,12 @@ gtag('config', 'G-Y6GDVB3FJB');
 """
         ),
     ],
+    cors_allowed_origins=[
+        "https://shanghai-front.vercel.app",
+        "https://*.vercel.app",
+        "http://localhost:3000",
+        "http://localhost:8000"
+    ],
 )
 
 
