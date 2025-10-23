@@ -430,42 +430,92 @@ _shanghai_days = [
         "/calendar_enhanced/11.png"
     ),
     (
-        "🎵 Música y entretenimiento 🎪",
-        "¡Shanghai nunca duerme! ¡Descubramos su vibrante escena musical y de entretenimiento! 🎶\n\n**Reto del día:** Busca una canción china famosa y compártela con el grupo. ¡Vamos a ampliar nuestro repertorio musical! 🎵\n\n**¿Qué nos espera?** Karaoke, conciertos, shows tradicionales, discotecas... ¡Shanghai es pura energía! ⚡",
+        "🎵 ¡MÚSICA Y ENTRETENIMIENTO! 🎪",
+        """¡Shanghai nunca duerme! ¡Descubramos su vibrante escena musical y de entretenimiento! 🎶
+
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO MUSICAL ÉPICO! Busca una canción china famosa y compártela con el grupo. ¡Luego graba un video cantándola (aunque no sepas chino) con tu mejor voz! ¡El más valiente gana! 🎵🎬🏆
+
+🧳 **Preparativos de maleta:**
+• 🎤 Prepara tu repertorio de karaoke
+• 📱 Descarga apps de música china
+• 🎧 Prepara auriculares para practicar
+• 🎯 Investiga sobre música tradicional
+
+💡 **Tip del día:** El karaoke es una actividad social muy importante - ¡atrévete a cantar!
+
+🎥 **Video del día:** Graba un video cantando una canción china con música épica y texto: "Día 12 – Música y entretenimiento 🎵🎪"
+
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Cada día es una página nueva en el libro de tu vida. ¡Cada canción que escuchemos será la banda sonora de nuestra aventura! 🎵",
         "🎵 **Entretenimiento en Shanghai:**\n• 🎤 Karaoke (KTV) - ¡muy popular!\n• 🎭 Ópera china tradicional\n• 🎪 Shanghai Circus World\n• 🎵 Conciertos en Mercedes-Benz Arena\n• 🕺 Discotecas en Xintiandi\n• 🎨 Shows de acrobacias\n\n💡 **Tip del día:** El karaoke es una actividad social muy importante - ¡atrévete a cantar!",
         "https://www.youtube.com/embed/shanghai-entertainment",
         "/calendar_enhanced/12.png"
     ),
     (
-        "🏃‍♂️ Deportes y actividades 🧘‍♀️",
-        "¡Shanghai es perfecta para mantenerse activo! ¡Descubramos sus mejores actividades deportivas! 🏃‍♀️\n\n**Reto del día:** ¡DESAFÍO DEPORTIVO ÉPICO! Busca una actividad deportiva de Shanghai que te gustaría probar y haz un video imitándola. ¡Luego grita '¡EN SHANGHAI SERÉ DEPORTISTA!' ¡El más atlético gana! 🏃‍♂️🎬🏆\n\n**¿Qué nos espera?** Tai Chi en el parque, ciclismo, running, yoga... ¡Shanghai es saludable! 🌱",
+        "🏃‍♂️ ¡DEPORTES Y ACTIVIDADES! 🧘‍♀️",
+        """¡Shanghai es perfecta para mantenerse activo! ¡Descubramos sus mejores actividades deportivas! 🏃‍♀️
+
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO DEPORTIVO ÉPICO! Busca una actividad deportiva de Shanghai que te gustaría probar y haz un video imitándola. ¡Luego grita '¡EN SHANGHAI SERÉ DEPORTISTA!' ¡El más atlético gana! 🏃‍♂️🎬🏆
+
+🧳 **Preparativos de maleta:**
+• 👟 Prepara ropa deportiva cómoda
+• 🧘‍♀️ Investiga sobre Tai Chi
+• 🚴‍♂️ Busca rutas de ciclismo
+• 🎯 Planifica actividades matutinas
+
+💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!
+
+🎥 **Video del día:** Graba un video haciendo ejercicio con música épica y texto: "Día 13 – Deportes y actividades 🏃‍♂️🧘‍♀️"
+
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Las mejores compras son las que cuentan una historia. ¡Cada actividad deportiva será una historia de superación! 🏃‍♂️",
         "🏃‍♂️ **Actividades deportivas:**\n• 🧘‍♀️ Tai Chi en People's Park\n• 🚴‍♂️ Ciclismo por el Bund\n• 🏃‍♀️ Running en Century Park\n• 🧘‍♂️ Yoga en Xintiandi\n• 🏊‍♀️ Natación en hoteles\n• 🎾 Tenis en clubes locales\n\n💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!",
         "https://www.youtube.com/embed/shanghai-sports-activities",
         "/calendar_enhanced/13.png"
     ),
     (
-        "💻 Tecnología china 🚀",
-        "¡Shanghai es el Silicon Valley de Asia! ¡Descubramos las innovaciones tecnológicas más increíbles! 🤖\n\n**Reto del día:** Investiga sobre una empresa tecnológica china famosa (Alibaba, Tencent, Baidu) y comparte un dato curioso. ¡Vamos a ser tech-savvy! 💡\n\n**¿Qué nos espera?** Pagos móviles, delivery súper rápido, ciudades inteligentes... ¡Shanghai es el futuro! 🌟",
+        "💻 ¡TECNOLOGÍA CHINA! 🚀",
+        """¡Shanghai es el Silicon Valley de Asia! ¡Descubramos las innovaciones tecnológicas más increíbles! 🤖
+
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO TECH ÉPICO! Investiga sobre una empresa tecnológica china famosa (Alibaba, Tencent, Baidu) y comparte un dato curioso. ¡Luego graba un video explicando por qué es genial! ¡El más tech-savvy gana! 💡🎬🏆
+
+🧳 **Preparativos de maleta:**
+• 📱 Configura todas las apps chinas
+• 💳 Prueba pagos móviles
+• 🚚 Investiga sobre delivery
+• 🎯 Prepara para la ciudad inteligente
+
+💡 **Tip del día:** Todo se paga con el móvil - ¡incluso en mercados callejeros!
+
+🎥 **Video del día:** Graba un video explicando tecnología china con música épica y texto: "Día 14 – Tecnología china 💻🚀"
+
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Moverse como un local es la mejor forma de conocer una ciudad. ¡Cada innovación tecnológica nos muestra el futuro! 💻",
         "💻 **Tecnología en Shanghai:**\n• 📱 Pagos móviles (Alipay/WeChat Pay)\n• 🚚 Delivery súper rápido (30 min)\n• 🚇 Metro inteligente\n• 🤖 Taxis autónomos\n• 🏪 Tiendas sin cajeros\n• 🚲 Bicicletas compartidas inteligentes\n\n💡 **Tip del día:** Todo se paga con el móvil - ¡incluso en mercados callejeros!",
         "https://www.youtube.com/embed/shanghai-technology-innovation",
         "/calendar_enhanced/14.png"
     ),
     (
-        "🌃 Vida nocturna en Shanghai 🍸",
+        "🌃 ¡VIDA NOCTURNA EN SHANGHAI! 🍸",
         """¡Shanghai nunca duerme! ¡Descubramos su vibrante vida nocturna! 🌙
 
-**Reto del día:** Busca un bar o club famoso de Shanghai y compártelo con el grupo. ¡Vamos a planificar nuestras noches épicas! 🍻
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO NOCTURNO ÉPICO! Busca un bar o club famoso de Shanghai y compártelo con el grupo. ¡Luego graba un video imitando un cóctel que te gustaría pedir! ¡El más creativo gana! 🍻🎬🏆
 
-**¿Qué nos espera?** Bares con vistas, discotecas, karaoke, shows... ¡Shanghai es pura energía nocturna! ⚡
+🧳 **Preparativos de maleta:**
+• 👔 Prepara ropa para salir de noche
+• 🍸 Investiga cócteles famosos
+• 📱 Descarga apps de bares
+• 🎯 Planifica rutas nocturnas
 
-**¿Por qué es importante?** La vida nocturna de Shanghai es legendaria. ¡Es una experiencia que no te puedes perder!
+💡 **Tip del día:** Shanghai tiene más de 10,000 bares y clubs. ¡Imposible visitarlos todos!
 
-**Dato curioso:** Shanghai tiene más de 10,000 bares y clubs. ¡Imposible visitarlos todos!
+🎥 **Video del día:** Graba un video preparando un cóctel con música épica y texto: "Día 15 – Vida nocturna 🌃🍸"
 
-**¿Sabías que...?** El Bund se ilumina de manera espectacular por la noche, creando un skyline único.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La noche es joven y Shanghai nos espera. ¡Cada copa que tomemos será un brindis por la aventura! 🌃",
         """📋 **Checklist del día:**
 • ✅ Busca bar o club famoso
