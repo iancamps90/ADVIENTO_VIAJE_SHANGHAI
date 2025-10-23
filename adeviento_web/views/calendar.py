@@ -549,41 +549,16 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La naturaleza es el mejor antídoto contra el estrés urbano. ¡Cada parque es un refugio de paz! 🌿",
-        """📋 **Checklist del día:**
-• ✅ Investiga sobre Wuzhen
-• ✅ Comparte por qué te gustaría visitarla
-• ✅ Planifica rutas de naturaleza
-• ✅ Descubre parques locales
-
-🍽️ **Gastronomía del día:**
-• Comida en parques
-• Picnics tradicionales
-• Té en jardines
-• Comida local en Wuzhen
-
-🏛️ **Lugares del día:**
+        """🌿 **Parques y naturaleza en Shanghai:**
 • 🌿 Yu Garden (jardín clásico) - ¡IMPRESCINDIBLE!
 • 🌸 Century Park (parque moderno) - Grande
 • 🌳 Zhongshan Park (parque histórico) - Tradición
 • 🏮 Wuzhen (ciudad acuática) - ¡MÁGICA!
 • 🌊 Huangpu Park (junto al río) - Vistas
-• 🌺 Fuxing Park (parque francés) - Estilo europeo
 
-📱 **Apps y tecnología:**
-• Apps de parques
-• Guías de naturaleza
-• Mapas de senderos
-• Apps de turismo
+💡 **Dato curioso:** Wuzhen es una ciudad acuática de 1,300 años considerada la Venecia de China.
 
-🎭 **Cultura y tradiciones:**
-• Jardines tradicionales chinos
-• Filosofía del Feng Shui
-• Tradiciones de la naturaleza
-• Simbolismo de plantas
-
-💡 **Tip del día:** Los jardines chinos están diseñados para la meditación - ¡disfruta la paz!
-
-🎯 **Reto extra:** Graba un video en un jardín tradicional chino""",
+🌿 **Consejo de experto:** Visita los jardines por la mañana temprano para evitar multitudes y disfrutar de la tranquilidad.""",
         "https://www.youtube.com/embed/SkWSR6EgS3I",
         "/calendar_enhanced/18.png"
     ),
@@ -606,39 +581,15 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Los recuerdos son el único tesoro que aumenta con el tiempo.",
-        """📋 **Checklist del día:**
-• ✅ Haz foto de algo que te recuerde a Shanghai
-• ✅ Comparte con el grupo
-• ✅ Documenta tu progreso
-• ✅ ¡Crea recuerdos únicos!
-
-🍽️ **Gastronomía del día:**
-• Comida que te recuerde a China
-• Restaurante chino local
-• Ingredientes asiáticos
-• Té chino tradicional
-
-🏛️ **Lugares del día:**
+        """💭 **Creando recuerdos únicos:**
 • 🏮 Tiendas de productos chinos
 • 🐉 Estatuas o decoraciones asiáticas
 • 🏛️ Museos con arte oriental
 • 🌸 Jardines con estilo asiático
 
-📱 **Apps y tecnología:**
-• Apps de fotografía
-• Google Photos (backup)
-• Apps de recuerdos
-• Redes sociales
+💡 **Dato curioso:** Los recuerdos se fortalecen cuando los compartes con otros.
 
-🎭 **Cultura y tradiciones:**
-• Simbolismo chino
-• Tradiciones locales
-• Arte asiático
-• Filosofía oriental
-
-💡 **Tip del día:** Los recuerdos se fortalecen cuando los compartes
-
-🎯 **Reto extra:** Crea un álbum digital de preparación para Shanghai""",
+📸 **Consejo de experto:** Haz fotos de elementos chinos en tu ciudad para crear conexiones visuales con Shanghai.""",
         "https://www.youtube.com/embed/memories-shanghai",
         "/calendar_enhanced/19.png"
     ),
@@ -661,39 +612,15 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Los últimos detalles son los que marcan la diferencia.",
-        """📋 **Checklist del día:**
-• ✅ Lista final de maletas
-• ✅ Cargadores y adaptadores
-• ✅ Medicinas básicas
-• ✅ ¡Actitud aventurera!
-
-🍽️ **Gastronomía del día:**
-• Snacks para el viaje
-• Medicinas para el estómago
-• Vitaminas y suplementos
-• Comida de emergencia
-
-🏛️ **Lugares del día:**
+        """🎒 **Lista final de preparativos:**
 • 🏥 Farmacia (medicinas)
 • 🛒 Tienda de electrónicos (adaptadores)
 • 🧳 Tienda de maletas
 • 📱 Tienda de móviles (cargadores)
 
-📱 **Apps y tecnología:**
-• Apps de viaje
-• Cargadores universales
-• Adaptadores de enchufe
-• Power banks
+💡 **Dato curioso:** El enchufe en China es diferente - necesitarás un adaptador universal.
 
-🎭 **Cultura y tradiciones:**
-• Preparación cultural
-• Últimas tradiciones locales
-• Despedidas familiares
-• Emoción por el viaje
-
-💡 **Tip del día:** Haz una lista de verificación - ¡no olvides nada!
-
-🎯 **Reto extra:** Graba un video de tu maleta preparada""",
+🎒 **Consejo de experto:** Haz una lista de verificación final y táchala conforme vayas completando cada item.""",
         "https://www.youtube.com/embed/travel-packing-guide",
         "/calendar_enhanced/20.png"
     ),
