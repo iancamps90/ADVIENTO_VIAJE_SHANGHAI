@@ -782,18 +782,23 @@ _shanghai_days = [
         "/calendar_enhanced/19.png"
     ),
     (
-        "🎒 ¡Últimos preparativos! ✈️",
+        "🎒 ¡ÚLTIMOS PREPARATIVOS! ✈️",
         """¡Solo quedan 5 días! ¡Revisa que tengas todo: cargadores, medicinas, ¡y muchas ganas! ⚡
 
-**Reto del día:** Haz una foto de tu maleta/equipaje preparado para Shanghai. ¡Incluye algo especial que te lleves! ¡El más organizado gana! 🧳✈️🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO MALETA ÉPICO! Haz una foto de tu maleta/equipaje preparado para Shanghai. ¡Incluye algo especial que te lleves! ¡El más organizado gana! 🧳✈️🏆
 
-**¿Qué nos espera?** Los últimos detalles son cruciales. ¡Una buena preparación es la clave del éxito!
+🧳 **Preparativos de maleta:**
+• 🔌 Revisa cargadores y adaptadores
+• 💊 Prepara medicinas básicas
+• 👕 Organiza ropa para clima subtropical
+• 🎯 Haz lista de verificación final
 
-**¿Por qué es importante?** Los últimos detalles son los que marcan la diferencia entre un buen viaje y un viaje perfecto.
+💡 **Tip del día:** El enchufe en China es diferente - necesitarás un adaptador universal.
 
-**Dato curioso:** Shanghai tiene un clima subtropical. ¡Necesitarás ropa para diferentes temperaturas!
+🎥 **Video del día:** Graba un video mostrando tu maleta con música épica y texto: "Día 20 – Últimos preparativos 🎒✈️"
 
-**¿Sabías que...?** El enchufe en China es diferente - necesitarás un adaptador universal.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Los últimos detalles son los que marcan la diferencia.",
         """📋 **Checklist del día:**
 • ✅ Lista final de maletas
@@ -832,18 +837,23 @@ _shanghai_days = [
         "/calendar_enhanced/20.png"
     ),
     (
-        "💪 ¡Frase motivacional final! 🚀",
+        "💪 ¡FRASE MOTIVACIONAL FINAL! 🚀",
         """La aventura comienza cuando sales de tu zona de confort. ¡Shanghai nos espera! 🌍
 
-**Reto del día:** Haz un video de 10 segundos diciendo por qué estás emocionado por Shanghai. ¡Que se note la pasión! ¡El más emocionado gana! 🎬🔥🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO EMOCIÓN ÉPICO! Haz un video de 10 segundos diciendo por qué estás emocionado por Shanghai. ¡Que se note la pasión! ¡El más emocionado gana! 🎬🔥🏆
 
-**¿Qué nos espera?** Solo quedan 4 días para la aventura más épica de nuestras vidas. ¡La emoción está por las nubes!
+🧳 **Preparativos de maleta:**
+• 💪 Prepara actitud aventurera
+• 🎯 Visualiza la aventura
+• 📱 Prepara para documentar
+• 🚀 ¡Activa modo aventurero!
 
-**¿Por qué es importante?** La magia sucede fuera de tu zona de confort. ¡Shanghai nos sacará de nuestra rutina!
+💡 **Tip del día:** Shanghai está a 9,000 km de distancia. ¡Vamos a cruzar medio mundo!
 
-**Dato curioso:** Shanghai está a 9,000 km de distancia. ¡Vamos a cruzar medio mundo!
+🎥 **Video del día:** Graba un video de motivación con música épica y texto: "Día 21 – Frase motivacional final 💪🚀"
 
-**¿Sabías que...?** La aventura comienza en el momento en que decides salir de tu zona de confort.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La magia sucede fuera de tu zona de confort.",
         """📋 **Checklist del día:**
 • ✅ Abraza lo desconocido
