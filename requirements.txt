@@ -1,4 +1,4 @@
-reflex==0.8.16
+reflex==0.4.6
 reflex-hosting-cli==0.1.57
 packaging>=24.2
 click>=8.2.0
