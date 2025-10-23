@@ -20,10 +20,10 @@ _shanghai_days = [
 ¡FOTO CHALLENGE! Cambia tu foto de perfil por algo relacionado con Shanghai (dragón, farolillo, skyline...) y compártela aquí. ¡El más creativo gana puntos extra! 🏆
 
 🧳 **Preparativos de maleta:**
-• 📄 Revisa tu pasaporte (debe tener 6+ meses de validez)
-• 📱 Descarga apps útiles: Google Translate, Maps, Alipay
-• 🎒 Empieza a hacer lista de maletas
-• 🎯 Cambia fondo de pantalla y comparte en el grupo
+• 📄 **Documentos:** Revisa tu pasaporte (debe tener 6+ meses de validez)
+• 📱 **Apps esenciales:** Descarga Google Translate, Maps, Alipay
+• 🎒 **Organización:** Empieza a hacer lista de maletas
+• 🎯 **Motivación:** Cambia fondo de pantalla y comparte en el grupo
 
 💡 **Tip del día:** Shanghai significa 'Sobre el mar' - ¡perfecto para nuestra aventura!
 
@@ -31,7 +31,7 @@ _shanghai_days = [
 
 🎥 **Video del día:** Graba un video presentándote como "aventurero rumbo a Shanghai" con tu mejor pose épica.
 
-🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+🧧 **Extra para el grupo:** 📸 Sube tu foto a Instagram con #CuentaAtrasShanghai y etiqueta al grupo.""",
         "La aventura comienza con un solo paso. ¡Y ese paso es hoy!",
         """💡 **Dato curioso:** Shanghai es la ciudad más poblada del mundo con 24 millones de habitantes.
 
