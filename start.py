@@ -1,24 +1,23 @@
 import os
 import subprocess
-import sys
 
-# Render inyecta el puerto automáticamente
-port = os.getenv("PORT")
+# Obtener el puerto (Render asigna automáticamente PORT)
+port = os.getenv("PORT", "8000")
 
-print(f"Starting Reflex on port: {port} (optimized memory mode)")
+print(f"🚀 Starting Reflex on port: {port}")
 
-# Configuración optimizada para memoria
+# Configuración optimizada
 os.environ["PYTHONUNBUFFERED"] = "1"
 os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 
-# Ejecutar Reflex con optimizaciones de memoria
-subprocess.run([
-    sys.executable, "-m", "reflex",
-    "run",
+# Comando actualizado (sin --no-frontend)
+cmd = [
+    "reflex", "run",
     "--env", "prod",
     "--backend-host", "0.0.0.0",
     "--backend-port", port,
-    "--frontend-port", port,
-    "--no-frontend",
-    "--loglevel", "warning"  # Reducir logs para ahorrar memoria
-])
+    "--loglevel", "warning"
+]
+
+# Ejecutar Reflex
+subprocess.run(cmd, check=True)
