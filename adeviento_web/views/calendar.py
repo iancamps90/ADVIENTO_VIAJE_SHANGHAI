@@ -47,36 +47,31 @@ _shanghai_days = [
         "💳 ¡APPS ESENCIALES PARA SHANGHAI! 📱",
         """¡Momento de ser responsables! Hoy toca preparar nuestro arsenal digital para conquistar Shanghai. 💪
 
-**🎯 RETO DEL DÍA:**
+🎯 **RETO DEL DÍA:**
 ¡MISIÓN DIGITAL ÉPICA! Descarga Alipay y activa el Tour Pass. ¡Comparte pantallazo + un selfie celebrando que ya eres "digitalmente chino"! ¡Bonus si lo haces con cara de espía! 📱🇨🇳🕵️
 
-**¿Por qué es importante?** En China se paga TODO con el móvil. ¡Sin Alipay no hay paraíso! 🏮
+🧳 **Preparativos de maleta:**
+• 📱 **Apps esenciales:** Descarga Alipay, WeChat, Google Translate
+• 💳 **Configuración:** Activa Tour Pass en Alipay
+• 🔌 **Electrónica:** Revisa cargadores universales y adaptadores para China
+• 🗺️ **Navegación:** Descarga Maps y Baidu Maps
 
-**¿Qué nos espera?** Un mundo digital completamente diferente donde el móvil es tu llave para todo.
+💡 **Tip del día:** En China se paga TODO con el móvil. ¡Sin Alipay no hay paraíso!
 
-**Dato curioso:** China tiene 1.4 mil millones de usuarios de pagos móviles. ¡Somos una gota en el océano!
+🎥 **Video del día:** Graba un video configurando Alipay con música épica y texto: "Día 2 – Convirtiéndome en digital chino 📱🇨🇳"
 
-**¿Sabías que...?** Alipay procesa más transacciones que Visa y Mastercard juntas.
+🧧 **Extra para el grupo:** 📸 Sube tu foto a Instagram con #CuentaAtrasShanghai y etiqueta al grupo.""",
+        "La preparación es la clave del éxito. ¡Cada app descargada es un paso más cerca! 🔑",
+        """📱 **Apps imprescindibles:**
+• Alipay (pagos y transporte) - ¡LA MÁS IMPORTANTE!
+• WeChat (comunicación local) - WhatsApp chino
+• Google Translate (idioma) - Para traducir menús
+• Maps (navegación) - Aunque Baidu Maps es mejor
+• Didi (taxis) - Uber chino
+• Dianping (restaurantes) - Yelp chino
+• Meituan (delivery) - Para pedir comida
 
-**🎥 Video del día:** Graba un video configurando Alipay con música épica y texto: "Día 2 – Convirtiéndome en digital chino 📱🇨🇳"
-
-**🧳 Preparativos de maleta:** Hoy revisa que tengas cargadores universales y adaptadores para China. ¡Sin electricidad no hay aventura!
-
-**💡 Tip del día:** Alipay procesa más transacciones que Visa y Mastercard juntas. ¡Es el rey de los pagos móviles!
-
-**🏮 Progreso del viaje:** 2/25 - ¡Vamos por el 8%!
-
-**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
-        "La preparación es la clave del éxito. ¡Cada app descargada es un paso más cerca!",
-        """🎯 **Actividades del día:**
-• Descarga y configura Alipay
-• Activa el Tour Pass
-• Prueba la función de cámara de Google Translate
-• ¡Comparte tu selfie "digitalmente chino"!
-
-💡 **Dato curioso:** En China se paga TODO con el móvil. ¡Sin Alipay no hay paraíso!
-
-🏮 **Progreso del viaje:** 2/25 - ¡Vamos por el 8%!""",
+💡 **Dato curioso:** China tiene 1.4 mil millones de usuarios de pagos móviles. ¡Somos una gota en el océano!""",
         "https://www.youtube.com/embed/KNMz8WqRS-w",
         "/calendar_enhanced/2.png"
     ),
