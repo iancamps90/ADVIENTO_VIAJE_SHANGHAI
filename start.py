@@ -10,17 +10,36 @@ railway_port = os.getenv("PORT", "8080")
 reflex_port = "8081"  # Puerto separado para Reflex
 print(f"🚀 Starting Reflex backend on port {reflex_port}")
 
-# Servidor de healthcheck simple
+# Servidor de healthcheck y API
 class HealthHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/health":
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+            self.send_header('Access-Control-Allow-Headers', 'Content-Type')
             self.end_headers()
             self.wfile.write(b'{"status": "ok"}')
+        elif self.path == "/api/health":
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+            self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+            self.end_headers()
+            self.wfile.write(b'{"status": "ok", "message": "Backend is running"}')
         else:
             self.send_response(404)
             self.end_headers()
+    
+    def do_OPTIONS(self):
+        # Manejar preflight CORS
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.end_headers()
     
     def log_message(self, format, *args):
         pass  # Silenciar logs del healthcheck

@@ -118,4 +118,4 @@ for day_num in range(1, 27):
         ]
     )
 
-# Health check endpoint removido - usando servidor separado en start.py
+# API endpoints se manejan en start.py
