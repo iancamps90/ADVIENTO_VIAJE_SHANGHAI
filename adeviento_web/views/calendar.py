@@ -33,15 +33,13 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La aventura comienza con un solo paso. ¡Y ese paso es hoy!",
-        """🎯 **Actividades del día:**
+        """💡 **Dato curioso:** Shanghai es la ciudad más poblada del mundo con 24 millones de habitantes.
+
+🎯 **Actividades del día:**
 • Cambia tu foto de perfil por algo de Shanghai
 • Revisa documentos importantes
 • Descarga apps esenciales
-• ¡Comparte tu emoción con el grupo!
-
-💡 **Dato curioso:** Shanghai es la ciudad más poblada del mundo con 24 millones de habitantes.
-
-🏮 **Progreso del viaje:** 1/25 - ¡Solo empezamos!""",
+• ¡Comparte tu emoción con el grupo!""",
         "https://www.youtube.com/embed/YgL2XPZBMys",
         "/calendar_enhanced/1.png"
     ),

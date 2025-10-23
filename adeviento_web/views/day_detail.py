@@ -199,51 +199,7 @@ def _render_day_sections(content: str) -> rx.Component:
             )
         )
     
-    # Progreso del viaje
-    if sections['progress']:
-        components.append(
-            rx.box(
-                rx.vstack(
-                    rx.text(
-                        "🏮 PROGRESO DEL VIAJE",
-                        font_size=rx.breakpoints(
-                            initial="1.1em",
-                            xs="1.2em", 
-                            sm="1.3em",
-                            md="1.4em",
-                            lg="1.4em",
-                            xl="1.4em"
-                        ),
-                        font_weight="bold",
-                        color="#FFD700",
-                        text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
-                    ),
-                    rx.text(
-                        sections['progress'],
-                        font_size=rx.breakpoints(
-                            initial="1em",
-                            xs="1.1em", 
-                            sm="1.2em",
-                            md="1.3em",
-                            lg="1.3em",
-                            xl="1.3em"
-                        ),
-                        color="#FFFFFF",
-                        text_align="center",
-                        line_height="1.6",
-                        text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
-                    ),
-                    align="center",
-                    spacing="2"
-                ),
-                padding=Size.BIG.value,
-                background="rgba(0,0,0,0.6)",
-                border_radius="12px",
-                border=f"2px solid #FFD700",
-                width="100%",
-                margin_bottom=Size.BIG.value
-            )
-        )
+    # Progreso del viaje - ELIMINADO (redundante con barra de progreso)
     
     # Video del día
     if sections['video']:
@@ -623,31 +579,31 @@ def _get_day_photos(day_number: int) -> list[str]:
     # Fotos base del calendario
     base_photos = [f"/calendar_enhanced/{day_number}.png"]
     
-    # Fotos adicionales según el día
+    # Fotos adicionales según el día - MÁS VARIEDAD
     extra_photos = {
-        1: ["/calendar_enhanced/1.png", "/calendar_enhanced/2.png", "/calendar_enhanced/3.png"],
-        2: ["/calendar_enhanced/2.png", "/calendar_enhanced/4.png", "/calendar_enhanced/5.png"],
-        3: ["/calendar_enhanced/3.png", "/calendar_enhanced/6.png", "/calendar_enhanced/7.png"],
-        4: ["/calendar_enhanced/4.png", "/calendar_enhanced/8.png", "/calendar_enhanced/9.png"],
-        5: ["/calendar_enhanced/5.png", "/calendar_enhanced/10.png", "/calendar_enhanced/11.png"],
-        6: ["/calendar_enhanced/6.png", "/calendar_enhanced/12.png", "/calendar_enhanced/13.png"],
-        7: ["/calendar_enhanced/7.png", "/calendar_enhanced/14.png", "/calendar_enhanced/15.png"],
-        8: ["/calendar_enhanced/8.png", "/calendar_enhanced/16.png", "/calendar_enhanced/17.png"],
-        9: ["/calendar_enhanced/9.png", "/calendar_enhanced/18.png", "/calendar_enhanced/19.png"],
-        10: ["/calendar_enhanced/10.png", "/calendar_enhanced/20.png", "/calendar_enhanced/21.png"],
-        11: ["/calendar_enhanced/11.png", "/calendar_enhanced/22.png", "/calendar_enhanced/23.png"],
-        12: ["/calendar_enhanced/12.png", "/calendar_enhanced/24.png", "/calendar_enhanced/25.png"],
-        13: ["/calendar_enhanced/13.png", "/calendar_enhanced/1.png", "/calendar_enhanced/2.png"],
-        14: ["/calendar_enhanced/14.png", "/calendar_enhanced/3.png", "/calendar_enhanced/4.png"],
-        15: ["/calendar_enhanced/15.png", "/calendar_enhanced/5.png", "/calendar_enhanced/6.png"],
-        16: ["/calendar_enhanced/16.png", "/calendar_enhanced/7.png", "/calendar_enhanced/8.png"],
-        17: ["/calendar_enhanced/17.png", "/calendar_enhanced/9.png", "/calendar_enhanced/10.png"],
-        18: ["/calendar_enhanced/18.png", "/calendar_enhanced/11.png", "/calendar_enhanced/12.png"],
-        19: ["/calendar_enhanced/19.png", "/calendar_enhanced/13.png", "/calendar_enhanced/14.png"],
-        20: ["/calendar_enhanced/20.png", "/calendar_enhanced/15.png", "/calendar_enhanced/16.png"],
-        21: ["/calendar_enhanced/21.png", "/calendar_enhanced/17.png", "/calendar_enhanced/18.png"],
-        22: ["/calendar_enhanced/22.png", "/calendar_enhanced/19.png", "/calendar_enhanced/20.png"],
-        23: ["/calendar_enhanced/23.png", "/calendar_enhanced/21.png", "/calendar_enhanced/22.png"],
+        1: ["/calendar_enhanced/1.png", "/calendar_enhanced/2.png", "/calendar_enhanced/3.png", "/calendar_enhanced/4.png", "/calendar_enhanced/5.png"],
+        2: ["/calendar_enhanced/2.png", "/calendar_enhanced/6.png", "/calendar_enhanced/7.png", "/calendar_enhanced/8.png", "/calendar_enhanced/9.png"],
+        3: ["/calendar_enhanced/3.png", "/calendar_enhanced/10.png", "/calendar_enhanced/11.png", "/calendar_enhanced/12.png", "/calendar_enhanced/13.png"],
+        4: ["/calendar_enhanced/4.png", "/calendar_enhanced/14.png", "/calendar_enhanced/15.png", "/calendar_enhanced/16.png", "/calendar_enhanced/17.png"],
+        5: ["/calendar_enhanced/5.png", "/calendar_enhanced/18.png", "/calendar_enhanced/19.png", "/calendar_enhanced/20.png", "/calendar_enhanced/21.png"],
+        6: ["/calendar_enhanced/6.png", "/calendar_enhanced/22.png", "/calendar_enhanced/23.png", "/calendar_enhanced/24.png", "/calendar_enhanced/25.png"],
+        7: ["/calendar_enhanced/7.png", "/calendar_enhanced/1.png", "/calendar_enhanced/2.png", "/calendar_enhanced/3.png", "/calendar_enhanced/4.png"],
+        8: ["/calendar_enhanced/8.png", "/calendar_enhanced/5.png", "/calendar_enhanced/6.png", "/calendar_enhanced/7.png", "/calendar_enhanced/8.png"],
+        9: ["/calendar_enhanced/9.png", "/calendar_enhanced/9.png", "/calendar_enhanced/10.png", "/calendar_enhanced/11.png", "/calendar_enhanced/12.png"],
+        10: ["/calendar_enhanced/10.png", "/calendar_enhanced/13.png", "/calendar_enhanced/14.png", "/calendar_enhanced/15.png", "/calendar_enhanced/16.png"],
+        11: ["/calendar_enhanced/11.png", "/calendar_enhanced/17.png", "/calendar_enhanced/18.png", "/calendar_enhanced/19.png", "/calendar_enhanced/20.png"],
+        12: ["/calendar_enhanced/12.png", "/calendar_enhanced/21.png", "/calendar_enhanced/22.png", "/calendar_enhanced/23.png", "/calendar_enhanced/24.png"],
+        13: ["/calendar_enhanced/13.png", "/calendar_enhanced/25.png", "/calendar_enhanced/1.png", "/calendar_enhanced/2.png", "/calendar_enhanced/3.png"],
+        14: ["/calendar_enhanced/14.png", "/calendar_enhanced/4.png", "/calendar_enhanced/5.png", "/calendar_enhanced/6.png", "/calendar_enhanced/7.png"],
+        15: ["/calendar_enhanced/15.png", "/calendar_enhanced/8.png", "/calendar_enhanced/9.png", "/calendar_enhanced/10.png", "/calendar_enhanced/11.png"],
+        16: ["/calendar_enhanced/16.png", "/calendar_enhanced/12.png", "/calendar_enhanced/13.png", "/calendar_enhanced/14.png", "/calendar_enhanced/15.png"],
+        17: ["/calendar_enhanced/17.png", "/calendar_enhanced/16.png", "/calendar_enhanced/17.png", "/calendar_enhanced/18.png", "/calendar_enhanced/19.png"],
+        18: ["/calendar_enhanced/18.png", "/calendar_enhanced/20.png", "/calendar_enhanced/21.png", "/calendar_enhanced/22.png", "/calendar_enhanced/23.png"],
+        19: ["/calendar_enhanced/19.png", "/calendar_enhanced/24.png", "/calendar_enhanced/25.png", "/calendar_enhanced/1.png", "/calendar_enhanced/2.png"],
+        20: ["/calendar_enhanced/20.png", "/calendar_enhanced/3.png", "/calendar_enhanced/4.png", "/calendar_enhanced/5.png", "/calendar_enhanced/6.png"],
+        21: ["/calendar_enhanced/21.png", "/calendar_enhanced/7.png", "/calendar_enhanced/8.png", "/calendar_enhanced/9.png", "/calendar_enhanced/10.png"],
+        22: ["/calendar_enhanced/22.png", "/calendar_enhanced/11.png", "/calendar_enhanced/12.png", "/calendar_enhanced/13.png", "/calendar_enhanced/14.png"],
+        23: ["/calendar_enhanced/23.png", "/calendar_enhanced/15.png", "/calendar_enhanced/16.png", "/calendar_enhanced/17.png", "/calendar_enhanced/18.png"],
         24: ["/calendar_enhanced/24.png", "/calendar_enhanced/23.png", "/calendar_enhanced/24.png"],
         25: ["/calendar_enhanced/25.png", "/calendar_enhanced/1.png", "/calendar_enhanced/2.png"]
     }
