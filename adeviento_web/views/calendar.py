@@ -118,10 +118,11 @@ _shanghai_days = [
         "/calendar_enhanced/3.png"
     ),
     (
-        "📄 Documentos y seguros ✈️",
+        "📄 ¡DOCUMENTOS Y SEGUROS! ✈️",
         """¡Momento de ser súper organizados! Hoy toca revisar que tenemos todos los papeles en regla. 📋
 
-**Reto del día:** ¡PASAPORTE ÉPICO! Haz una foto de tu pasaporte (solo la portada) y compártela con tu mejor pose de '¡LISTO PARA SHANGHAI!' ¡El más preparado gana! 📸✈️🏆
+**🎯 RETO DEL DÍA:**
+¡CHECKPOINT DOCUMENTOS ÉPICO! Haz una foto de tu pasaporte (solo portada) + tu cara de "¡estoy listo para la aventura!" ¡Demuestra que eres un viajero responsable! ¡Bonus si haces pose de superhéroe! ✈️📄🦸
 
 **¿Por qué es crucial?** Sin documentos en regla, no hay viaje. ¡Mejor prevenir que lamentar! 🛡️
 
@@ -129,48 +130,36 @@ _shanghai_days = [
 
 **Dato curioso:** China requiere pasaporte con 6+ meses de validez. ¡Muchos países no lo saben!
 
-**¿Sabías que...?** El seguro de viaje puede ahorrarte miles de euros en caso de emergencia.""",
-        "La preparación es la clave del éxito en cualquier aventura. ¡Cada documento revisado es tranquilidad ganada! 📋",
-        """📋 **Checklist de documentos:**
-• ✅ Pasaporte con 6+ meses de validez
-• ✅ Copias digitales de documentos importantes
-• ✅ Seguro de viaje internacional
-• ✅ Reservas de vuelo y hotel
-• ✅ Visado (si es necesario)
-• ✅ Certificado de vacunación
-• ✅ Reservas de hotel confirmadas
+**¿Sabías que...?** El seguro de viaje puede ahorrarte miles de euros en caso de emergencia.
 
-🍽️ **Gastronomía del día:**
-• Documentos para restaurantes
-• Reservas en restaurantes especiales
-• Información dietética importante
+**🎥 Video del día:** Graba un video revisando tus documentos con música épica y texto: "Día 4 – Viajero responsable ✈️📄"
 
-🏛️ **Lugares del día:**
-• Embajada/consulado chino
-• Oficina de seguros
-• Aeropuerto (documentos de vuelo)
+**🧳 Preparativos de maleta:** Hoy organiza una carpeta digital con todos tus documentos importantes. ¡Guárdala en la nube por seguridad!
 
-📱 **Apps y tecnología:**
-• Apps de seguros de viaje
-• Documentos digitales
-• Traductor de documentos
+**💡 Tip del día:** China requiere pasaporte con 6+ meses de validez. ¡Muchos países no lo saben!
 
-🎭 **Cultura y tradiciones:**
-• Documentos culturales importantes
-• Permisos especiales
-• Regulaciones locales
+**🏮 Progreso del viaje:** 4/25 - ¡Vamos por el 16%!
 
-💡 **Tip del día:** Guarda copias en la nube y en el móvil - ¡nunca se sabe!
+**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+        "La preparación es la clave del éxito en cualquier aventura. ¡Cada documento revisado es tranquilidad ganada!",
+        """🎯 **Actividades del día:**
+• Revisa tu pasaporte (6+ meses de validez)
+• Organiza documentos importantes
+• Contrata seguro de viaje
+• ¡Haz tu foto de superhéroe con pasaporte!
 
-🎯 **Reto extra:** Crea una carpeta digital con todos tus documentos""",
+💡 **Dato curioso:** El seguro de viaje puede ahorrarte miles de euros en caso de emergencia.
+
+🏮 **Progreso del viaje:** 4/25 - ¡Vamos por el 16%!""",
         "https://www.youtube.com/embed/H3HrJgYtjjY",
         "/calendar_enhanced/4.png"
     ),
     (
-        "🍜 Comida china auténtica 🥢",
+        "🍜 ¡COMIDA CHINA AUTÉNTICA! 🥢",
         """¡Hora de preparar el estómago para la aventura culinaria más épica! 🍽️
 
-**Reto del día:** ¡DESAFÍO CULINARIO ÉPICO! Ve a un restaurante chino y pide algo que nunca hayas probado. ¡Haz un video comiendo y grita '¡PRACTICANDO PARA SHANGHAI!' ¡El más valiente gana! 🥢🎬🏆
+**🎯 RETO DEL DÍA:**
+¡AVENTURA CULINARIA ÉPICA! Ve a un restaurante chino y pide algo que NUNCA hayas probado. ¡Comparte foto del plato + tu cara de sorpresa! ¿Serás valiente? ¡El más atrevido gana! 🥢😱🏆
 
 **¿Qué nos espera?** Dim sum, xiaolongbao, hot pot... ¡Shanghai es el paraíso de la comida callejera! 🌟
 
@@ -178,42 +167,27 @@ _shanghai_days = [
 
 **Dato curioso:** Shanghai tiene más de 50,000 restaurantes. ¡Imposible probarlos todos en una vida!
 
-**¿Sabías que...?** El xiaolongbao se inventó en Shanghai en 1875 y se come con una técnica especial para no quemarse.""",
-        "La comida es el lenguaje universal que conecta culturas. ¡Cada bocado nos acerca más a Shanghai! 🥢",
-        """📋 **Checklist del día:**
-• ✅ Busca restaurante chino local
-• ✅ Pide algo nuevo y desconocido
-• ✅ Comparte foto y experiencia
-• ✅ Investiga sobre xiaolongbao
+**¿Sabías que...?** El xiaolongbao se inventó en Shanghai en 1875 y se come con una técnica especial para no quemarse.
 
-🍽️ **Gastronomía del día:**
-• Xiaolongbao (sopa en bolsita) - ¡EL PLATO ESTRELLA!
-• Fideos de Shanghai - Tradición local
-• Cangrejo de Shanghai - Delicatessen
-• Mooncakes - Postre tradicional
-• Té chino tradicional - Ceremonia
+**🎥 Video del día:** Graba un video probando comida china con música épica y texto: "Día 5 – Aventura culinaria 🍜🥢"
 
-🏛️ **Lugares del día:**
-• Yu Garden Bazaar - Comida tradicional
-• Mercado de comida callejera
-• Restaurantes del Bund
-• Dim sum tradicional
+**🧳 Preparativos de maleta:** Hoy investiga sobre la comida china que más te llama la atención. ¡Haz una lista de platos que quieres probar en Shanghai!
 
-📱 **Apps y tecnología:**
-• Dianping (Yelp chino) - Reseñas
-• Meituan (delivery) - Pedidos
-• Alipay (pagos) - Pagar comida
-• Google Translate (menús) - Traducir
+**💡 Tip del día:** Shanghai tiene más de 50,000 restaurantes. ¡Imposible probarlos todos en una vida!
 
-🎭 **Cultura y tradiciones:**
-• Etiqueta en restaurantes
-• Uso de palillos correcto
-• Compartir platos familiares
-• Té chino como ritual
+**🏮 Progreso del viaje:** 5/25 - ¡Vamos por el 20%!
 
-💡 **Tip del día:** Aprende a usar palillos - ¡será súper útil!
+**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+        "La comida es el lenguaje universal que conecta culturas. ¡Cada bocado nos acerca más a Shanghai!",
+        """🎯 **Actividades del día:**
+• Busca restaurante chino local
+• Pide algo que nunca hayas probado
+• Comparte foto del plato + tu cara de sorpresa
+• ¡Investiga sobre xiaolongbao!
 
-🎯 **Reto extra:** Graba un video comiendo con palillos""",
+💡 **Dato curioso:** El xiaolongbao se inventó en Shanghai en 1875 y se come con una técnica especial para no quemarse.
+
+🏮 **Progreso del viaje:** 5/25 - ¡Vamos por el 20%!""",
         "https://www.youtube.com/embed/f1yIX7EMhQE",
         "/calendar_enhanced/5.png"
     ),
