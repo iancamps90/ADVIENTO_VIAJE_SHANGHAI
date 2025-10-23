@@ -51,8 +51,6 @@ Thumbs.db
 .web/
 .states/
 frontend/
-assets/
-public/
 api/
 config/
 services/
