@@ -108,38 +108,32 @@ _shanghai_days = [
     ),
     (
         "📄 ¡DOCUMENTOS Y SEGUROS! ✈️",
-        """¡Momento de ser súper organizados! Hoy toca revisar que tenemos todos los papeles en regla. 📋
+        """¡Momento de ser súper organizados! Hoy toca revisar que tenemos todos los papeles en regla para nuestra gran aventura. 📋
 
-**🎯 RETO DEL DÍA:**
+🎯 **RETO DEL DÍA:**
 ¡CHECKPOINT DOCUMENTOS ÉPICO! Haz una foto de tu pasaporte (solo portada) + tu cara de "¡estoy listo para la aventura!" ¡Demuestra que eres un viajero responsable! ¡Bonus si haces pose de superhéroe! ✈️📄🦸
 
-**¿Por qué es crucial?** Sin documentos en regla, no hay viaje. ¡Mejor prevenir que lamentar! 🛡️
+🧳 **Preparativos de maleta:**
+• 📄 **Pasaporte:** Verifica que tenga 6+ meses de validez
+• 🏥 **Seguro de viaje:** Contrata uno que cubra China
+• 📱 **Documentos digitales:** Crea carpeta en la nube con copias
+• 🎫 **Billetes:** Guarda confirmaciones y códigos QR
 
-**¿Qué nos espera?** Un proceso de documentación que puede ser complejo pero es esencial.
+💡 **Tip del día:** China requiere pasaporte con 6+ meses de validez. ¡Muchos países no lo saben!
 
-**Dato curioso:** China requiere pasaporte con 6+ meses de validez. ¡Muchos países no lo saben!
+🎥 **Video del día:** Graba un video revisando tus documentos con música épica y texto: "Día 4 – Viajero responsable ✈️📄"
 
-**¿Sabías que...?** El seguro de viaje puede ahorrarte miles de euros en caso de emergencia.
-
-**🎥 Video del día:** Graba un video revisando tus documentos con música épica y texto: "Día 4 – Viajero responsable ✈️📄"
-
-**🧳 Preparativos de maleta:** Hoy organiza una carpeta digital con todos tus documentos importantes. ¡Guárdala en la nube por seguridad!
-
-**💡 Tip del día:** China requiere pasaporte con 6+ meses de validez. ¡Muchos países no lo saben!
-
-**🏮 Progreso del viaje:** 4/25 - ¡Vamos por el 16%!
-
-**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+🧧 **Extra para el grupo:** 📸 Sube tu foto de superhéroe con pasaporte al grupo de WhatsApp con el texto: "¡Documentos listos para conquistar Shanghai! 📄✈️ #Día4Shanghai".""",
         "La preparación es la clave del éxito en cualquier aventura. ¡Cada documento revisado es tranquilidad ganada!",
-        """🎯 **Actividades del día:**
-• Revisa tu pasaporte (6+ meses de validez)
-• Organiza documentos importantes
-• Contrata seguro de viaje
-• ¡Haz tu foto de superhéroe con pasaporte!
+        """📄 **Documentos esenciales:**
+• Pasaporte con 6+ meses de validez
+• Seguro de viaje que cubra China
+• Copias digitales en la nube
+• Confirmaciones de vuelo y hotel
 
-💡 **Dato curioso:** El seguro de viaje puede ahorrarte miles de euros en caso de emergencia.
+💡 **Dato curioso:** El seguro de viaje puede ahorrarte miles de euros en caso de emergencia médica en el extranjero.
 
-🏮 **Progreso del viaje:** 4/25 - ¡Vamos por el 16%!""",
+🛡️ **Consejo de experto:** Guarda una copia de tu pasaporte en tu email y en la nube. ¡Nunca se sabe cuándo la necesitarás!""",
         "https://www.youtube.com/embed/H3HrJgYtjjY",
         "/calendar_enhanced/4.png"
     ),
@@ -147,36 +141,30 @@ _shanghai_days = [
         "🍜 ¡COMIDA CHINA AUTÉNTICA! 🥢",
         """¡Hora de preparar el estómago para la aventura culinaria más épica! 🍽️
 
-**🎯 RETO DEL DÍA:**
+🎯 **RETO DEL DÍA:**
 ¡AVENTURA CULINARIA ÉPICA! Ve a un restaurante chino y pide algo que NUNCA hayas probado. ¡Comparte foto del plato + tu cara de sorpresa! ¿Serás valiente? ¡El más atrevido gana! 🥢😱🏆
 
-**¿Qué nos espera?** Dim sum, xiaolongbao, hot pot... ¡Shanghai es el paraíso de la comida callejera! 🌟
+🧳 **Preparativos de maleta:**
+• 🍜 **Investigación:** Busca restaurante chino local
+• 📱 **Apps:** Descarga Dianping (Yelp chino) para reseñas
+• 🥢 **Técnica:** Aprende a usar palillos correctamente
+• 📝 **Lista:** Haz lista de platos que quieres probar en Shanghai
 
-**¿Por qué es importante?** La comida es la puerta de entrada a la cultura china. ¡Cada plato cuenta una historia!
+💡 **Tip del día:** El xiaolongbao se inventó en Shanghai en 1875 y se come con una técnica especial para no quemarse.
 
-**Dato curioso:** Shanghai tiene más de 50,000 restaurantes. ¡Imposible probarlos todos en una vida!
+🎥 **Video del día:** Graba un video probando comida china con música épica y texto: "Día 5 – Aventura culinaria 🍜🥢"
 
-**¿Sabías que...?** El xiaolongbao se inventó en Shanghai en 1875 y se come con una técnica especial para no quemarse.
-
-**🎥 Video del día:** Graba un video probando comida china con música épica y texto: "Día 5 – Aventura culinaria 🍜🥢"
-
-**🧳 Preparativos de maleta:** Hoy investiga sobre la comida china que más te llama la atención. ¡Haz una lista de platos que quieres probar en Shanghai!
-
-**💡 Tip del día:** Shanghai tiene más de 50,000 restaurantes. ¡Imposible probarlos todos en una vida!
-
-**🏮 Progreso del viaje:** 5/25 - ¡Vamos por el 20%!
-
-**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+🧧 **Extra para el grupo:** 📸 Sube tu foto del plato más atrevido al grupo de WhatsApp con el texto: "¡Me atrevo con todo! 🥢😱 #Día5Shanghai".""",
         "La comida es el lenguaje universal que conecta culturas. ¡Cada bocado nos acerca más a Shanghai!",
-        """🎯 **Actividades del día:**
-• Busca restaurante chino local
-• Pide algo que nunca hayas probado
-• Comparte foto del plato + tu cara de sorpresa
-• ¡Investiga sobre xiaolongbao!
+        """🍜 **Platos icónicos de Shanghai:**
+• Xiaolongbao (sopa de dumplings) - ¡el rey de Shanghai!
+• Shengjianbao (pan frito con carne)
+• Hongshao rou (cerdo en salsa de soja)
+• Baiqie ji (pollo blanco cortado)
 
-💡 **Dato curioso:** El xiaolongbao se inventó en Shanghai en 1875 y se come con una técnica especial para no quemarse.
+💡 **Dato curioso:** Shanghai tiene más de 50,000 restaurantes. ¡Imposible probarlos todos en una vida!
 
-🏮 **Progreso del viaje:** 5/25 - ¡Vamos por el 20%!""",
+🥢 **Consejo de experto:** En China, hacer ruido al comer (slurp) es señal de que disfrutas la comida. ¡No tengas vergüenza!""",
         "https://www.youtube.com/embed/f1yIX7EMhQE",
         "/calendar_enhanced/5.png"
     ),
@@ -184,36 +172,30 @@ _shanghai_days = [
         "🚇 ¡TRANSPORTE EN SHANGHAI! 🚌",
         """¡Hora de dominar el sistema de transporte más eficiente del mundo! 🚇
 
-**🎯 RETO DEL DÍA:**
+🎯 **RETO DEL DÍA:**
 ¡PLANIFICADOR DE RUTAS ÉPICO! Descarga la app del metro de Shanghai y diseña tu ruta perfecta para el primer día. ¡Comparte tu itinerario épico! ¡El más creativo gana! 🚇🗺️🏆
 
-**¿Sabías que?** El metro de Shanghai transporta 10+ millones de personas al día. ¡Vamos a ser parte de esa estadística! 📊
+🧳 **Preparativos de maleta:**
+• 📱 **Apps:** Descarga Shanghai Metro y Baidu Maps
+• 🗺️ **Rutas:** Planifica tu itinerario del primer día
+• 💳 **Pagos:** Configura Alipay para pagar el metro
+• 📝 **Lista:** Haz lista de estaciones que quieres visitar
 
-**¿Por qué es importante?** El transporte público es la clave para explorar Shanghai como un local.
+💡 **Tip del día:** Puedes pagar el metro con Alipay escaneando códigos QR. ¡Súper fácil!
 
-**Dato curioso:** Shanghai tiene el metro más largo del mundo con 831 km de vías. ¡Más que cualquier otra ciudad!
+🎥 **Video del día:** Graba un video planificando tu ruta con música épica y texto: "Día 6 – Planificador de rutas 🚇🗺️"
 
-**¿Sabías que...?** Puedes pagar el metro con Alipay escaneando códigos QR.
-
-**🎥 Video del día:** Graba un video planificando tu ruta con música épica y texto: "Día 6 – Planificador de rutas 🚇🗺️"
-
-**🧳 Preparativos de maleta:** Hoy investiga sobre las estaciones de metro más importantes de Shanghai. ¡Haz una lista de las que quieres visitar!
-
-**💡 Tip del día:** Shanghai tiene el metro más largo del mundo con 831 km de vías. ¡Más que cualquier otra ciudad!
-
-**🏮 Progreso del viaje:** 6/25 - ¡Vamos por el 24%!
-
-**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+🧧 **Extra para el grupo:** 📸 Sube tu itinerario más creativo al grupo de WhatsApp con el texto: "¡Mi ruta épica por Shanghai! 🚇🗺️ #Día6Shanghai".""",
         "La emoción es el combustible de los grandes viajes. ¡Cada línea de metro nos lleva a una nueva aventura!",
-        """🎯 **Actividades del día:**
-• Descarga app del metro de Shanghai
-• Diseña tu ruta perfecta para el primer día
-• Comparte tu itinerario épico
-• ¡Aprende a pagar con Alipay!
+        """🚇 **Sistema de transporte de Shanghai:**
+• Metro: 831 km de vías (el más largo del mundo)
+• Autobuses: Red extensa y económica
+• Taxis: Didi (Uber chino) muy popular
+• Bicicletas: Mobike y Ofo por toda la ciudad
 
 💡 **Dato curioso:** El metro de Shanghai transporta 10+ millones de personas al día. ¡Vamos a ser parte de esa estadística!
 
-🏮 **Progreso del viaje:** 6/25 - ¡Vamos por el 24%!""",
+🚌 **Consejo de experto:** En hora punta (7-9am, 5-7pm) el metro está súper lleno. ¡Mejor evitar esas horas!""",
         "https://www.youtube.com/embed/XVvhsfVz-WE",
         "/calendar_enhanced/6.png"
     ),
