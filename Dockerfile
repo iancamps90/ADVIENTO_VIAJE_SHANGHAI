@@ -1,30 +1,30 @@
 FROM python:3.11-slim
 
-# Instalar dependencias del sistema necesarias para Reflex
+# Instalar dependencias del sistema necesarias
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl unzip \
+    curl \
+    unzip \
     && rm -rf /var/lib/apt/lists/*
 
-# Crear directorio de trabajo
 WORKDIR /app
 
-# Copiar e instalar dependencias Python
+# Copiar dependencias Python
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar el resto del código
+# Copiar código fuente
 COPY adeviento_web/ ./adeviento_web/
 COPY assets/ ./assets/
 COPY rxconfig.py .
 COPY start.py .
 
-# Variables de entorno globales
+# Variables de entorno
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV REFLEX_ENV=prod
 
-# Railway usa el puerto 8080 por defecto
+# Railway usará este puerto
 EXPOSE 8080
 
-# Ejecutar Reflex
+# Comando de arranque
 CMD ["python", "start.py"]

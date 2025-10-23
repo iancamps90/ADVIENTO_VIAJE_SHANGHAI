@@ -112,6 +112,6 @@ for day_num in range(1, 27):
         ]
     )
 
-@rx.page(route="/health")
-def health_check() -> rx.Component:
-    return rx.text("ok")
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
