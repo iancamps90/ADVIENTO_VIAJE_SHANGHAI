@@ -203,36 +203,30 @@ _shanghai_days = [
         "🏛️ ¡LUGARES IMPRESCINDIBLES! 🎯",
         """¡Hora de crear nuestra lista de deseos de Shanghai! 🗺️
 
-**🎯 RETO DEL DÍA:**
+🎯 **RETO DEL DÍA:**
 ¡LISTA DE DESEOS ÉPICA! Elige tu TOP 3 lugares que NO te puedes perder en Shanghai. ¡Comparte tu lista + por qué cada lugar te emociona! ¡El más emocionante gana! 🏛️❤️🏆
 
-**¿Cuáles son tus favoritos?** Bund, Torre de Shanghai, Templo del Buda de Jade... ¡Hay tanto que ver! 🌟
+🧳 **Preparativos de maleta:**
+• 🗺️ **Investigación:** Busca información sobre lugares icónicos
+• 📱 **Apps:** Descarga apps de turismo y mapas
+• 💰 **Presupuesto:** Investiga precios y horarios de entrada
+• 📝 **Lista:** Haz tu TOP 3 lugares imprescindibles
 
-**¿Por qué es importante?** Shanghai tiene lugares icónicos que definen la ciudad. ¡No podemos perdérnoslos!
+💡 **Tip del día:** El Bund tiene 52 edificios de diferentes estilos arquitectónicos. ¡Un museo al aire libre!
 
-**Dato curioso:** El Bund tiene 52 edificios de diferentes estilos arquitectónicos. ¡Un museo al aire libre!
+🎥 **Video del día:** Graba un video presentando tus 3 lugares favoritos con música épica y texto: "Día 7 – Lista de deseos 🏛️❤️"
 
-**¿Sabías que...?** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
-
-**🎥 Video del día:** Graba un video presentando tus 3 lugares favoritos con música épica y texto: "Día 7 – Lista de deseos 🏛️❤️"
-
-**🧳 Preparativos de maleta:** Hoy investiga sobre los horarios y precios de tus lugares favoritos. ¡Haz una lista de entradas que necesitas comprar!
-
-**💡 Tip del día:** El Bund tiene 52 edificios de diferentes estilos arquitectónicos. ¡Un museo al aire libre!
-
-**🏮 Progreso del viaje:** 7/25 - ¡Vamos por el 28%!
-
-**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+🧧 **Extra para el grupo:** 📸 Sube tu TOP 3 lugares al grupo de WhatsApp con el texto: "¡Estos son mis imprescindibles! 🏛️❤️ #Día7Shanghai".""",
         "La comida es el lenguaje universal que conecta culturas. ¡Cada lugar que visitemos será una historia que contar!",
-        """🎯 **Actividades del día:**
-• Elige tu TOP 3 lugares que NO te puedes perder
-• Comparte tu lista + por qué cada lugar te emociona
-• Planifica rutas para visitarlos
-• ¡Investiga horarios y precios!
+        """🏛️ **Lugares icónicos de Shanghai:**
+• El Bund - Paseo marítimo con arquitectura histórica
+• Torre de Shanghai - Segundo edificio más alto del mundo (632m)
+• Templo del Buda de Jade - Templo budista más famoso
+• Yu Garden - Jardín clásico chino del siglo XVI
 
 💡 **Dato curioso:** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
 
-🏮 **Progreso del viaje:** 7/25 - ¡Vamos por el 28%!""",
+🎯 **Consejo de experto:** Visita el Bund al atardecer para ver el skyline iluminado. ¡Es espectacular!""",
         "https://www.youtube.com/embed/hk43UekQG4A",
         "/calendar_enhanced/7.png"
     ),
@@ -364,19 +358,7 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "El respeto por la cultura local abre puertas y corazones. ¡Cada obra de arte nos cuenta una historia milenaria! 🎨",
-        """📋 **Checklist del día:**
-• ✅ Busca obra de arte china famosa
-• ✅ Comparte con explicación
-• ✅ Investiga sobre el artista
-• ✅ Planifica visita a museos
-
-🍽️ **Gastronomía del día:**
-• Cafés en galerías de arte
-• Restaurantes en museos
-• Comida en barrios artísticos
-• Té en centros culturales
-
-🏛️ **Lugares del día:**
+        """🎨 **Museos y galerías de Shanghai:**
 • 🏛️ Museo de Shanghai (arte clásico) - ¡IMPRESCINDIBLE!
 • 🎭 Power Station of Art (arte moderno) - Vanguardia
 • 🏮 M50 Creative Park (galerías) - Arte contemporáneo
@@ -384,21 +366,9 @@ _shanghai_days = [
 • 🏛️ Shanghai Museum (historia) - Antigüedades
 • 🎨 Tianzifang (arte callejero) - Barrio bohemio
 
-📱 **Apps y tecnología:**
-• Apps de museos
-• Google Arts & Culture
-• Traductores de arte
-• Guías culturales
+💡 **Dato curioso:** Shanghai tiene más de 100 museos y galerías. ¡Imposible visitarlos todos!
 
-🎭 **Cultura y tradiciones:**
-• Historia del arte chino
-• Tradiciones artísticas
-• Artistas famosos
-• Movimientos culturales
-
-💡 **Tip del día:** Muchos museos son gratuitos los viernes - ¡aprovéchalo!
-
-🎯 **Reto extra:** Visita un barrio pobre para ver arte auténtico""",
+🎭 **Consejo de experto:** Visita los museos por la mañana para evitar multitudes y tener mejor experiencia.""",
         "https://www.youtube.com/embed/hxVfrYNVO8A",
         "/calendar_enhanced/11.png"
     ),
@@ -440,7 +410,7 @@ _shanghai_days = [
 
 💡 **Tip del día:** Shanghai tiene más de 50,000 puestos de comida callejera. ¡Imposible probarlos todos!
 
-🎥 **Video del día:** Graba un video probando comida china con música épica y texto: "Día 13 – Comida china 🍜🥢"
+🎥 **Video del día:** Graba un video probando comida china con música épica y texto: "Día 12 – Comida china 🍜🥢"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La comida callejera es el alma de una ciudad. ¡Cada bocado nos acerca más a la cultura local! 🍜",
