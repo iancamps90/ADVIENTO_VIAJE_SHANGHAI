@@ -192,10 +192,11 @@ _shanghai_days = [
         "/calendar_enhanced/5.png"
     ),
     (
-        "🚇 Transporte en Shanghai 🚌",
+        "🚇 ¡TRANSPORTE EN SHANGHAI! 🚌",
         """¡Hora de dominar el sistema de transporte más eficiente del mundo! 🚇
 
-**Reto del día:** Descarga la app del metro de Shanghai y explora las líneas principales. ¡Comparte tu ruta favorita! 📱
+**🎯 RETO DEL DÍA:**
+¡PLANIFICADOR DE RUTAS ÉPICO! Descarga la app del metro de Shanghai y diseña tu ruta perfecta para el primer día. ¡Comparte tu itinerario épico! ¡El más creativo gana! 🚇🗺️🏆
 
 **¿Sabías que?** El metro de Shanghai transporta 10+ millones de personas al día. ¡Vamos a ser parte de esa estadística! 📊
 
@@ -203,48 +204,36 @@ _shanghai_days = [
 
 **Dato curioso:** Shanghai tiene el metro más largo del mundo con 831 km de vías. ¡Más que cualquier otra ciudad!
 
-**¿Sabías que...?** Puedes pagar el metro con Alipay escaneando códigos QR.""",
-        "La emoción es el combustible de los grandes viajes. ¡Cada línea de metro nos lleva a una nueva aventura! 🚇",
-        """📋 **Checklist del día:**
-• ✅ Descarga app del metro de Shanghai
-• ✅ Explora las líneas principales
-• ✅ Planifica rutas favoritas
-• ✅ Aprende a pagar con Alipay
+**¿Sabías que...?** Puedes pagar el metro con Alipay escaneando códigos QR.
 
-🍽️ **Gastronomía del día:**
-• Comida en estaciones de metro
-• Vendedores ambulantes
-• Tiendas de conveniencia
+**🎥 Video del día:** Graba un video planificando tu ruta con música épica y texto: "Día 6 – Planificador de rutas 🚇🗺️"
 
-🏛️ **Lugares del día:**
-• Estaciones principales del metro
-• Línea 2 (cruza el río Huangpu)
-• Estación de People's Square
-• Estación de Nanjing Road
+**🧳 Preparativos de maleta:** Hoy investiga sobre las estaciones de metro más importantes de Shanghai. ¡Haz una lista de las que quieres visitar!
 
-📱 **Apps y tecnología:**
-• Metro Shanghai (oficial)
-• Alipay (pagos QR)
-• Baidu Maps (navegación)
-• Didi (taxis alternativos)
+**💡 Tip del día:** Shanghai tiene el metro más largo del mundo con 831 km de vías. ¡Más que cualquier otra ciudad!
 
-🎭 **Cultura y tradiciones:**
-• Etiqueta en el metro
-• Horarios de pico
-• Comportamiento local
-• Tradiciones de transporte
+**🏮 Progreso del viaje:** 6/25 - ¡Vamos por el 24%!
 
-💡 **Tip del día:** La línea 2 cruza el río Huangpu - ¡vistas espectaculares!
+**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+        "La emoción es el combustible de los grandes viajes. ¡Cada línea de metro nos lleva a una nueva aventura!",
+        """🎯 **Actividades del día:**
+• Descarga app del metro de Shanghai
+• Diseña tu ruta perfecta para el primer día
+• Comparte tu itinerario épico
+• ¡Aprende a pagar con Alipay!
 
-🎯 **Reto extra:** Graba un video pagando el metro con Alipay""",
+💡 **Dato curioso:** El metro de Shanghai transporta 10+ millones de personas al día. ¡Vamos a ser parte de esa estadística!
+
+🏮 **Progreso del viaje:** 6/25 - ¡Vamos por el 24%!""",
         "https://www.youtube.com/embed/XVvhsfVz-WE",
         "/calendar_enhanced/6.png"
     ),
     (
-        "🏛️ Lugares imprescindibles 🎯",
+        "🏛️ ¡LUGARES IMPRESCINDIBLES! 🎯",
         """¡Hora de crear nuestra lista de deseos de Shanghai! 🗺️
 
-**Reto del día:** Elige tu top 3 lugares que NO te puedes perder y compártelos con el grupo. ¡Vamos a planificar la aventura perfecta! 📸
+**🎯 RETO DEL DÍA:**
+¡LISTA DE DESEOS ÉPICA! Elige tu TOP 3 lugares que NO te puedes perder en Shanghai. ¡Comparte tu lista + por qué cada lugar te emociona! ¡El más emocionante gana! 🏛️❤️🏆
 
 **¿Cuáles son tus favoritos?** Bund, Torre de Shanghai, Templo del Buda de Jade... ¡Hay tanto que ver! 🌟
 
@@ -252,43 +241,27 @@ _shanghai_days = [
 
 **Dato curioso:** El Bund tiene 52 edificios de diferentes estilos arquitectónicos. ¡Un museo al aire libre!
 
-**¿Sabías que...?** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.""",
-        "La comida es el lenguaje universal que conecta culturas. ¡Cada lugar que visitemos será una historia que contar! 🏛️",
-        """📋 **Checklist del día:**
-• ✅ Elige tu top 3 lugares
-• ✅ Comparte con el grupo
-• ✅ Planifica rutas
-• ✅ Investiga horarios y precios
+**¿Sabías que...?** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
 
-🍽️ **Gastronomía del día:**
-• Restaurantes con vistas al Bund
-• Comida en Yu Garden
-• Cafés en Xintiandi
-• Mercados de comida
+**🎥 Video del día:** Graba un video presentando tus 3 lugares favoritos con música épica y texto: "Día 7 – Lista de deseos 🏛️❤️"
 
-🏛️ **Lugares imprescindibles:**
-• 🌃 El Bund (paseo junto al río) - ¡ICÓNICO!
-• 🗼 Torre de Shanghai (632m) - Vistas espectaculares
-• 🏮 Templo del Buda de Jade - Tradición
-• 🏛️ Museo de Shanghai - Cultura
-• 🌸 Jardín Yuyuan - Historia
-• 🎭 Distrito de Xintiandi - Modernidad
+**🧳 Preparativos de maleta:** Hoy investiga sobre los horarios y precios de tus lugares favoritos. ¡Haz una lista de entradas que necesitas comprar!
 
-📱 **Apps y tecnología:**
-• Google Maps (navegación)
-• Dianping (reseñas)
-• Alipay (entradas)
-• Google Translate (información)
+**💡 Tip del día:** El Bund tiene 52 edificios de diferentes estilos arquitectónicos. ¡Un museo al aire libre!
 
-🎭 **Cultura y tradiciones:**
-• Historia del Bund
-• Arquitectura colonial
-• Tradiciones del templo
-• Arte moderno
+**🏮 Progreso del viaje:** 7/25 - ¡Vamos por el 28%!
 
-💡 **Tip del día:** El Bund al atardecer es mágico - ¡no te lo pierdas!
+**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+        "La comida es el lenguaje universal que conecta culturas. ¡Cada lugar que visitemos será una historia que contar!",
+        """🎯 **Actividades del día:**
+• Elige tu TOP 3 lugares que NO te puedes perder
+• Comparte tu lista + por qué cada lugar te emociona
+• Planifica rutas para visitarlos
+• ¡Investiga horarios y precios!
 
-🎯 **Reto extra:** Haz una lista de 8 estafas a evitar en Shanghai""",
+💡 **Dato curioso:** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
+
+🏮 **Progreso del viaje:** 7/25 - ¡Vamos por el 28%!""",
         "https://www.youtube.com/embed/hk43UekQG4A",
         "/calendar_enhanced/7.png"
     ),
