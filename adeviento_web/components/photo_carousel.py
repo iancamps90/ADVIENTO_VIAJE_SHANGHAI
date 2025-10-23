@@ -36,22 +36,9 @@ def photo_carousel(photos: list[str], interval: int = 5000) -> rx.Component:
             src=photos[0] if photos else "",
             alt="Carrusel de fotos",
             width="100%",
-            max_width=rx.breakpoints(
-                initial="300px",
-                xs="350px", 
-                sm="400px",
-                md="450px",
-                lg="500px",
-                xl="500px"
-            ),
-            border_radius="8px",
+            border_radius="12px",
             cursor="pointer",
-            transition="all 0.5s ease-in-out",
-            _hover={
-                "transform": "scale(1.02)",
-                "box_shadow": f"0 8px 16px {Color.QUATERNARY.value}"
-            }
+            transition="all 0.5s ease-in-out"
         ),
-        width="100%",
-        text_align="center"
+        class_name="photo-carousel-container"
     )

@@ -581,9 +581,9 @@ def _get_day_photos(day_number: int) -> list[str]:
     
     # Fotos adicionales según el día - MÁS VARIEDAD
     extra_photos = {
-        1: ["/calendar_enhanced/1.png", "/calendar_enhanced/2.png", "/calendar_enhanced/3.png", "/calendar_enhanced/4.png", "/calendar_enhanced/5.png"],
-        2: ["/calendar_enhanced/2.png", "/calendar_enhanced/6.png", "/calendar_enhanced/7.png", "/calendar_enhanced/8.png", "/calendar_enhanced/9.png"],
-        3: ["/calendar_enhanced/3.png", "/calendar_enhanced/10.png", "/calendar_enhanced/11.png", "/calendar_enhanced/12.png", "/calendar_enhanced/13.png"],
+        1: ["/calendar_enhanced/1.png", "/calendar_enhanced/2.png", "/calendar_enhanced/3.png", "/calendar_enhanced/26.png", "/calendar_enhanced/27.png"],
+        2: ["/calendar_enhanced/2.png", "/calendar_enhanced/6.png", "/calendar_enhanced/7.png", "/calendar_enhanced/28.png", "/calendar_enhanced/1.png"],
+        3: ["/calendar_enhanced/3.png", "/calendar_enhanced/10.png", "/calendar_enhanced/11.png", "/calendar_enhanced/26.png", "/calendar_enhanced/27.png"],
         4: ["/calendar_enhanced/4.png", "/calendar_enhanced/14.png", "/calendar_enhanced/15.png", "/calendar_enhanced/16.png", "/calendar_enhanced/17.png"],
         5: ["/calendar_enhanced/5.png", "/calendar_enhanced/18.png", "/calendar_enhanced/19.png", "/calendar_enhanced/20.png", "/calendar_enhanced/21.png"],
         6: ["/calendar_enhanced/6.png", "/calendar_enhanced/22.png", "/calendar_enhanced/23.png", "/calendar_enhanced/24.png", "/calendar_enhanced/25.png"],

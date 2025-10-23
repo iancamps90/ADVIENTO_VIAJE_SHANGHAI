@@ -259,6 +259,34 @@ body::after {
     filter: brightness(1.2) contrast(1.2) saturate(1.3);
 }
 
+/* Carrusel de fotos - TAMAÑO FIJO Y CENTRADO */
+#photo-carousel {
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 12px !important;
+    transition: all 0.5s ease-in-out !important;
+    cursor: pointer !important;
+    display: block !important;
+    margin: 0 auto !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+#photo-carousel:hover {
+    transform: scale(1.02) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Contenedor del carrusel */
+.photo-carousel-container {
+    width: 100% !important;
+    max-width: 500px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    padding: 10px !important;
+}
+
 .day-image-locked {
     width: 100%;
     height: 100%;
@@ -795,10 +823,21 @@ a:hover {
     transition: all 0.3s ease !important;
 }
 
-.day-card.available:hover {
+    .day-card.available:hover {
     transform: scale(1.05) !important;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important;
 }
+
+    /* Carrusel responsive en móviles */
+    #photo-carousel {
+        height: 200px !important;
+        max-width: 100% !important;
+    }
+    
+    .photo-carousel-container {
+        max-width: 100% !important;
+        padding: 5px !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -853,6 +892,17 @@ a:hover {
     
     .calendar-container {
         padding: 5px !important;
+    }
+    
+    /* Carrusel en móviles muy pequeños */
+    #photo-carousel {
+        height: 150px !important;
+        max-width: 100% !important;
+    }
+    
+    .photo-carousel-container {
+        max-width: 100% !important;
+        padding: 3px !important;
     }
 }
 
