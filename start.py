@@ -6,7 +6,7 @@ import threading
 import time
 
 # Obtener puerto desde Railway
-railway_port = os.getenv("PORT", "8080")
+railway_port = os.environ.get("PORT", "8080")
 reflex_port = "8081"  # Puerto separado para Reflex
 print(f"🚀 Starting Reflex backend on port {reflex_port}")
 
