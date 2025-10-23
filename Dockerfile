@@ -1,8 +1,9 @@
 FROM python:3.11-slim
 
-# Instalar dependencias básicas del sistema
+# Instalar dependencias mínimas del sistema (incluido unzip)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
+    unzip \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
