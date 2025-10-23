@@ -11,17 +11,14 @@ print(f"🚀 Starting Reflex backend on port {port}")
 os.environ["PYTHONUNBUFFERED"] = "1"
 os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 
-# Comando para ejecutar Reflex solo con backend
+# Comando para ejecutar Reflex
 cmd = [
-    sys.executable,
-    "-m",
     "reflex",
     "run",
     "--env", "prod",
     "--backend-host", "0.0.0.0",
     "--backend-port", port,
-    "--no-frontend",          # No generamos el frontend, solo el backend
-    "--loglevel", "warning"   # Menos logs = menos memoria
+    "--loglevel", "warning"
 ]
 
 subprocess.run(cmd, check=True)
