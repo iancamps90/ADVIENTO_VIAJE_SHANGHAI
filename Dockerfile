@@ -15,6 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar el resto de archivos del proyecto
 COPY adeviento_web/ ./adeviento_web/
+COPY assets/ ./assets/
 COPY rxconfig.py .
 COPY start.py .
 
