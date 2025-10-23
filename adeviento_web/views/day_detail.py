@@ -12,6 +12,334 @@ from adeviento_web.views.calendar import (
 )
 
 
+def _parse_day_content(content: str) -> dict:
+    """Parsea el contenido del día y lo separa en secciones"""
+    sections = {
+        'intro': '',
+        'challenge': '',
+        'preparations': '',
+        'tip': '',
+        'progress': '',
+        'video': '',
+        'extra': ''
+    }
+    
+    lines = content.split('\n')
+    current_section = 'intro'
+    current_content = []
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        if '🎯 **RETO DEL DÍA:**' in line or '**🎯 RETO DEL DÍA:**' in line:
+            if current_content:
+                sections[current_section] = '\n'.join(current_content).strip()
+            current_section = 'challenge'
+            current_content = [line.replace('**🎯 RETO DEL DÍA:**', '').replace('🎯 **RETO DEL DÍA:**', '').strip()]
+        elif '🧳 **Preparativos' in line:
+            if current_content:
+                sections[current_section] = '\n'.join(current_content).strip()
+            current_section = 'preparations'
+            current_content = [line.replace('🧳 **Preparativos de maleta:**', '').strip()]
+        elif '💡 **Tip del día:**' in line:
+            if current_content:
+                sections[current_section] = '\n'.join(current_content).strip()
+            current_section = 'tip'
+            current_content = [line.replace('💡 **Tip del día:**', '').strip()]
+        elif '🏮 **Progreso del viaje:**' in line:
+            if current_content:
+                sections[current_section] = '\n'.join(current_content).strip()
+            current_section = 'progress'
+            current_content = [line.replace('🏮 **Progreso del viaje:**', '').strip()]
+        elif '🎥 **Video del día:**' in line:
+            if current_content:
+                sections[current_section] = '\n'.join(current_content).strip()
+            current_section = 'video'
+            current_content = [line.replace('🎥 **Video del día:**', '').strip()]
+        elif '🧧 **Extra para el grupo:**' in line:
+            if current_content:
+                sections[current_section] = '\n'.join(current_content).strip()
+            current_section = 'extra'
+            current_content = [line.replace('🧧 **Extra para el grupo:**', '').strip()]
+        else:
+            current_content.append(line)
+    
+    # Guardar la última sección
+    if current_content:
+        sections[current_section] = '\n'.join(current_content).strip()
+    
+    return sections
+
+
+def _render_day_sections(content: str) -> rx.Component:
+    """Renderiza el contenido del día en secciones visuales separadas"""
+    sections = _parse_day_content(content)
+    
+    components = []
+    
+    # Introducción
+    if sections['intro']:
+        components.append(
+            rx.box(
+                rx.text(
+                    sections['intro'],
+                    font_size=rx.breakpoints(
+                        initial="1em",
+                        xs="1.1em", 
+                        sm="1.2em",
+                        md="1.3em",
+                        lg="1.3em",
+                        xl="1.3em"
+                    ),
+                    color="#FFFFFF",
+                    text_align="center",
+                    line_height="1.6",
+                    text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
+                ),
+                padding=Size.BIG.value,
+                background="rgba(0,0,0,0.6)",
+                border_radius="12px",
+                border=f"2px solid {Color.SECONDARY.value}",
+                width="100%",
+                margin_bottom=Size.BIG.value
+            )
+        )
+    
+    # Reto del día
+    if sections['challenge']:
+        components.append(
+            rx.box(
+                rx.vstack(
+                    rx.text(
+                        "🎯 RETO DEL DÍA",
+                        font_size=rx.breakpoints(
+                            initial="1.2em",
+                            xs="1.3em", 
+                            sm="1.4em",
+                            md="1.5em",
+                            lg="1.5em",
+                            xl="1.5em"
+                        ),
+                        font_weight="bold",
+                        color="#FFD700",
+                        text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
+                    ),
+                    rx.text(
+                        sections['challenge'],
+                        font_size=rx.breakpoints(
+                            initial="0.9em",
+                            xs="1em", 
+                            sm="1.1em",
+                            md="1.2em",
+                            lg="1.2em",
+                            xl="1.2em"
+                        ),
+                        color="#FFFFFF",
+                        text_align="center",
+                        line_height="1.6",
+                        text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
+                    ),
+                    align="center",
+                    spacing="2"
+                ),
+                padding=Size.BIG.value,
+                background="rgba(220, 20, 60, 0.3)",
+                border_radius="12px",
+                border=f"2px solid #DC143C",
+                width="100%",
+                margin_bottom=Size.BIG.value
+            )
+        )
+    
+    # Preparativos de maleta
+    if sections['preparations']:
+        components.append(
+            rx.box(
+                rx.vstack(
+                    rx.text(
+                        "🧳 PREPARATIVOS DE MALETA",
+                        font_size=rx.breakpoints(
+                            initial="1.1em",
+                            xs="1.2em", 
+                            sm="1.3em",
+                            md="1.4em",
+                            lg="1.4em",
+                            xl="1.4em"
+                        ),
+                        font_weight="bold",
+                        color="#FFD700",
+                        text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
+                    ),
+                    rx.text(
+                        sections['preparations'],
+                        font_size=rx.breakpoints(
+                            initial="0.9em",
+                            xs="1em", 
+                            sm="1.1em",
+                            md="1.2em",
+                            lg="1.2em",
+                            xl="1.2em"
+                        ),
+                        color="#FFFFFF",
+                        text_align="left",
+                        line_height="1.6",
+                        text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
+                    ),
+                    align="center",
+                    spacing="2"
+                ),
+                padding=Size.BIG.value,
+                background="rgba(0,0,0,0.6)",
+                border_radius="12px",
+                border=f"2px solid {Color.SECONDARY.value}",
+                width="100%",
+                margin_bottom=Size.BIG.value
+            )
+        )
+    
+    # Progreso del viaje
+    if sections['progress']:
+        components.append(
+            rx.box(
+                rx.vstack(
+                    rx.text(
+                        "🏮 PROGRESO DEL VIAJE",
+                        font_size=rx.breakpoints(
+                            initial="1.1em",
+                            xs="1.2em", 
+                            sm="1.3em",
+                            md="1.4em",
+                            lg="1.4em",
+                            xl="1.4em"
+                        ),
+                        font_weight="bold",
+                        color="#FFD700",
+                        text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
+                    ),
+                    rx.text(
+                        sections['progress'],
+                        font_size=rx.breakpoints(
+                            initial="1em",
+                            xs="1.1em", 
+                            sm="1.2em",
+                            md="1.3em",
+                            lg="1.3em",
+                            xl="1.3em"
+                        ),
+                        color="#FFFFFF",
+                        text_align="center",
+                        line_height="1.6",
+                        text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
+                    ),
+                    align="center",
+                    spacing="2"
+                ),
+                padding=Size.BIG.value,
+                background="rgba(0,0,0,0.6)",
+                border_radius="12px",
+                border=f"2px solid #FFD700",
+                width="100%",
+                margin_bottom=Size.BIG.value
+            )
+        )
+    
+    # Video del día
+    if sections['video']:
+        components.append(
+            rx.box(
+                rx.vstack(
+                    rx.text(
+                        "🎥 VIDEO DEL DÍA",
+                        font_size=rx.breakpoints(
+                            initial="1.1em",
+                            xs="1.2em", 
+                            sm="1.3em",
+                            md="1.4em",
+                            lg="1.4em",
+                            xl="1.4em"
+                        ),
+                        font_weight="bold",
+                        color="#FFD700",
+                        text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
+                    ),
+                    rx.text(
+                        sections['video'],
+                        font_size=rx.breakpoints(
+                            initial="0.9em",
+                            xs="1em", 
+                            sm="1.1em",
+                            md="1.2em",
+                            lg="1.2em",
+                            xl="1.2em"
+                        ),
+                        color="#FFFFFF",
+                        text_align="center",
+                        line_height="1.6",
+                        text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
+                    ),
+                    align="center",
+                    spacing="2"
+                ),
+                padding=Size.BIG.value,
+                background="rgba(0,0,0,0.6)",
+                border_radius="12px",
+                border=f"2px solid {Color.SECONDARY.value}",
+                width="100%",
+                margin_bottom=Size.BIG.value
+            )
+        )
+    
+    # Extra para el grupo
+    if sections['extra']:
+        components.append(
+            rx.box(
+                rx.vstack(
+                    rx.text(
+                        "🧧 EXTRA PARA EL GRUPO",
+                        font_size=rx.breakpoints(
+                            initial="1.1em",
+                            xs="1.2em", 
+                            sm="1.3em",
+                            md="1.4em",
+                            lg="1.4em",
+                            xl="1.4em"
+                        ),
+                        font_weight="bold",
+                        color="#FFD700",
+                        text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
+                    ),
+                    rx.text(
+                        sections['extra'],
+                        font_size=rx.breakpoints(
+                            initial="0.9em",
+                            xs="1em", 
+                            sm="1.1em",
+                            md="1.2em",
+                            lg="1.2em",
+                            xl="1.2em"
+                        ),
+                        color="#FFFFFF",
+                        text_align="center",
+                        line_height="1.6",
+                        text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
+                    ),
+                    align="center",
+                    spacing="2"
+                ),
+                padding=Size.BIG.value,
+                background="rgba(0,0,0,0.6)",
+                border_radius="12px",
+                border=f"2px solid {Color.SECONDARY.value}",
+                width="100%",
+                margin_bottom=Size.BIG.value
+            )
+        )
+    
+    return rx.vstack(*components, spacing="3", width="100%")
+
+
 def day_detail(day_number: int) -> rx.Component:
     """Vista detallada para cada día del calendario de Shanghai"""
     
@@ -117,22 +445,8 @@ def day_detail(day_number: int) -> rx.Component:
                     )
                 ),
                 
-                rx.text(
-                    day_message,
-                    font_size=rx.breakpoints(
-                        initial="0.9em",
-                        xs="1em", 
-                        sm="1.1em",
-                        md="1.2em",
-                        lg="1.2em",
-                        xl="1.2em"
-                    ),
-                    color="#FFFFFF",
-                    text_align="center",
-                    line_height="1.6",
-                    margin_bottom=Size.BIG.value,
-                    text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
-                ),
+                # Contenido separado en secciones
+                _render_day_sections(day_message),
                 
                 # Tip del día (movido más arriba)
                 rx.box(
