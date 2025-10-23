@@ -60,7 +60,7 @@ _shanghai_days = [
 
 🎥 **Video del día:** Graba un video configurando Alipay con música épica y texto: "Día 2 – Convirtiéndome en digital chino 📱🇨🇳"
 
-🧧 **Extra para el grupo:** 📸 Sube tu foto a Instagram con #CuentaAtrasShanghai y etiqueta al grupo.""",
+🧧 **Extra para el grupo:** 📸 Sube tu selfie "digitalmente chino" al grupo de WhatsApp con el texto: "¡Ya soy digital chino! 📱🇨🇳 #Día2Shanghai".""",
         "La preparación es la clave del éxito. ¡Cada app descargada es un paso más cerca! 🔑",
         """📱 **Apps imprescindibles:**
 • Alipay (pagos y transporte) - ¡LA MÁS IMPORTANTE!
@@ -76,37 +76,33 @@ _shanghai_days = [
         "/calendar_enhanced/2.png"
     ),
     (
-        "🏮 Curiosidades de Shanghai 🏙️",
+        "🏮 ¡CURIOSIDADES DE SHANGHAI! 🏙️",
         """¡Descubramos juntos los secretos de la ciudad más fascinante de China! 🌟
 
-**🏙️ Curiosidades de Shanghai:**
+🎯 **RETO DEL DÍA:**
+¡BÚSQUEDA DEL TESORO ÉPICA! Encuentra la foto más alucinante de Shanghai que puedas y compártela con tu frase motivacional personal. ¡Que nos emocione a todos! ¡El más épico gana! 🔍✨🏆
+
+🧳 **Preparativos de maleta:**
+• 🏥 **Botiquín:** Ibuprofeno, Fortasec, tiritas, paracetamol, algo para mareo
+• 🧴 **Higiene:** Gel hidroalcohólico y toallitas húmedas
+• 📱 **Apps:** Prueba la función de cámara de Google Translate
+• 🗺️ **Investigación:** Investiga sobre el Bund y la Torre de Shanghai
+
+💡 **Tip del día:** Descarga Google Translate y prueba su función de cámara instantánea para traducir carteles o menús. 🈶 Te salvará en los restaurantes locales.
+
+🎥 **Video del día:** Graba tu reacción al ver fotos de Shanghai. Ponle música tipo "China Chill" y texto: "Día 3 – Descubriendo Shanghai 🏮🇨🇳"
+
+🧧 **Extra para el grupo:** 📸 Sube tu foto más épica de Shanghai al grupo de WhatsApp con el texto: "¡Esta será nuestra aventura! 🏮🇨🇳 #Día3Shanghai".""",
+        "Un viaje se empieza con los ojos… pero se recuerda con el paladar. ✈️🍜",
+        """🏙️ **Curiosidades de Shanghai:**
 • Shanghai significa literalmente "Sobre el mar" 🌊
 • Tiene el skyline más iluminado del mundo (más de 50 rascacielos con luces LED)
 • En cada esquina puedes encontrar un puesto de dumplings frescos 🥟
 • Comer con ruido (¡slurp!) es señal de disfrute, no de mala educación 😄
 
-**Reto del día:** ¡BÚSQUEDA DEL TESORO ÉPICA! Encuentra la foto más alucinante de Shanghai que puedas y compártela con tu frase motivacional personal. ¡Que nos emocione a todos! ¡El más épico gana! 🔍✨🏆
+🧠 **Dato curioso:** Los palillos no deben clavarse en el arroz. Se asocia a ofrendas funerarias. 👉 Siempre apóyalos sobre el cuenco o en un soporte.
 
-**🧠 Dato curioso:** Los palillos no deben clavarse en el arroz. Se asocia a ofrendas funerarias. 👉 Siempre apóyalos sobre el cuenco o en un soporte.
-
-**🎥 Video del día:** Graba tu reacción al ver fotos de Shanghai. Ponle música tipo "China Chill" y texto: "Día 3 – Descubriendo Shanghai 🏮🇨🇳"
-
-**🧳 Preparativos de maleta:** Hoy prepara tu mini botiquín de viaje: Ibuprofeno, Fortasec, tiritas, paracetamol, algo para el mareo o estómago. Añade también un pequeño gel hidroalcohólico y toallitas húmedas.
-
-**💡 Tip del día:** Descarga Google Translate y prueba su función de cámara instantánea para traducir carteles o menús. 🈶 Te salvará en los restaurantes locales en Shanghai.
-
-**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto. Así luego las usas para el vídeo resumen final 🎥🔥""",
-        "Un viaje se empieza con los ojos… pero se recuerda con el paladar. ✈️🍜",
-        """🎯 **Actividades del día:**
-• Visualiza el viaje perfecto
-• Comparte tu emoción con el grupo
-• ¡Mantén la actitud positiva!
-• Investiga sobre el Bund y la Torre de Shanghai
-• Prueba la función de cámara de Google Translate
-
-💡 **Dato curioso:** El metro de Shanghai tiene 831 km de vías - ¡más que cualquier otra ciudad!
-
-🏮 **Progreso del viaje:** 3/25 - ¡Ya vamos por el 12%!""",
+💡 **Tip del día:** El metro de Shanghai tiene 831 km de vías - ¡más que cualquier otra ciudad!""",
         "https://www.youtube.com/embed/L_jWHffIx5E",
         "/calendar_enhanced/3.png"
     ),
