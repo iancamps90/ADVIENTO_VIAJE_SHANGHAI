@@ -13,10 +13,35 @@ from adeviento_web.components.day import day
 # Estructura: (título, mensaje, frase_motivacional, recomendaciones, video_youtube, foto_url)
 _shanghai_days = [
     (
-        "🎊 ¡Empieza la cuenta atrás! 🧳✈️🎯",
-        "¡Bienvenidos a la aventura más épica del año! En 25 días estaremos en Shanghai. ¡Que empiece la magia! 🎊🏮\n\n**Reto del día:** ¡FOTO ÉPICA DE CUENTA ATRÁS! Haz una foto con los dedos mostrando 25 y grita '¡25 DÍAS PARA SHANGHAI!' ¡El más emocionado gana! 📸🎉🏆\n\n**¿Listos para la aventura?** ¡Cada día una nueva sorpresa nos espera!",
-        "La aventura comienza con un solo paso. ¡Y ese paso es hoy! 🚀",
-        "📋 **Checklist del día:**\n• 📄 Revisa tu pasaporte (debe tener 6+ meses de validez)\n• 📱 Descarga apps útiles: Google Translate, Maps, Alipay\n• 🎒 Empieza a hacer lista de maletas\n• 🎯 Cambia fondo de pantalla y comparte en el grupo\n\n💡 **Tip del día:** Shanghai significa 'Sobre el mar' - ¡perfecto para nuestra aventura!",
+        "🏮 ¡EMPIEZA LA CUENTA ATRÁS! 🐉",
+        """¡Hola aventureros! Hoy comienza la cuenta atrás para nuestro viaje a Shanghai. ¡25 días de sorpresas, preparación y emoción!
+
+**🎯 RETO DEL DÍA:**
+¡FOTO CHALLENGE! Cambia tu foto de perfil por algo relacionado con Shanghai (dragón, farolillo, skyline...) y compártela aquí. ¡El más creativo gana puntos extra! 🏆
+
+**🧳 Preparativos de maleta:**
+• 📄 Revisa tu pasaporte (debe tener 6+ meses de validez)
+• 📱 Descarga apps útiles: Google Translate, Maps, Alipay
+• 🎒 Empieza a hacer lista de maletas
+• 🎯 Cambia fondo de pantalla y comparte en el grupo
+
+**💡 Tip del día:** Shanghai significa 'Sobre el mar' - ¡perfecto para nuestra aventura!
+
+**🏮 Progreso del viaje:** 1/25 - ¡Solo empezamos!
+
+**🎥 Video del día:** Graba un video presentándote como "aventurero rumbo a Shanghai" con tu mejor pose épica.
+
+**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+        "La aventura comienza con un solo paso. ¡Y ese paso es hoy!",
+        """🎯 **Actividades del día:**
+• Cambia tu foto de perfil por algo de Shanghai
+• Revisa documentos importantes
+• Descarga apps esenciales
+• ¡Comparte tu emoción con el grupo!
+
+💡 **Dato curioso:** Shanghai es la ciudad más poblada del mundo con 24 millones de habitantes.
+
+🏮 **Progreso del viaje:** 1/25 - ¡Solo empezamos!""",
         "https://www.youtube.com/embed/dQw4w9WgXcQ",
         "/calendar_enhanced/1.png"
     ),
@@ -71,9 +96,36 @@ _shanghai_days = [
     ),
     (
         "🏮 Curiosidades de Shanghai 🏙️",
-        "¡Descubramos juntos los secretos de la ciudad más fascinante de China! 🌟\n\n**¿Sabías que...?**\n• Shanghai significa 'Sobre el mar' 🌊\n• Es la ciudad más poblada del mundo (24 millones) 👥\n• Tiene el metro más largo del planeta 🚇\n• El Bund es Patrimonio de la Humanidad 🏛️\n\n**Reto del día:** ¡FOTO ÉPICA DE SHANGHAI! Busca la foto más espectacular de Shanghai que encuentres y compártela con tu mejor pose imitando el lugar. ¡El más creativo gana! 📸🏮🏆",
-        "La distancia se mide en historias que vas a vivir, no en kilómetros. ¡Shanghai nos espera! 🏮",
-        "🎯 **Actividades del día:**\n• Visualiza el viaje perfecto\n• Comparte tu emoción con el grupo\n• ¡Mantén la actitud positiva!\n• Investiga sobre el Bund y la Torre de Shanghai\n\n💡 **Dato curioso:** El metro de Shanghai tiene 831 km de vías - ¡más que cualquier otra ciudad!",
+        """¡Descubramos juntos los secretos de la ciudad más fascinante de China! 🌟
+
+**🏙️ Curiosidades de Shanghai:**
+• Shanghai significa literalmente "Sobre el mar" 🌊
+• Tiene el skyline más iluminado del mundo (más de 50 rascacielos con luces LED)
+• En cada esquina puedes encontrar un puesto de dumplings frescos 🥟
+• Comer con ruido (¡slurp!) es señal de disfrute, no de mala educación 😄
+
+**Reto del día:** ¡BÚSQUEDA DEL TESORO ÉPICA! Encuentra la foto más alucinante de Shanghai que puedas y compártela con tu frase motivacional personal. ¡Que nos emocione a todos! ¡El más épico gana! 🔍✨🏆
+
+**🧠 Dato curioso:** Los palillos no deben clavarse en el arroz. Se asocia a ofrendas funerarias. 👉 Siempre apóyalos sobre el cuenco o en un soporte.
+
+**🎥 Video del día:** Graba tu reacción al ver fotos de Shanghai. Ponle música tipo "China Chill" y texto: "Día 3 – Descubriendo Shanghai 🏮🇨🇳"
+
+**🧳 Preparativos de maleta:** Hoy prepara tu mini botiquín de viaje: Ibuprofeno, Fortasec, tiritas, paracetamol, algo para el mareo o estómago. Añade también un pequeño gel hidroalcohólico y toallitas húmedas.
+
+**💡 Tip del día:** Descarga Google Translate y prueba su función de cámara instantánea para traducir carteles o menús. 🈶 Te salvará en los restaurantes locales en Shanghai.
+
+**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto. Así luego las usas para el vídeo resumen final 🎥🔥""",
+        "Un viaje se empieza con los ojos… pero se recuerda con el paladar. ✈️🍜",
+        """🎯 **Actividades del día:**
+• Visualiza el viaje perfecto
+• Comparte tu emoción con el grupo
+• ¡Mantén la actitud positiva!
+• Investiga sobre el Bund y la Torre de Shanghai
+• Prueba la función de cámara de Google Translate
+
+💡 **Dato curioso:** El metro de Shanghai tiene 831 km de vías - ¡más que cualquier otra ciudad!
+
+🏮 **Progreso del viaje:** 3/25 - ¡Ya vamos por el 12%!""",
         "https://www.youtube.com/embed/L_jWHffIx5E",
         "/calendar_enhanced/3.png"
     ),
@@ -1278,7 +1330,7 @@ def calendar() -> rx.Component:
             spacing="3",
             width="100%",
             padding_y=Size.BIG.value,
-            class_name="calendar-container"
+            class_name="calendar-container calendar-grid"
         ),
         # rx.vstack(
         #     rx.hstack(
