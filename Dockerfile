@@ -12,14 +12,11 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar el proyecto
+# Copiar proyecto
 COPY adeviento_web/ ./adeviento_web/
 COPY assets/ ./assets/
 COPY rxconfig.py .
 COPY start.py .
-
-# Compilar el frontend durante el build
-RUN reflex export --frontend-only
 
 # Variables de entorno
 ENV PYTHONPATH=/app
@@ -28,10 +25,8 @@ ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PORT=10000
 
-# Exponer el puerto del backend
 EXPOSE 10000
 
-# Mantener el proceso abierto
-HEALTHCHECK CMD curl -f http://localhost:10000/ || exit 1
+# Render solo necesita el backend escuchando
+CMD ["reflex", "run", "--env", "prod", "--backend-host", "0.0.0.0", "--backend-port", "10000", "--backend-only"]
 
-CMD ["python", "start.py"]
