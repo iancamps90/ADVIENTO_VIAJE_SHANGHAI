@@ -400,7 +400,7 @@ _shanghai_days = [
         """¡Prepárate para la aventura culinaria más intensa de Shanghai! 🍽️
 
 🎯 **RETO DEL DÍA:**
-¡DESAFÍO COMIDA CHINA ÉPICO! Ve a un restaurante chino y pide algo que nunca hayas probado. ¡Haz un video comiéndolo y grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
+¡DESAFÍO KARAOKE ÉPICO! Busca una canción china famosa y grábate cantándola (aunque no sepas chino). ¡Luego haz un video imitando a un cantante de ópera china con gestos dramáticos! ¡El más teatral gana! 🎭🎤🏆
 
 🧳 **Preparativos de maleta:**
 • 🍽️ Prepara estómago aventurero
@@ -692,7 +692,7 @@ _shanghai_days = [
 ¡Última noche para preparar todo y disfrutar de la emoción!
 
 🎯 **RETO DEL DÍA:**
-¡DESAFÍO ÚLTIMA NOCHE ÉPICO! Haz una foto de tu maleta/equipaje preparado para Shanghai. ¡Incluye algo especial que te lleves! ¡El más organizado gana! 🧳✈️🏆
+¡DESAFÍO DESPEDIDA ÉPICO! Haz un video de despedida de tu casa/ciudad imitando a un presentador de TV. ¡Dile adiós a tu ciudad como si fueras famoso y grita '¡NOS VAMOS A SHANGHAI!' ¡El más dramático gana! 🎬📺🏆
 
 🧳 **Preparativos de maleta:**
 • 🎄 Prepara para Nochebuena
