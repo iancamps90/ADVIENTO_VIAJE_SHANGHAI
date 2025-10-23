@@ -16,22 +16,22 @@ _shanghai_days = [
         "🏮 ¡EMPIEZA LA CUENTA ATRÁS! 🐉",
         """¡Hola aventureros! Hoy comienza la cuenta atrás para nuestro viaje a Shanghai. ¡25 días de sorpresas, preparación y emoción!
 
-**🎯 RETO DEL DÍA:**
+🎯 **RETO DEL DÍA:**
 ¡FOTO CHALLENGE! Cambia tu foto de perfil por algo relacionado con Shanghai (dragón, farolillo, skyline...) y compártela aquí. ¡El más creativo gana puntos extra! 🏆
 
-**🧳 Preparativos de maleta:**
+🧳 **Preparativos de maleta:**
 • 📄 Revisa tu pasaporte (debe tener 6+ meses de validez)
 • 📱 Descarga apps útiles: Google Translate, Maps, Alipay
 • 🎒 Empieza a hacer lista de maletas
 • 🎯 Cambia fondo de pantalla y comparte en el grupo
 
-**💡 Tip del día:** Shanghai significa 'Sobre el mar' - ¡perfecto para nuestra aventura!
+💡 **Tip del día:** Shanghai significa 'Sobre el mar' - ¡perfecto para nuestra aventura!
 
-**🏮 Progreso del viaje:** 1/25 - ¡Solo empezamos!
+🏮 **Progreso del viaje:** 1/25 - ¡Solo empezamos!
 
-**🎥 Video del día:** Graba un video presentándote como "aventurero rumbo a Shanghai" con tu mejor pose épica.
+🎥 **Video del día:** Graba un video presentándote como "aventurero rumbo a Shanghai" con tu mejor pose épica.
 
-**🧧 Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La aventura comienza con un solo paso. ¡Y ese paso es hoy!",
         """🎯 **Actividades del día:**
 • Cambia tu foto de perfil por algo de Shanghai
@@ -42,7 +42,7 @@ _shanghai_days = [
 💡 **Dato curioso:** Shanghai es la ciudad más poblada del mundo con 24 millones de habitantes.
 
 🏮 **Progreso del viaje:** 1/25 - ¡Solo empezamos!""",
-        "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "https://www.youtube.com/embed/YgL2XPZBMys",
         "/calendar_enhanced/1.png"
     ),
     (
