@@ -112,6 +112,4 @@ for day_num in range(1, 27):
         ]
     )
 
-@app.get("/health")
-def health_check():
-    return {"status": "ok"}
+# Health check endpoint removido - usando servidor separado en start.py
