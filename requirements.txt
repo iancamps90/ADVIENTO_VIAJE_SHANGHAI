@@ -1,5 +1,16 @@
+# --- Core Reflex ---
 reflex==0.4.6
+reflex-hosting-cli==0.1.57
+
+# --- Compatibilidad Reflex / SQLModel ---
 sqlmodel==0.0.14
 sqlalchemy==2.0.23
 pydantic==1.10.12
+
+# --- Dependencias de entorno ---
 gunicorn
+uvicorn==0.20.0
+python-dateutil>=2.8.2
+click>=8.2.0
+typer==0.12.3
+packaging>=24.2
