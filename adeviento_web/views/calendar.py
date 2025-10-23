@@ -556,18 +556,23 @@ _shanghai_days = [
         "/calendar_enhanced/15.png"
     ),
     (
-        "🍜 Comida callejera épica 🥢",
+        "🍜 ¡COMIDA CALLEJERA ÉPICA! 🥢",
         """¡100 horas de comida callejera china! ¡Prepárate para la aventura culinaria más intensa! 🍽️
 
-**Reto del día:** ¡DESAFÍO COMIDA CALLEJERA ÉPICO! Busca un plato de comida callejera china que nunca hayas probado y haz un video comiéndolo. ¡Luego grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO COMIDA CALLEJERA ÉPICO! Busca un plato de comida callejera china que nunca hayas probado y haz un video comiéndolo. ¡Luego grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
 
-**¿Qué nos espera?** Dim sum, baozi, jianbing, tanghulu... ¡Shanghai es el paraíso de la comida callejera! 🌟
+🧳 **Preparativos de maleta:**
+• 🍽️ Prepara estómago aventurero
+• 📱 Descarga apps de comida
+• 🥢 Practica con palillos
+• 🎯 Investiga platos únicos
 
-**¿Por qué es importante?** La comida callejera es el corazón de la cultura culinaria china. ¡No te la puedes perder!
+💡 **Tip del día:** Shanghai tiene más de 50,000 puestos de comida callejera. ¡Imposible probarlos todos!
 
-**Dato curioso:** Shanghai tiene más de 50,000 puestos de comida callejera. ¡Imposible probarlos todos!
+🎥 **Video del día:** Graba un video probando comida china con música épica y texto: "Día 16 – Comida callejera 🍜🥢"
 
-**¿Sabías que...?** La comida callejera china es considerada una de las mejores del mundo.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La comida callejera es el alma de una ciudad. ¡Cada bocado nos acerca más a la cultura local! 🍜",
         """📋 **Checklist del día:**
 • ✅ Busca plato de comida callejera nuevo
@@ -608,18 +613,23 @@ _shanghai_days = [
         "/calendar_enhanced/16.png"
     ),
     (
-        "🏗️ Arquitectura moderna de Shanghai 🏙️",
+        "🏗️ ¡ARQUITECTURA MODERNA DE SHANGHAI! 🏙️",
         """¡Shanghai es un museo de arquitectura al aire libre! ¡Descubramos sus rascacielos más impresionantes! 🌆
 
-**Reto del día:** ¡DESAFÍO ARQUITECTÓNICO ÉPICO! Busca el rascacielos más alto de Shanghai y haz un video imitando su forma. ¡Luego grita '¡EN SHANGHAI SERÉ ARQUITECTO!' ¡El más creativo gana! 🏗️🎬🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO ARQUITECTÓNICO ÉPICO! Busca el rascacielos más alto de Shanghai y haz un video imitando su forma. ¡Luego grita '¡EN SHANGHAI SERÉ ARQUITECTO!' ¡El más creativo gana! 🏗️🎬🏆
 
-**¿Qué nos espera?** Torres futuristas, edificios históricos, arquitectura colonial... ¡Shanghai es pura innovación! ✨
+🧳 **Preparativos de maleta:**
+• 📸 Prepara cámara para fotos
+• 🏗️ Investiga sobre arquitectura
+• 🎯 Planifica rutas de edificios
+• 📱 Descarga apps de arquitectura
 
-**¿Por qué es importante?** La arquitectura de Shanghai cuenta la historia de la ciudad. ¡Cada edificio tiene una historia!
+💡 **Tip del día:** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
 
-**Dato curioso:** Shanghai tiene más de 1,000 rascacielos. ¡Es una de las ciudades con más rascacielos del mundo!
+🎥 **Video del día:** Graba un video imitando edificios con música épica y texto: "Día 17 – Arquitectura 🏗️🏙️"
 
-**¿Sabías que...?** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La arquitectura es música congelada. ¡Cada edificio de Shanghai es una sinfonía visual! 🏗️",
         """📋 **Checklist del día:**
 • ✅ Busca rascacielos más alto
