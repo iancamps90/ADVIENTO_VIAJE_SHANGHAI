@@ -3,7 +3,7 @@ services:
     name: adviento-shanghai
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python start.py
+    startCommand: reflex run --env prod --backend-host 0.0.0.0 --backend-port ${PORT:-10000} --frontend-port ${PORT:-10000} --no-frontend
     envVars:
       - key: REFLEX_ENV
         value: prod
