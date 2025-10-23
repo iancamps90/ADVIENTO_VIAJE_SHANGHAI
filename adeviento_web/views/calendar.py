@@ -431,7 +431,7 @@ _shanghai_days = [
     ),
     (
         "🎵 ¡MÚSICA Y ENTRETENIMIENTO! 🎪",
-        """¡Shanghai nunca duerme! ¡Descubramos su vibrante escena musical y de entretenimiento! 🎶
+        """¡Shanghai nunca duerme! ¡Prepárate para su vibrante escena musical y de entretenimiento! 🎶
 
 🎯 **RETO DEL DÍA:**
 ¡DESAFÍO MUSICAL ÉPICO! Busca una canción china famosa y compártela con el grupo. ¡Luego graba un video cantándola (aunque no sepas chino) con tu mejor voz! ¡El más valiente gana! 🎵🎬🏆
@@ -453,31 +453,31 @@ _shanghai_days = [
         "/calendar_enhanced/12.png"
     ),
     (
-        "🏃‍♂️ ¡DEPORTES Y ACTIVIDADES! 🧘‍♀️",
-        """¡Shanghai es perfecta para mantenerse activo! ¡Descubramos sus mejores actividades deportivas! 🏃‍♀️
+        "🍜 ¡COMIDA CHINA! 🥢",
+        """¡Prepárate para la aventura culinaria más intensa de Shanghai! 🍽️
 
 🎯 **RETO DEL DÍA:**
-¡DESAFÍO DEPORTIVO ÉPICO! Busca una actividad deportiva de Shanghai que te gustaría probar y haz un video imitándola. ¡Luego grita '¡EN SHANGHAI SERÉ DEPORTISTA!' ¡El más atlético gana! 🏃‍♂️🎬🏆
+¡DESAFÍO COMIDA CHINA ÉPICO! Ve a un restaurante chino y pide algo que nunca hayas probado. ¡Haz un video comiéndolo y grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
 
 🧳 **Preparativos de maleta:**
-• 👟 Prepara ropa deportiva cómoda
-• 🧘‍♀️ Investiga sobre Tai Chi
-• 🚴‍♂️ Busca rutas de ciclismo
-• 🎯 Planifica actividades matutinas
+• 🍽️ Prepara estómago aventurero
+• 📱 Descarga apps de comida china
+• 🥢 Practica con palillos en casa
+• 🎯 Investiga platos que probar en Shanghai
 
-💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!
+💡 **Tip del día:** Shanghai tiene más de 50,000 puestos de comida callejera. ¡Imposible probarlos todos!
 
-🎥 **Video del día:** Graba un video haciendo ejercicio con música épica y texto: "Día 13 – Deportes y actividades 🏃‍♂️🧘‍♀️"
+🎥 **Video del día:** Graba un video probando comida china con música épica y texto: "Día 13 – Comida china 🍜🥢"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
-        "Las mejores compras son las que cuentan una historia. ¡Cada actividad deportiva será una historia de superación! 🏃‍♂️",
-        "🏃‍♂️ **Actividades deportivas:**\n• 🧘‍♀️ Tai Chi en People's Park\n• 🚴‍♂️ Ciclismo por el Bund\n• 🏃‍♀️ Running en Century Park\n• 🧘‍♂️ Yoga en Xintiandi\n• 🏊‍♀️ Natación en hoteles\n• 🎾 Tenis en clubes locales\n\n💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!",
+        "La comida callejera es el alma de una ciudad. ¡Cada bocado nos acerca más a la cultura local! 🍜",
+        "🍜 **Comida callejera en Shanghai:**\n• 🥟 Dim sum (dumplings al vapor)\n• 🥖 Baozi (panecillos rellenos)\n• 🥞 Jianbing (crepes chinos)\n• 🍡 Tanghulu (frutas caramelizadas)\n• 🍜 Fideos de calle\n• 🥘 Hot pot callejero\n\n💡 **Tip del día:** La comida callejera es más auténtica que los restaurantes - ¡atrévete a probar!",
         "https://www.youtube.com/embed/shanghai-sports-activities",
         "/calendar_enhanced/13.png"
     ),
     (
         "💻 ¡TECNOLOGÍA CHINA! 🚀",
-        """¡Shanghai es el Silicon Valley de Asia! ¡Descubramos las innovaciones tecnológicas más increíbles! 🤖
+        """¡Shanghai es el Silicon Valley de Asia! ¡Prepárate para las innovaciones tecnológicas más increíbles! 🤖
 
 🎯 **RETO DEL DÍA:**
 ¡DESAFÍO TECH ÉPICO! Investiga sobre una empresa tecnológica china famosa (Alibaba, Tencent, Baidu) y comparte un dato curioso. ¡Luego graba un video explicando por qué es genial! ¡El más tech-savvy gana! 💡🎬🏆
@@ -500,7 +500,7 @@ _shanghai_days = [
     ),
     (
         "🌃 ¡VIDA NOCTURNA EN SHANGHAI! 🍸",
-        """¡Shanghai nunca duerme! ¡Descubramos su vibrante vida nocturna! 🌙
+        """¡Shanghai nunca duerme! ¡Prepárate para su vibrante vida nocturna! 🌙
 
 🎯 **RETO DEL DÍA:**
 ¡DESAFÍO NOCTURNO ÉPICO! Busca un bar o club famoso de Shanghai y compártelo con el grupo. ¡Luego graba un video imitando un cóctel que te gustaría pedir! ¡El más creativo gana! 🍻🎬🏆
@@ -556,65 +556,31 @@ _shanghai_days = [
         "/calendar_enhanced/15.png"
     ),
     (
-        "🍜 ¡PREPARÁNDONOS PARA LA COMIDA CHINA! 🥢",
-        """¡Prepárate para la aventura culinaria más intensa de Shanghai! ¡Desde Valencia nos preparamos! 🍽️
+        "🏃‍♂️ ¡DEPORTES Y ACTIVIDADES! 🧘‍♀️",
+        """¡Shanghai es perfecta para mantenerse activo! ¡Prepárate para sus mejores actividades deportivas! 🏃‍♀️
 
 🎯 **RETO DEL DÍA:**
-¡DESAFÍO COMIDA CHINA ÉPICO! Ve a un restaurante chino en Valencia y pide algo que nunca hayas probado. ¡Haz un video comiéndolo y grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
+¡DESAFÍO DEPORTIVO ÉPICO! Busca una actividad deportiva de Shanghai que te gustaría probar y haz un video imitándola. ¡Luego grita '¡EN SHANGHAI SERÉ DEPORTISTA!' ¡El más atlético gana! 🏃‍♂️🎬🏆
 
 🧳 **Preparativos de maleta:**
-• 🍽️ Prepara estómago aventurero
-• 📱 Descarga apps de comida china
-• 🥢 Practica con palillos en casa
-• 🎯 Investiga platos que probar en Shanghai
+• 👟 Prepara ropa deportiva cómoda
+• 🧘‍♀️ Investiga sobre Tai Chi
+• 🚴‍♂️ Busca rutas de ciclismo
+• 🎯 Planifica actividades matutinas
 
-💡 **Tip del día:** Shanghai tiene más de 50,000 puestos de comida callejera. ¡Imposible probarlos todos!
+💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!
 
-🎥 **Video del día:** Graba un video probando comida china en Valencia con música épica y texto: "Día 16 – Preparándonos para la comida china 🍜🥢"
+🎥 **Video del día:** Graba un video haciendo ejercicio con música épica y texto: "Día 16 – Deportes y actividades 🏃‍♂️🧘‍♀️"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
-        "La comida callejera es el alma de una ciudad. ¡Cada bocado nos acerca más a la cultura local! 🍜",
-        """📋 **Checklist del día:**
-• ✅ Busca plato de comida callejera nuevo
-• ✅ Comparte con el grupo
-• ✅ Investiga ingredientes
-• ✅ Planifica rutas de comida
-
-🍽️ **Gastronomía del día:**
-• 🥟 Dim sum (dumplings al vapor)
-• 🥖 Baozi (panecillos rellenos)
-• 🥞 Jianbing (crepes chinos)
-• 🍡 Tanghulu (frutas caramelizadas)
-• 🍜 Fideos de calle
-• 🥘 Hot pot callejero
-
-🏛️ **Lugares del día:**
-• Mercados de comida callejera
-• Puestos tradicionales
-• Calles famosas por comida
-• Mercados nocturnos
-
-📱 **Apps y tecnología:**
-• Dianping (reseñas de comida)
-• Meituan (delivery callejero)
-• Google Translate (menús)
-• Maps (ubicación de puestos)
-
-🎭 **Cultura y tradiciones:**
-• Etiqueta en comida callejera
-• Tradiciones culinarias
-• Ingredientes únicos
-• Técnicas de cocina
-
-💡 **Tip del día:** La comida callejera es más auténtica que los restaurantes - ¡atrévete a probar!
-
-🎯 **Reto extra:** Graba un video probando 5 platos diferentes""",
+        "Las mejores compras son las que cuentan una historia. ¡Cada actividad deportiva será una historia de superación! 🏃‍♂️",
+        "🏃‍♂️ **Actividades deportivas:**\n• 🧘‍♀️ Tai Chi en People's Park\n• 🚴‍♂️ Ciclismo por el Bund\n• 🏃‍♀️ Running en Century Park\n• 🧘‍♂️ Yoga en Xintiandi\n• 🏊‍♀️ Natación en hoteles\n• 🎾 Tenis en clubes locales\n\n💡 **Tip del día:** El Tai Chi al amanecer en People's Park es una experiencia única - ¡prueba!",
         "https://www.youtube.com/embed/S1QzWUb4SnQ",
         "/calendar_enhanced/16.png"
     ),
     (
-        "🏗️ ¡PREPARÁNDONOS PARA LA ARQUITECTURA DE SHANGHAI! 🏙️",
-        """¡Shanghai es un museo de arquitectura al aire libre! ¡Desde Valencia nos preparamos para ver sus rascacielos! 🌆
+        "🏗️ ¡ARQUITECTURA DE SHANGHAI! 🏙️",
+        """¡Shanghai es un museo de arquitectura al aire libre! ¡Prepárate para ver sus rascacielos! 🌆
 
 🎯 **RETO DEL DÍA:**
 ¡DESAFÍO ARQUITECTÓNICO ÉPICO! Busca el rascacielos más alto de Shanghai y haz un video imitando su forma. ¡Luego grita '¡EN SHANGHAI SERÉ ARQUITECTO!' ¡El más creativo gana! 🏗️🎬🏆
@@ -627,7 +593,7 @@ _shanghai_days = [
 
 💡 **Tip del día:** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
 
-🎥 **Video del día:** Graba un video imitando edificios con música épica y texto: "Día 17 – Preparándonos para la arquitectura 🏗️🏙️"
+🎥 **Video del día:** Graba un video imitando edificios con música épica y texto: "Día 17 – Arquitectura 🏗️🏙️"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La arquitectura es música congelada. ¡Cada edificio de Shanghai es una sinfonía visual! 🏗️",
@@ -670,8 +636,8 @@ _shanghai_days = [
         "/calendar_enhanced/17.png"
     ),
     (
-        "🌿 ¡PREPARÁNDONOS PARA LA NATURALEZA DE SHANGHAI! 🌸",
-        """¡Descubre los oasis verdes de Shanghai! ¡Desde Valencia nos preparamos para la naturaleza china! 🌳
+        "🌿 ¡NATURALEZA DE SHANGHAI! 🌸",
+        """¡Descubre los oasis verdes de Shanghai! ¡Prepárate para la naturaleza china! 🌳
 
 🎯 **RETO DEL DÍA:**
 ¡DESAFÍO NATURALEZA ÉPICO! Busca información sobre Wuzhen y haz un video imitando el Tai Chi. ¡Luego grita '¡EN SHANGHAI SERÉ ZEN!' ¡El más relajado gana! 🌿🎬🏆
@@ -684,7 +650,7 @@ _shanghai_days = [
 
 💡 **Tip del día:** Wuzhen es una ciudad acuática de 1,300 años considerada la Venecia de China.
 
-🎥 **Video del día:** Graba un video haciendo Tai Chi con música épica y texto: "Día 18 – Preparándonos para la naturaleza 🌿🌸"
+🎥 **Video del día:** Graba un video haciendo Tai Chi con música épica y texto: "Día 18 – Naturaleza 🌿🌸"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La naturaleza es el mejor antídoto contra el estrés urbano. ¡Cada parque es un refugio de paz! 🌿",
