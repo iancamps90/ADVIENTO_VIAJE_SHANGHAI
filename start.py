@@ -18,7 +18,7 @@ class HealthHandler(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
-
+print(f"🚀 Starting Reflex backend on port {port}")
 def start_healthcheck_server():
     server = HTTPServer(("0.0.0.0", 8080), HealthHandler)
     print("🏥 Health check server running on port 8080")
