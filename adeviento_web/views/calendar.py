@@ -670,18 +670,23 @@ _shanghai_days = [
         "/calendar_enhanced/17.png"
     ),
     (
-        "🌿 Parques y naturaleza en Shanghai 🌸",
+        "🌿 ¡PARQUES Y NATURALEZA EN SHANGHAI! 🌸",
         """¡Descubre los oasis verdes de Shanghai! ¡Incluso en la ciudad más moderna hay naturaleza! 🌳
 
-**Reto del día:** ¡DESAFÍO NATURALEZA ÉPICO! Busca información sobre Wuzhen y haz un video imitando el Tai Chi. ¡Luego grita '¡EN SHANGHAI SERÉ ZEN!' ¡El más relajado gana! 🌿🎬🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO NATURALEZA ÉPICO! Busca información sobre Wuzhen y haz un video imitando el Tai Chi. ¡Luego grita '¡EN SHANGHAI SERÉ ZEN!' ¡El más relajado gana! 🌿🎬🏆
 
-**¿Qué nos espera?** Parques urbanos, jardines tradicionales, lagos, canales... ¡Shanghai tiene naturaleza oculta! ✨
+🧳 **Preparativos de maleta:**
+• 🧘‍♀️ Prepara ropa cómoda para parques
+• 📸 Prepara cámara para naturaleza
+• 🌿 Investiga sobre jardines chinos
+• 🎯 Planifica rutas de naturaleza
 
-**¿Por qué es importante?** La naturaleza nos conecta con la esencia de China. ¡Es una experiencia única!
+💡 **Tip del día:** Wuzhen es una ciudad acuática de 1,300 años considerada la Venecia de China.
 
-**Dato curioso:** Shanghai tiene más de 200 parques y jardines. ¡Es una de las ciudades más verdes de China!
+🎥 **Video del día:** Graba un video haciendo Tai Chi con música épica y texto: "Día 18 – Parques y naturaleza 🌿🌸"
 
-**¿Sabías que...?** Wuzhen es una ciudad acuática de 1,300 años considerada la Venecia de China.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La naturaleza es el mejor antídoto contra el estrés urbano. ¡Cada parque es un refugio de paz! 🌿",
         """📋 **Checklist del día:**
 • ✅ Investiga sobre Wuzhen
@@ -722,18 +727,23 @@ _shanghai_days = [
         "/calendar_enhanced/18.png"
     ),
     (
-        "💭 ¡Frase del día! ✨",
+        "💭 ¡FRASE DEL DÍA! ✨",
         """Los recuerdos son el único tesoro que puedes llevarte contigo. ¡Shanghai nos dará tesoros infinitos! 💎
 
-**Reto del día:** Haz una foto de algo que te recuerde a Shanghai en tu ciudad. ¡Puede ser un farolillo, dragón, o lo que se te ocurra! ¡El más creativo gana! 📸🏮🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO RECUERDOS ÉPICO! Haz una foto de algo que te recuerde a Shanghai en tu ciudad. ¡Puede ser un farolillo, dragón, o lo que se te ocurra! ¡El más creativo gana! 📸🏮🏆
 
-**¿Qué nos espera?** Cada día que pasa nos acerca más a Shanghai. ¡Los recuerdos que crearemos serán únicos!
+🧳 **Preparativos de maleta:**
+• 📸 Prepara cámara para recuerdos
+• 🎯 Busca elementos chinos en tu ciudad
+• 📱 Descarga apps de fotos
+• 🎨 Prepara para crear arte
 
-**¿Por qué es importante?** Los recuerdos son lo único que realmente nos llevamos de los viajes. ¡Shanghai nos dará recuerdos para toda la vida!
+💡 **Tip del día:** Los recuerdos se fortalecen cuando los compartes con otros.
 
-**Dato curioso:** Shanghai tiene más de 24 millones de habitantes. ¡Cada uno tiene su propia historia!
+🎥 **Video del día:** Graba un video explicando tu foto con música épica y texto: "Día 19 – Frase del día 💭✨"
 
-**¿Sabías que...?** Los recuerdos se fortalecen cuando los compartes con otros.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Los recuerdos son el único tesoro que aumenta con el tiempo.",
         """📋 **Checklist del día:**
 • ✅ Haz foto de algo que te recuerde a Shanghai
