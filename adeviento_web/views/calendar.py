@@ -415,7 +415,7 @@ _shanghai_days = [
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La comida callejera es el alma de una ciudad. ¡Cada bocado nos acerca más a la cultura local! 🍜",
         "🍜 **Comida callejera en Shanghai:**\n• 🥟 Dim sum (dumplings al vapor)\n• 🥖 Baozi (panecillos rellenos)\n• 🥞 Jianbing (crepes chinos)\n• 🍡 Tanghulu (frutas caramelizadas)\n• 🍜 Fideos de calle\n• 🥘 Hot pot callejero\n\n💡 **Tip del día:** La comida callejera es más auténtica que los restaurantes - ¡atrévete a probar!",
-        "https://www.youtube.com/embed/shanghai-sports-activities",
+        "https://www.youtube.com/embed/shanghai-street-food",
         "/calendar_enhanced/13.png"
     ),
     (
@@ -460,19 +460,7 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La noche es joven y Shanghai nos espera. ¡Cada copa que tomemos será un brindis por la aventura! 🌃",
-        """📋 **Checklist del día:**
-• ✅ Busca bar o club famoso
-• ✅ Comparte con el grupo
-• ✅ Planifica rutas nocturnas
-• ✅ Investiga precios y horarios
-
-🍽️ **Gastronomía del día:**
-• Cócteles de autor
-• Tapas en bares
-• Comida nocturna
-• Bebidas tradicionales
-
-🏛️ **Lugares del día:**
+        """🌃 **Vida nocturna en Shanghai:**
 • 🍸 Bar Rouge (vistas al Bund) - ¡ICÓNICO!
 • 🕺 M1NT (discoteca de lujo) - Exclusivo
 • 🎤 Party World KTV (karaoke) - Tradición
@@ -480,21 +468,9 @@ _shanghai_days = [
 • 🌙 Bar Rouge (vistas espectaculares) - Vistas
 • 🎭 Shanghai Grand Theatre (shows) - Cultura
 
-📱 **Apps y tecnología:**
-• Apps de bares y clubs
-• Reservas online
-• Mapas nocturnos
-• Apps de transporte nocturno
+💡 **Dato curioso:** Shanghai tiene más de 10,000 bares y clubs. ¡Imposible visitarlos todos!
 
-🎭 **Cultura y tradiciones:**
-• Etiqueta en bares
-• Tradiciones nocturnas
-• Costumbres locales
-• Horarios típicos
-
-💡 **Tip del día:** Los bares con vistas al Bund son caros pero valen la pena - ¡reserva con antelación!
-
-🎯 **Reto extra:** Graba un video en un bar con vistas al Bund""",
+🍸 **Consejo de experto:** Los bares con vistas al Bund son más caros pero valen la pena por la experiencia.""",
         "https://www.youtube.com/embed/dsVDXeGNh8M",
         "/calendar_enhanced/15.png"
     ),
@@ -540,19 +516,7 @@ _shanghai_days = [
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La arquitectura es música congelada. ¡Cada edificio de Shanghai es una sinfonía visual! 🏗️",
-        """📋 **Checklist del día:**
-• ✅ Busca rascacielos más alto
-• ✅ Comparte dato curioso
-• ✅ Planifica ruta arquitectónica
-• ✅ Investiga historia de edificios
-
-🍽️ **Gastronomía del día:**
-• Restaurantes en rascacielos
-• Cafés con vistas panorámicas
-• Comida en edificios históricos
-• Bares en azoteas
-
-🏛️ **Lugares del día:**
+        """🏗️ **Rascacielos icónicos de Shanghai:**
 • 🏗️ Torre de Shanghai (632m) - ¡EL MÁS ALTO!
 • 🏢 Jin Mao Tower (420m) - Clásico
 • 🏙️ Shanghai World Financial Center (492m) - Icono
@@ -560,21 +524,9 @@ _shanghai_days = [
 • 🏗️ Oriental Pearl Tower (468m) - Futurista
 • 🏢 Shanghai Tower (632m) - Moderno
 
-📱 **Apps y tecnología:**
-• Apps de arquitectura
-• Guías de edificios
-• Mapas arquitectónicos
-• Realidad aumentada
+💡 **Dato curioso:** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
 
-🎭 **Cultura y tradiciones:**
-• Historia arquitectónica
-• Estilos arquitectónicos
-• Tradiciones de construcción
-• Simbolismo cultural
-
-💡 **Tip del día:** Las vistas desde los rascacielos son espectaculares - ¡no te las pierdas!
-
-🎯 **Reto extra:** Graba un video desde la azotea de un rascacielos""",
+🏗️ **Consejo de experto:** Visita los miradores de los rascacielos al atardecer para ver la ciudad iluminada.""",
         "https://www.youtube.com/embed/51Op3A-8HSA",
         "/calendar_enhanced/17.png"
     ),
