@@ -556,21 +556,21 @@ _shanghai_days = [
         "/calendar_enhanced/15.png"
     ),
     (
-        "🍜 ¡COMIDA CALLEJERA ÉPICA! 🥢",
-        """¡100 horas de comida callejera china! ¡Prepárate para la aventura culinaria más intensa! 🍽️
+        "🍜 ¡PREPARÁNDONOS PARA LA COMIDA CHINA! 🥢",
+        """¡Prepárate para la aventura culinaria más intensa de Shanghai! ¡Desde Valencia nos preparamos! 🍽️
 
 🎯 **RETO DEL DÍA:**
-¡DESAFÍO COMIDA CALLEJERA ÉPICO! Busca un plato de comida callejera china que nunca hayas probado y haz un video comiéndolo. ¡Luego grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
+¡DESAFÍO COMIDA CHINA ÉPICO! Ve a un restaurante chino en Valencia y pide algo que nunca hayas probado. ¡Haz un video comiéndolo y grita '¡EN SHANGHAI SERÉ COMILÓN!' ¡El más aventurero gana! 🍜🎬🏆
 
 🧳 **Preparativos de maleta:**
 • 🍽️ Prepara estómago aventurero
-• 📱 Descarga apps de comida
-• 🥢 Practica con palillos
-• 🎯 Investiga platos únicos
+• 📱 Descarga apps de comida china
+• 🥢 Practica con palillos en casa
+• 🎯 Investiga platos que probar en Shanghai
 
 💡 **Tip del día:** Shanghai tiene más de 50,000 puestos de comida callejera. ¡Imposible probarlos todos!
 
-🎥 **Video del día:** Graba un video probando comida china con música épica y texto: "Día 16 – Comida callejera 🍜🥢"
+🎥 **Video del día:** Graba un video probando comida china en Valencia con música épica y texto: "Día 16 – Preparándonos para la comida china 🍜🥢"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La comida callejera es el alma de una ciudad. ¡Cada bocado nos acerca más a la cultura local! 🍜",
@@ -613,21 +613,21 @@ _shanghai_days = [
         "/calendar_enhanced/16.png"
     ),
     (
-        "🏗️ ¡ARQUITECTURA MODERNA DE SHANGHAI! 🏙️",
-        """¡Shanghai es un museo de arquitectura al aire libre! ¡Descubramos sus rascacielos más impresionantes! 🌆
+        "🏗️ ¡PREPARÁNDONOS PARA LA ARQUITECTURA DE SHANGHAI! 🏙️",
+        """¡Shanghai es un museo de arquitectura al aire libre! ¡Desde Valencia nos preparamos para ver sus rascacielos! 🌆
 
 🎯 **RETO DEL DÍA:**
 ¡DESAFÍO ARQUITECTÓNICO ÉPICO! Busca el rascacielos más alto de Shanghai y haz un video imitando su forma. ¡Luego grita '¡EN SHANGHAI SERÉ ARQUITECTO!' ¡El más creativo gana! 🏗️🎬🏆
 
 🧳 **Preparativos de maleta:**
 • 📸 Prepara cámara para fotos
-• 🏗️ Investiga sobre arquitectura
-• 🎯 Planifica rutas de edificios
+• 🏗️ Investiga sobre arquitectura de Shanghai
+• 🎯 Planifica qué edificios visitar
 • 📱 Descarga apps de arquitectura
 
 💡 **Tip del día:** La Torre de Shanghai es el segundo edificio más alto del mundo con 632 metros.
 
-🎥 **Video del día:** Graba un video imitando edificios con música épica y texto: "Día 17 – Arquitectura 🏗️🏙️"
+🎥 **Video del día:** Graba un video imitando edificios con música épica y texto: "Día 17 – Preparándonos para la arquitectura 🏗️🏙️"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La arquitectura es música congelada. ¡Cada edificio de Shanghai es una sinfonía visual! 🏗️",
@@ -670,8 +670,8 @@ _shanghai_days = [
         "/calendar_enhanced/17.png"
     ),
     (
-        "🌿 ¡PARQUES Y NATURALEZA EN SHANGHAI! 🌸",
-        """¡Descubre los oasis verdes de Shanghai! ¡Incluso en la ciudad más moderna hay naturaleza! 🌳
+        "🌿 ¡PREPARÁNDONOS PARA LA NATURALEZA DE SHANGHAI! 🌸",
+        """¡Descubre los oasis verdes de Shanghai! ¡Desde Valencia nos preparamos para la naturaleza china! 🌳
 
 🎯 **RETO DEL DÍA:**
 ¡DESAFÍO NATURALEZA ÉPICO! Busca información sobre Wuzhen y haz un video imitando el Tai Chi. ¡Luego grita '¡EN SHANGHAI SERÉ ZEN!' ¡El más relajado gana! 🌿🎬🏆
@@ -680,11 +680,11 @@ _shanghai_days = [
 • 🧘‍♀️ Prepara ropa cómoda para parques
 • 📸 Prepara cámara para naturaleza
 • 🌿 Investiga sobre jardines chinos
-• 🎯 Planifica rutas de naturaleza
+• 🎯 Planifica qué parques visitar en Shanghai
 
 💡 **Tip del día:** Wuzhen es una ciudad acuática de 1,300 años considerada la Venecia de China.
 
-🎥 **Video del día:** Graba un video haciendo Tai Chi con música épica y texto: "Día 18 – Parques y naturaleza 🌿🌸"
+🎥 **Video del día:** Graba un video haciendo Tai Chi con música épica y texto: "Día 18 – Preparándonos para la naturaleza 🌿🌸"
 
 🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La naturaleza es el mejor antídoto contra el estrés urbano. ¡Cada parque es un refugio de paz! 🌿",
