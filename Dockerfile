@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-# Instalar solo dependencias mínimas necesarias
+# Instalar dependencias básicas del sistema
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/* \
@@ -8,23 +8,23 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-# Copiar solo archivos necesarios para reducir tamaño de imagen
+# Copiar e instalar dependencias Python
 COPY requirements.txt .
-RUN pip install --no-cache-dir --no-deps -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar solo archivos esenciales
+# Copiar el resto de archivos del proyecto
 COPY adeviento_web/ ./adeviento_web/
 COPY rxconfig.py .
 COPY start.py .
 
-# Variables de entorno para optimizar memoria
+# Variables de entorno
 ENV PYTHONPATH=/app
 ENV REFLEX_ENV=prod
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 
-# No exponer puerto específico - Render lo maneja
+# Render inyecta $PORT dinámicamente
 EXPOSE 8000
 
-# Usar start.py que ya tiene la configuración optimizada
+# Usar start.py que maneja el puerto correctamente
 CMD ["python", "start.py"]
