@@ -1,8 +1,5 @@
 FROM python:3.11-slim
 
-# Imagen base ligera
-FROM python:3.11-slim
-
 # Instalar dependencias del sistema necesarias para Reflex
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl unzip \
