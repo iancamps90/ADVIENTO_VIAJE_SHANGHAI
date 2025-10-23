@@ -7,7 +7,5 @@ services:
     envVars:
       - key: REFLEX_ENV
         value: prod
-      - key: PORT
-        value: 10000
       - key: ALLOWED_HOSTS
         value: "*"

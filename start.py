@@ -1,7 +1,10 @@
 import os
 import subprocess
 
-port = os.getenv("PORT", "10000")  # Render usa 10000 por defecto
+# Render inyecta el puerto dinámicamente
+port = os.getenv("PORT", "8000")  # Puerto por defecto si no se especifica
+
+print(f"Starting Reflex on port: {port}")
 
 subprocess.run([
     "reflex",
