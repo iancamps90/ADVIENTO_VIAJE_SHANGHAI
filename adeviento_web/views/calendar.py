@@ -892,18 +892,23 @@ _shanghai_days = [
         "/calendar_enhanced/21.png"
     ),
     (
-        "⏰ ¡Casi llegamos! 🎯",
+        "⏰ ¡CASI LLEGAMOS! 🎯",
         """¡Solo quedan 3 días! ¡La emoción está por las nubes! ¡Shanghai está a la vuelta de la esquina! 🏮
 
-**Reto del día:** Haz un video contando del 3 al 1 y gritando "¡SHANGHAI NOS ESPERA!" ¡Que se escuche en toda la casa! ¡El más ruidoso gana! 🎊📢🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO CUENTA ATRÁS ÉPICO! Haz un video contando del 3 al 1 y gritando "¡SHANGHAI NOS ESPERA!" ¡Que se escuche en toda la casa! ¡El más ruidoso gana! 🎊📢🏆
 
-**¿Qué nos espera?** Solo quedan 3 días para la aventura más épica. ¡La cuenta atrás final ha comenzado!
+🧳 **Preparativos de maleta:**
+• ⏰ Prepara cuenta atrás final
+• 🎯 Visualiza la aventura
+• 📱 Prepara para documentar
+• 🚀 ¡Activa modo aventurero!
 
-**¿Por qué es importante?** La emoción es el mejor equipaje para cualquier viaje. ¡Mantén esa energía alta!
+💡 **Tip del día:** En 3 días estaremos volando hacia Shanghai. ¡El tiempo vuela cuando te diviertes!
 
-**Dato curioso:** En 3 días estaremos volando hacia Shanghai. ¡El tiempo vuela cuando te diviertes!
+🎥 **Video del día:** Graba un video de cuenta atrás con música épica y texto: "Día 22 – Casi llegamos ⏰🎯"
 
-**¿Sabías que...?** La emoción previa al viaje es tan importante como el viaje mismo.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La emoción es el mejor equipaje para cualquier viaje.",
         """📋 **Checklist del día:**
 • ✅ ¡Mantén la emoción!
@@ -942,19 +947,24 @@ _shanghai_days = [
         "/calendar_enhanced/22.png"
     ),
     (
-        "🎄 ¡Última noche antes del viaje! 🏮",
+        "🎄 ¡ÚLTIMA NOCHE ANTES DEL VIAJE! 🏮",
         """¡Mañana es Nochebuena y pasado mañana... ¡NOS VAMOS A SHANGHAI! 🎄🏮
 ¡Última noche para preparar todo y disfrutar de la emoción!
 
-**Reto del día:** Haz una foto de tu maleta/equipaje preparado para Shanghai. ¡Incluye algo especial que te lleves! ¡El más organizado gana! 🧳✈️🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO ÚLTIMA NOCHE ÉPICO! Haz una foto de tu maleta/equipaje preparado para Shanghai. ¡Incluye algo especial que te lleves! ¡El más organizado gana! 🧳✈️🏆
 
-**¿Qué nos espera?** Mañana cenamos con nuestras familias y pasado mañana... ¡VOLAMOS A SHANGHAI! ¡La aventura más épica comienza en 2 días!
+🧳 **Preparativos de maleta:**
+• 🎄 Prepara para Nochebuena
+• ✈️ Revisa maleta final
+• 🎯 Visualiza la aventura
+• 🚀 ¡Activa modo aventurero!
 
-**¿Por qué es importante?** Esta es la última noche en casa antes de la aventura más increíble de nuestras vidas.
+💡 **Tip del día:** El vuelo dura aproximadamente 12 horas. ¡Tendremos Navidad en el aire!
 
-**Dato curioso:** Shanghai está a 9,000 km de distancia. ¡Vamos a cruzar medio mundo!
+🎥 **Video del día:** Graba un video de preparación final con música épica y texto: "Día 23 – Última noche 🎄🏮"
 
-**¿Sabías que...?** El vuelo dura aproximadamente 12 horas. ¡Tendremos Navidad en el aire!""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡La aventura más épica de nuestras vidas comienza en 2 días! ¡Nochebuena + vuelo a Shanghai = ¡NAVIDAD PERFECTA!",
         """📋 **Checklist del día:**
 • ✅ Última revisión de maletas
