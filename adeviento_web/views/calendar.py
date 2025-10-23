@@ -85,7 +85,7 @@ _shanghai_days = [
 🧳 **Preparativos de maleta:**
 • 🏥 **Botiquín:** Ibuprofeno, Fortasec, tiritas, paracetamol, algo para mareo
 • 🧴 **Higiene:** Gel hidroalcohólico y toallitas húmedas
-• 📱 **Apps:** Prueba la función de cámara de Google Translate
+• 📱 **Apps:** Descarga Google Translate (ya configurado en día 2)
 • 🗺️ **Investigación:** Investiga sobre el Bund y la Torre de Shanghai
 
 💡 **Tip del día:** Descarga Google Translate y prueba su función de cámara instantánea para traducir carteles o menús. 🈶 Te salvará en los restaurantes locales.
