@@ -264,172 +264,132 @@ _shanghai_days = [
         "/calendar_enhanced/7.png"
     ),
     (
-        "🗣️ Idioma chino básico 📚",
+        "🗣️ ¡IDIOMA CHINO BÁSICO! 📚",
         """¡Hora de aprender las frases que nos salvarán en Shanghai! 🎯
 
-**Reto del día:** ¡DESAFÍO CHINO ÉPICO! Graba un video diciendo 'Ni hao' (hola) y 'Xie xie' (gracias) en chino con tu mejor acento. ¡Luego grita '¡YA HABLO CHINO!' ¡El más chino gana! 🗣️🎬🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO CHINO ÉPICO! Graba un video diciendo 'Ni hao' (hola) y 'Xie xie' (gracias) en chino con tu mejor acento. ¡Luego grita '¡YA HABLO CHINO!' ¡El más chino gana! 🗣️🎬🏆
 
-**¿Por qué es importante?** Los locales aprecian el esfuerzo. ¡Un simple 'Ni hao' puede abrir muchas puertas! 🚪✨
+🧳 **Preparativos de maleta:**
+• 📱 Descarga Google Translate y ChatGPT
+• 🎧 Prueba la función de voz para traducción
+• 📝 Haz una lista de 10 frases básicas
+• 🎯 Practica la pronunciación con apps
 
-**¿Qué nos espera?** Un idioma fascinante con 4 tonos diferentes. ¡Cada palabra es una aventura!
+💡 **Tip del día:** Los locales aprecian el esfuerzo. ¡Un simple 'Ni hao' puede abrir muchas puertas!
 
-**Dato curioso:** El chino mandarín tiene más de 50,000 caracteres, pero solo necesitas 3,000 para leer un periódico.
+🎥 **Video del día:** Graba un video practicando chino con música épica y texto: "Día 8 – Aprendiendo chino 🗣️📚"
 
-**¿Sabías que...?** ChatGPT puede ayudarte a traducir chino en tiempo real usando la función de voz.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "El respeto por la cultura local abre puertas y corazones. ¡Cada palabra en chino es un puente hacia nuevas amistades! 🗣️",
-        """📋 **Checklist del día:**
-• ✅ Aprende 5 frases básicas
-• ✅ Graba video de pronunciación
-• ✅ Practica con Google Translate
-• ✅ Comparte tu progreso
+        """💡 **Dato curioso:** El chino mandarín tiene más de 50,000 caracteres, pero solo necesitas 3,000 para leer un periódico.
 
-🍽️ **Gastronomía del día:**
-• Frases para pedir comida
-• Nombres de platos básicos
-• Cómo pedir la cuenta
-• Expresiones de cortesía
+🎯 **Actividades del día:**
+• Aprende 5 frases básicas en chino
+• Graba video de pronunciación
+• Practica con Google Translate
+• ¡Comparte tu progreso con el grupo!
 
-🏛️ **Lugares del día:**
-• Frases para preguntar direcciones
-• Cómo pedir ayuda
-• Expresiones de agradecimiento
-• Frases de emergencia
-
-📱 **Apps y tecnología:**
-• Google Translate (traducción)
-• ChatGPT (voz y traducción)
-• Pleco (diccionario chino)
-• HelloChinese (aprendizaje)
-
-🎭 **Cultura y tradiciones:**
-• Frases de cortesía
-• Expresiones culturales
-• Títulos de respeto
-• Tradiciones del idioma
-
-💡 **Tip del día:** La pronunciación es clave - ¡practica con Google Translate!
-
-🎯 **Reto extra:** Usa ChatGPT en voz para traducir chino en tiempo real""",
+🗣️ **Frases esenciales:**
+• Ni hao (hola)
+• Xie xie (gracias)
+• Zai jian (adiós)
+• Duo shao qian? (¿cuánto cuesta?)
+• Wo bu dong (no entiendo)""",
         "https://www.youtube.com/embed/yiXNOAdXlzk",
         "/calendar_enhanced/8.png"
     ),
     (
-        "🏮 Tradiciones chinas 🎊",
+        "🏮 ¡TRADICIONES CHINAS! 🎊",
         """¡Descubramos las tradiciones milenarias que hacen única a China! 🌟
 
-**Reto del día:** Busca información sobre el Año Nuevo Chino 2025 (Año del Dragón) y comparte un dato curioso. ¡Vamos a celebrar como locales! 🐉
+🎯 **RETO DEL DÍA:**
+¡BÚSQUEDA DEL TESORO TRADICIONAL! Busca información sobre el Año Nuevo Chino 2025 (Año del Dragón) y comparte un dato curioso. ¡Vamos a celebrar como locales! 🐉✨🏆
 
-**¿Sabías que?** El dragón es símbolo de poder y buena fortuna. ¡2025 será nuestro año! 🍀
+🧳 **Preparativos de maleta:**
+• 📱 Descarga apps de cultura china
+• 🎨 Busca algo rojo para llevar (color de buena suerte)
+• 📚 Investiga sobre el Año del Dragón
+• 🎯 Prepara frases tradicionales
 
-**¿Por qué es importante?** Entender las tradiciones nos ayuda a conectar con la cultura local.
+💡 **Tip del día:** El dragón es símbolo de poder y buena fortuna. ¡2025 será nuestro año!
 
-**Dato curioso:** El Año Nuevo Chino se celebra durante 15 días, no solo una noche como en Occidente.
+🎥 **Video del día:** Graba un video explicando una tradición china con música épica y texto: "Día 9 – Tradiciones chinas 🏮🎊"
 
-**¿Sabías que...?** ChatGPT puede ayudarte a entender las tradiciones chinas y traducir frases tradicionales.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "Los recuerdos son la única riqueza que nadie puede quitarte. ¡Cada tradición que conozcamos será un tesoro para siempre! 🏮",
-        """📋 **Checklist del día:**
-• ✅ Investiga Año Nuevo Chino 2025
-• ✅ Comparte dato curioso
-• ✅ Aprende sobre el Año del Dragón
-• ✅ Descubre tradiciones locales
+        """💡 **Dato curioso:** El Año Nuevo Chino se celebra durante 15 días, no solo una noche como en Occidente.
 
-🍽️ **Gastronomía del día:**
-• Comida tradicional del Año Nuevo
-• Dumplings (jiaozi)
-• Nian gao (pastel de año nuevo)
-• Té ceremonial
+🎯 **Actividades del día:**
+• Investiga Año Nuevo Chino 2025
+• Comparte dato curioso con el grupo
+• Aprende sobre el Año del Dragón
+• ¡Descubre tradiciones locales!
 
-🏛️ **Lugares del día:**
-• Templos tradicionales
-• Mercados de Año Nuevo
-• Barrios históricos
-• Centros culturales
-
-📱 **Apps y tecnología:**
-• ChatGPT (tradiciones y traducción)
-• Google Translate (frases tradicionales)
-• Apps de cultura china
-• Calendario lunar
-
-🎭 **Cultura y tradiciones:**
-• 🐉 Año Nuevo Chino (Febrero 2025)
+🏮 **Tradiciones del Año del Dragón:**
+• 🐉 Dragón (poder y buena fortuna)
 • 🏮 Farolillos rojos (buena suerte)
 • 🥢 Uso de palillos (etiqueta)
 • 🍵 Ceremonia del té
-• 🎭 Ópera china
 • 🧧 Sobres rojos (hongbao)
-
-💡 **Tip del día:** El rojo es color de buena suerte - ¡llévate algo rojo!
-
-🎯 **Reto extra:** Usa ChatGPT en voz para aprender frases tradicionales""",
+• 🎭 Ópera china""",
         "https://www.youtube.com/embed/AHpT7aCB4pY",
         "/calendar_enhanced/9.png"
     ),
     (
-        "🛍️ Compras en Shanghai 💰",
+        "🛍️ ¡COMPRAS EN SHANGHAI! 💰",
         """¡Hora de planificar nuestra estrategia de compras! 🛒
 
-**Reto del día:** ¡LISTA DE COMPRAS ÉPICA! Haz una lista de 5 souvenirs que quieres comprar en Shanghai y compártela con el grupo. ¡Luego haz un video mostrando tu lista y grita '¡SHANGHAI, AQUÍ VENGO A COMPRAR!' ¡El más comprador gana! 🛍️🎬🏆
+🎯 **RETO DEL DÍA:**
+¡LISTA DE COMPRAS ÉPICA! Haz una lista de 5 souvenirs que quieres comprar en Shanghai y compártela con el grupo. ¡Luego haz un video mostrando tu lista y grita '¡SHANGHAI, AQUÍ VENGO A COMPRAR!' ¡El más comprador gana! 🛍️🎬🏆
 
-**¿Dónde comprar?** Mercados tradicionales, centros comerciales, tiendas de lujo... ¡Shanghai lo tiene todo! 🏪✨
+🧳 **Preparativos de maleta:**
+• 💳 Revisa límites de tarjetas
+• 📱 Configura Alipay para pagos
+• 🎒 Prepara bolsas para compras
+• 🎯 Investiga precios de souvenirs
 
-**¿Por qué es importante?** Shanghai es un paraíso de compras con opciones para todos los presupuestos.
+💡 **Tip del día:** Nanjing Road es una de las calles comerciales más largas del mundo con 5.5 km.
 
-**Dato curioso:** Nanjing Road es una de las calles comerciales más largas del mundo con 5.5 km.
+🎥 **Video del día:** Graba un video mostrando tu lista de compras con música épica y texto: "Día 10 – Lista de compras 🛍️💰"
 
-**¿Sabías que...?** Puedes regatear en los mercados tradicionales hasta un 50% del precio inicial.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "La preparación es la mitad del éxito. ¡Cada compra planificada será un recuerdo perfecto! 🛍️",
-        """📋 **Checklist del día:**
-• ✅ Haz lista de 5 souvenirs
-• ✅ Investiga precios
-• ✅ Planifica rutas de compras
-• ✅ Comparte tu lista con el grupo
+        """💡 **Dato curioso:** Puedes regatear en los mercados tradicionales hasta un 50% del precio inicial.
 
-🍽️ **Gastronomía del día:**
-• Comida en centros comerciales
-• Cafés en tiendas de lujo
-• Mercados de comida
-• Restaurantes con vistas
+🎯 **Actividades del día:**
+• Haz lista de 5 souvenirs
+• Investiga precios
+• Planifica rutas de compras
+• ¡Comparte tu lista con el grupo!
 
-🏛️ **Lugares del día:**
+🛍️ **Lugares de compras:**
 • 🏪 Nanjing Road (calle comercial) - ¡LA MÁS FAMOSA!
 • 🏮 Yu Garden Bazaar (souvenirs) - Tradición
 • 🏬 Xintiandi (marcas internacionales) - Lujo
 • 🎭 Tianzifang (arte y artesanía) - Arte
-• 🛒 Super Brand Mall (centro comercial) - Moderno
-• 🏮 Mercado de antigüedades - Historia
-
-📱 **Apps y tecnología:**
-• Alipay (pagos móviles)
-• Dianping (reseñas de tiendas)
-• Google Translate (etiquetas)
-• Maps (navegación)
-
-🎭 **Cultura y tradiciones:**
-• Arte de regatear
-• Etiqueta de compras
-• Tradiciones comerciales
-• Souvenirs culturales
-
-💡 **Tip del día:** Regatea en los mercados tradicionales - ¡es parte de la experiencia!
-
-🎯 **Reto extra:** Graba un video regateando en un mercado""",
+• 🛒 Super Brand Mall (centro comercial) - Moderno""",
         "https://www.youtube.com/embed/shanghai-shopping-guide",
         "/calendar_enhanced/10.png"
     ),
     (
-        "🎨 Arte y cultura 🏛️",
+        "🎨 ¡ARTE Y CULTURA! 🏛️",
         """¡Shanghai es un museo al aire libre! ¡Descubramos su rica herencia cultural! 🎭
 
-**Reto del día:** Busca una obra de arte china famosa y compártela con una explicación de por qué te gusta. ¡Vamos a ser cultos! 📚
+🎯 **RETO DEL DÍA:**
+¡BÚSQUEDA ARTÍSTICA ÉPICA! Busca una obra de arte china famosa y compártela con una explicación de por qué te gusta. ¡Vamos a ser cultos! 📚✨🏆
 
-**¿Qué nos espera?** Museos, galerías, arte callejero, arquitectura... ¡Shanghai respira cultura! 🌟
+🧳 **Preparativos de maleta:**
+• 📱 Descarga apps de museos
+• 🎨 Prepara cámara para fotos
+• 📚 Investiga sobre arte chino
+• 🎯 Planifica rutas culturales
 
-**¿Por qué es importante?** El arte es la ventana al alma de una cultura. ¡Shanghai tiene milenios de historia artística!
+💡 **Tip del día:** Shanghai tiene más de 100 museos y galerías. ¡Imposible visitarlos todos!
 
-**Dato curioso:** Shanghai tiene más de 100 museos y galerías. ¡Imposible visitarlos todos!
+🎥 **Video del día:** Graba un video explicando una obra de arte china con música épica y texto: "Día 11 – Arte y cultura 🎨🏛️"
 
-**¿Sabías que...?** El barrio de Tianzifang es famoso por su arte callejero y galerías independientes.""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "El respeto por la cultura local abre puertas y corazones. ¡Cada obra de arte nos cuenta una historia milenaria! 🎨",
         """📋 **Checklist del día:**
 • ✅ Busca obra de arte china famosa
