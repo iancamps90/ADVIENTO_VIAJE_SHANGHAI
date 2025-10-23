@@ -43,6 +43,9 @@ def _parse_day_content(content: str) -> dict:
                 sections[current_section] = '\n'.join(current_content).strip()
             current_section = 'preparations'
             current_content = [line.replace('🧳 **Preparativos de maleta:**', '').strip()]
+        elif current_section == 'preparations' and line.startswith('•'):
+            # Añadir líneas con viñetas a preparativos
+            current_content.append(line)
         elif '💡 **Tip del día:**' in line:
             if current_content:
                 sections[current_section] = '\n'.join(current_content).strip()
@@ -175,11 +178,11 @@ def _render_day_sections(content: str) -> rx.Component:
                     rx.text(
                         sections['preparations'],
                         font_size=rx.breakpoints(
-                            initial="0.9em",
-                            xs="1em", 
-                            sm="1.1em",
-                            md="1.2em",
-                            lg="1.2em",
+                            initial="1.1em",
+                            xs="1.2em", 
+                            sm="1.3em",
+                            md="1.4em",
+                            lg="1.4em",
                             xl="1.2em"
                         ),
                         color="#FFFFFF",
@@ -397,7 +400,7 @@ def day_detail(day_number: int) -> rx.Component:
                     day_photo != "",
                     photo_carousel(
                         photos=_get_day_photos(day_number),
-                        interval=7000  # Cambia cada 7 segundos
+                        interval=5000  # Cambia cada 5 segundos
                     )
                 ),
                 
