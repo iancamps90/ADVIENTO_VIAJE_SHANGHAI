@@ -1003,19 +1003,24 @@ _shanghai_days = [
         "/calendar_enhanced/23.png"
     ),
     (
-        "🎄 ¡Nochebuena épica! 🏮",
+        "🎄 ¡NOCHEBUENA ÉPICA! 🏮",
         """¡HOY ES NOCHEBUENA! ¡Cenamos con nuestras familias y mañana... ¡NOS VAMOS A SHANGHAI! 🎄🏮
 ¡Salimos a las 3 de la madrugada hacia Madrid, esperamos en el aeropuerto y volamos el 25 por la mañana!
 
-**Reto del día:** ¡Hoy cenamos con nuestras familias y mañana... ¡NOS VAMOS A SHANGHAI! 🎄✈️ Comparte una foto de tu cena navideña + tu cara de "¡mañana estoy en el avión!" ¡Que se note la emoción! ¡El más emocionado gana! 🏮🎊🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO NOCHEBUENA ÉPICO! ¡Hoy cenamos con nuestras familias y mañana... ¡NOS VAMOS A SHANGHAI! 🎄✈️ Comparte una foto de tu cena navideña + tu cara de "¡mañana estoy en el avión!" ¡Que se note la emoción! ¡El más emocionado gana! 🏮🎊🏆
 
-**¿Qué nos espera?** Una cena navideña especial con la familia, despedidas emocionantes, y preparación para la aventura más épica.
+🧳 **Preparativos de maleta:**
+• 🎄 Disfruta la cena navideña
+• ✈️ Prepara para salida a las 3 AM
+• 🎯 Visualiza la aventura
+• 🚀 ¡Activa modo aventurero!
 
-**¿Por qué es importante?** Es la última Nochebuena en casa antes de volar a Shanghai. ¡Momento único e irrepetible!
+💡 **Tip del día:** El vuelo sale a las 10 de la mañana del 25. ¡Navidad en el avión!
 
-**Dato curioso:** Pasaremos Navidad en el aire, volando hacia Shanghai. ¡Una Navidad literalmente por las nubes!
+🎥 **Video del día:** Graba un video del brindis navideño con música épica y texto: "Día 24 – Nochebuena épica 🎄🏮"
 
-**¿Sabías que...?** El vuelo sale a las 10 de la mañana del 25. ¡Navidad en el avión!""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡La aventura más épica de nuestras vidas comienza MAÑANA! ¡Nochebuena + vuelo a Shanghai = ¡NAVIDAD PERFECTA!",
         """📋 **Checklist del día:**
 • ✅ Cena navideña con familia
@@ -1057,15 +1062,20 @@ _shanghai_days = [
         "✈️ ¡DÍA DEL VUELO A SHANGHAI! 🎊",
         """¡HOY VOLAMOS A SHANGHAI! ¡Después de la Nochebuena épica, hoy es el gran día! ¡El avión nos lleva a la aventura más increíble!
 
-**Reto del día:** Haz una foto en el aeropuerto con tu mejor pose de "¡me voy a Shanghai!" ¡Que se note que es el día más emocionante! ¡El más épico gana! ✈️🎊🏆
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO VUELO ÉPICO! Haz una foto en el aeropuerto con tu mejor pose de "¡me voy a Shanghai!" ¡Que se note que es el día más emocionante! ¡El más épico gana! ✈️🎊🏆
 
-**¿Qué nos espera?** Un vuelo de 12 horas hacia Shanghai. ¡Pasaremos Navidad literalmente por las nubes!
+🧳 **Preparativos de maleta:**
+• ✈️ Prepara para el vuelo
+• 🎯 Visualiza la aventura
+• 📱 Prepara para documentar
+• 🚀 ¡Activa modo aventurero!
 
-**¿Por qué es especial?** Es el día que hemos estado esperando durante 25 días. ¡La aventura más épica comienza ahora!
+💡 **Tip del día:** El vuelo cruza 9,000 km y 7 zonas horarias. ¡Vamos a cruzar medio mundo!
 
-**Dato curioso:** El vuelo cruza 9,000 km y 7 zonas horarias. ¡Vamos a cruzar medio mundo!
+🎥 **Video del día:** Graba un video en el aeropuerto con música épica y texto: "Día 25 – Día del vuelo ✈️🎊"
 
-**¿Sabías que...?** Llegaremos a Shanghai el 26 por la mañana. ¡Navidad en el aire y llegada épica!""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡El avión despega y con él nuestros sueños! ¡Shanghai nos espera al otro lado del mundo!",
         """📋 **Checklist del día:**
 • ✅ ¡Llegar temprano al aeropuerto!
@@ -1104,20 +1114,23 @@ _shanghai_days = [
         "/calendar_enhanced/25.png"
     ),
     (
-        "🏮 ¡Llegamos a Shanghai! ✨",
+        "🏮 ¡LLEGAMOS A SHANGHAI! ✨",
         """¡FELIZ NAVIDAD EN SHANGHAI! ¡Hemos llegado a la ciudad de los sueños! ¡Que empiece la magia! 🎄
 
-**¡MISIÓN CUMPLIDA!** Hemos llegado a Shanghai después de 25 días de preparación. ¡La aventura más épica comienza ahora! 🚀
+🎯 **RETO DEL DÍA:**
+¡DESAFÍO LLEGADA ÉPICO! ¡Primera foto en Shanghai! Haz una foto en el aeropuerto con tu mejor pose de "¡HEMOS LLEGADO!" ¡Que se note la emoción! ¡El más emocionado gana! 🏮🎊🏆
 
-**Reto del día:** ¡Primera foto en Shanghai! Haz una foto en el aeropuerto con tu mejor pose de "¡HEMOS LLEGADO!" ¡Que se note la emoción! ¡El más emocionado gana! 🏮🎊🏆
+🧳 **Preparativos de maleta:**
+• 🏮 ¡Disfruta la llegada!
+• 🎯 Visualiza la aventura
+• 📱 Prepara para documentar
+• 🚀 ¡Activa modo aventurero!
 
-**¿Qué nos espera?** Una ciudad llena de sorpresas, cultura milenaria, tecnología futurista... ¡Shanghai nos espera! 🌟
+💡 **Tip del día:** Shanghai recibe más de 30 millones de turistas al año. ¡Somos parte de esa estadística!
 
-**¿Por qué es especial?** Este es el momento que hemos estado esperando durante 25 días. ¡Cada preparación ha valido la pena!
+🎥 **Video del día:** Graba un video de llegada con música épica y texto: "Día 26 – Llegada a Shanghai 🏮✨"
 
-**Dato curioso:** Shanghai recibe más de 30 millones de turistas al año. ¡Somos parte de esa estadística!
-
-**¿Sabías que...?** Llegamos el 26 por la mañana después de volar toda la Navidad!""",
+🧧 **Extra para el grupo:** 📸 Bonus: Cread un álbum compartido llamado "Rumbo a Shanghai" y subid ahí vuestras fotos del reto.""",
         "¡Hemos llegado! Ahora comienza la verdadera aventura. ¡Que empiece la magia de Shanghai! 🏮",
         """📋 **Checklist del día:**
 • ✅ ¡Bienvenidos a Shanghai!
