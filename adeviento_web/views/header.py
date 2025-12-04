@@ -9,14 +9,14 @@ def header() -> rx.Component:
     return rx.vstack(
         rx.heading(
             "Calendario de Adviento Shanghai 2025",
-            size=rx.breakpoints(
-                initial="6",
-                xs="7", 
-                sm="8",
-                md="9",
-                lg="9",
-                xl="9"
-            ),
+            size={
+                "initial": "6",
+                "xs": "7", 
+                "sm": "8",
+                "md": "9",
+                "lg": "9",
+                "xl": "9"
+            },
             padding_bottom=Size.DEFAULT.value,
             class_name="chinese-text golden-glow"
         ),
@@ -49,14 +49,14 @@ def header() -> rx.Component:
                 rx.vstack(
                     rx.text(
                         "¡Un calendario de adviento personalizado para nuestro viaje a Shanghai!",
-                        font_size=rx.breakpoints(
-                            initial="1.2em",
-                            xs="1.3em", 
-                            sm="1.4em",
-                            md="1.5em",
-                            lg="1.6em",
-                            xl="1.6em"
-                        ),
+                        font_size={
+    "initial": "1.2em",
+    "xs": "1.3em",
+    "sm": "1.4em",
+    "md": "1.5em",
+    "lg": "1.6em",
+    "xl": "1.6em"
+},
                         color="white",
                         font_weight="bold",
                         text_shadow="3px 3px 6px rgba(0,0,0,0.9)",
@@ -64,28 +64,28 @@ def header() -> rx.Component:
                     ),
                     rx.text(
                         "Cada día una nueva sorpresa para calentar el viaje",
-                        font_size=rx.breakpoints(
-                            initial="1em",
-                            xs="1.1em", 
-                            sm="1.2em",
-                            md="1.3em",
-                            lg="1.4em",
-                            xl="1.4em"
-                    ),
+                        font_size={
+    "initial": "1em",
+    "xs": "1.1em",
+    "sm": "1.2em",
+    "md": "1.3em",
+    "lg": "1.4em",
+    "xl": "1.4em"
+},
                         color="white",
                         text_shadow="3px 3px 6px rgba(0,0,0,0.9)",
                         text_align="center"
                     ),
                     rx.text(
                         "¡Prepárate para la aventura más épica de fin de año!",
-                        font_size=rx.breakpoints(
-                            initial="1em",
-                            xs="1.1em", 
-                            sm="1.2em",
-                            md="1.3em",
-                            lg="1.4em",
-                            xl="1.4em"
-                        ),
+                        font_size={
+    "initial": "1em",
+    "xs": "1.1em",
+    "sm": "1.2em",
+    "md": "1.3em",
+    "lg": "1.4em",
+    "xl": "1.4em"
+},
                         color="white",
                         font_weight="bold",
                         text_shadow="3px 3px 6px rgba(0,0,0,0.9)",
@@ -96,14 +96,14 @@ def header() -> rx.Component:
                         color="#F0F8FF",
                         text_shadow="4px 4px 8px rgba(0,0,0,1)",
                         font_weight="bold",
-                        font_size=rx.breakpoints(
-                            initial="1.3em",
-                            xs="1.4em", 
-                            sm="1.5em",
-                            md="1.6em",
-                            lg="1.7em",
-                            xl="1.7em"
-                        ),
+                        font_size={
+    "initial": "1.3em",
+    "xs": "1.4em",
+    "sm": "1.5em",
+    "md": "1.6em",
+    "lg": "1.7em",
+    "xl": "1.7em"
+},
                         text_align="center",
                         background="rgba(0,0,0,0.7)",
                         padding="0.5em 1em",

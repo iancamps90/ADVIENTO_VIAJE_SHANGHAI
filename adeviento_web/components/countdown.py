@@ -48,14 +48,14 @@ def countdown_timer() -> rx.Component:
             # Título del countdown
             rx.heading(
                 "Cuenta atrás para Shanghai",
-                size=rx.breakpoints(
-                    initial="6",
-                    xs="7", 
-                    sm="8",
-                    md="9",
-                    lg="9",
-                    xl="9"
-                ),
+                size={
+    "initial": "6",
+    "xs": "7",
+    "sm": "8",
+    "md": "9",
+    "lg": "9",
+    "xl": "9"
+},
                 color="white",
                 class_name="chinese-text",
                 text_align="center",
@@ -127,51 +127,51 @@ def countdown_timer() -> rx.Component:
                         rx.box(
                             rx.text(
                                 CountdownState.days,
-                                font_size=rx.breakpoints(
-                                    initial="1.5em",
-                                    xs="1.8em", 
-                                    sm="2em",
-                                    md="2.2em",
-                                    lg="2.5em",
-                                    xl="2.5em"
-                                ),
+                                font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                                 font_weight="bold",
                                 color=TextColor.PRIMARY.value,
                                 class_name="golden-glow countdown-number",
                                 data_countdown="days"
                             ),
-                            padding=rx.breakpoints(
-                                initial="0.8em",
-                                xs="1em", 
-                                sm="1.2em",
-                                md="1.5em",
-                                lg="2em",
-                                xl="2em"
-                            ),
+                            padding={
+    "initial": "0.8em",
+    "xs": "1em",
+    "sm": "1.2em",
+    "md": "1.5em",
+    "lg": "2em",
+    "xl": "2em"
+},
                             background=f"linear-gradient(135deg, {Color.ACCENT.value}, {Color.QUATERNARY.value})",
                             border_radius="8px",
                             border=f"2px solid {Color.SECONDARY.value}",
-                            min_width=rx.breakpoints(
-                                initial="60px",
-                                xs="65px", 
-                                sm="70px",
-                                md="75px",
-                                lg="80px",
-                                xl="80px"
-                            ),
+                            min_width={
+    "initial": "60px",
+    "xs": "65px",
+    "sm": "70px",
+    "md": "75px",
+    "lg": "80px",
+    "xl": "80px"
+},
                             text_align="center",
                             class_name="countdown-box"
                         ),
                         rx.text(
                             "DÍAS",
-                            font_size=rx.breakpoints(
-                                initial="0.6em",
-                                xs="0.7em", 
-                                sm="0.8em",
-                                md="0.9em",
-                                lg="1em",
-                                xl="1em"
-                            ),
+                            font_size={
+    "initial": "0.6em",
+    "xs": "0.7em",
+    "sm": "0.8em",
+    "md": "0.9em",
+    "lg": "1em",
+    "xl": "1em"
+},
                             font_weight="bold",
                             color=TextColor.SECONDARY.value,
                             class_name="countdown-label"
@@ -185,51 +185,51 @@ def countdown_timer() -> rx.Component:
                         rx.box(
                             rx.text(
                                 CountdownState.hours,
-                                font_size=rx.breakpoints(
-                                    initial="1.5em",
-                                    xs="1.8em", 
-                                    sm="2em",
-                                    md="2.2em",
-                                    lg="2.5em",
-                                    xl="2.5em"
-                                ),
+                                font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                                 font_weight="bold",
                                 color=TextColor.PRIMARY.value,
                                 class_name="golden-glow countdown-number",
                                 data_countdown="hours"
                             ),
-                            padding=rx.breakpoints(
-                                initial="0.8em",
-                                xs="1em", 
-                                sm="1.2em",
-                                md="1.5em",
-                                lg="2em",
-                                xl="2em"
-                            ),
+                            padding={
+    "initial": "0.8em",
+    "xs": "1em",
+    "sm": "1.2em",
+    "md": "1.5em",
+    "lg": "2em",
+    "xl": "2em"
+},
                             background=f"linear-gradient(135deg, {Color.ACCENT.value}, {Color.QUATERNARY.value})",
                             border_radius="8px",
                             border=f"2px solid {Color.SECONDARY.value}",
-                            min_width=rx.breakpoints(
-                                initial="60px",
-                                xs="65px", 
-                                sm="70px",
-                                md="75px",
-                                lg="80px",
-                                xl="80px"
-                            ),
+                            min_width={
+    "initial": "60px",
+    "xs": "65px",
+    "sm": "70px",
+    "md": "75px",
+    "lg": "80px",
+    "xl": "80px"
+},
                             text_align="center",
                             class_name="countdown-box"
                         ),
                         rx.text(
                             "HORAS",
-                            font_size=rx.breakpoints(
-                                initial="0.6em",
-                                xs="0.7em", 
-                                sm="0.8em",
-                                md="0.9em",
-                                lg="1em",
-                                xl="1em"
-                            ),
+                            font_size={
+    "initial": "0.6em",
+    "xs": "0.7em",
+    "sm": "0.8em",
+    "md": "0.9em",
+    "lg": "1em",
+    "xl": "1em"
+},
                             font_weight="bold",
                             color=TextColor.SECONDARY.value,
                             class_name="countdown-label"
@@ -243,51 +243,51 @@ def countdown_timer() -> rx.Component:
                         rx.box(
                             rx.text(
                                 CountdownState.minutes,
-                                font_size=rx.breakpoints(
-                                    initial="1.5em",
-                                    xs="1.8em", 
-                                    sm="2em",
-                                    md="2.2em",
-                                    lg="2.5em",
-                                    xl="2.5em"
-                                ),
+                                font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                                 font_weight="bold",
                                 color=TextColor.PRIMARY.value,
                                 class_name="golden-glow countdown-number",
                                 data_countdown="minutes"
                             ),
-                            padding=rx.breakpoints(
-                                initial="0.8em",
-                                xs="1em", 
-                                sm="1.2em",
-                                md="1.5em",
-                                lg="2em",
-                                xl="2em"
-                            ),
+                            padding={
+    "initial": "0.8em",
+    "xs": "1em",
+    "sm": "1.2em",
+    "md": "1.5em",
+    "lg": "2em",
+    "xl": "2em"
+},
                             background=f"linear-gradient(135deg, {Color.ACCENT.value}, {Color.QUATERNARY.value})",
                             border_radius="8px",
                             border=f"2px solid {Color.SECONDARY.value}",
-                            min_width=rx.breakpoints(
-                                initial="60px",
-                                xs="65px", 
-                                sm="70px",
-                                md="75px",
-                                lg="80px",
-                                xl="80px"
-                            ),
+                            min_width={
+    "initial": "60px",
+    "xs": "65px",
+    "sm": "70px",
+    "md": "75px",
+    "lg": "80px",
+    "xl": "80px"
+},
                             text_align="center",
                             class_name="countdown-box"
                         ),
                         rx.text(
                             "MIN",
-                            font_size=rx.breakpoints(
-                                initial="0.6em",
-                                xs="0.7em", 
-                                sm="0.8em",
-                                md="0.9em",
-                                lg="1em",
-                                xl="1em"
-                            ),
+                            font_size={
+    "initial": "0.6em",
+    "xs": "0.7em",
+    "sm": "0.8em",
+    "md": "0.9em",
+    "lg": "1em",
+    "xl": "1em"
+},
                             font_weight="bold",
                             color=TextColor.SECONDARY.value,
                             class_name="countdown-label"
@@ -301,51 +301,51 @@ def countdown_timer() -> rx.Component:
                         rx.box(
                             rx.text(
                                 CountdownState.seconds,
-                                font_size=rx.breakpoints(
-                                    initial="1.5em",
-                                    xs="1.8em", 
-                                    sm="2em",
-                                    md="2.2em",
-                                    lg="2.5em",
-                                    xl="2.5em"
-                                ),
+                                font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                                 font_weight="bold",
                                 color=TextColor.PRIMARY.value,
                                 class_name="golden-glow countdown-number",
                                 data_countdown="seconds"
                             ),
-                            padding=rx.breakpoints(
-                                initial="0.8em",
-                                xs="1em", 
-                                sm="1.2em",
-                                md="1.5em",
-                                lg="2em",
-                                xl="2em"
-                            ),
+                            padding={
+    "initial": "0.8em",
+    "xs": "1em",
+    "sm": "1.2em",
+    "md": "1.5em",
+    "lg": "2em",
+    "xl": "2em"
+},
                             background=f"linear-gradient(135deg, {Color.ACCENT.value}, {Color.QUATERNARY.value})",
                             border_radius="8px",
                             border=f"2px solid {Color.SECONDARY.value}",
-                            min_width=rx.breakpoints(
-                                initial="60px",
-                                xs="65px", 
-                                sm="70px",
-                                md="75px",
-                                lg="80px",
-                                xl="80px"
-                            ),
+                            min_width={
+    "initial": "60px",
+    "xs": "65px",
+    "sm": "70px",
+    "md": "75px",
+    "lg": "80px",
+    "xl": "80px"
+},
                             text_align="center",
                             class_name="countdown-box"
                         ),
                         rx.text(
                             "SEG",
-                            font_size=rx.breakpoints(
-                                initial="0.6em",
-                                xs="0.7em", 
-                                sm="0.8em",
-                                md="0.9em",
-                                lg="1em",
-                                xl="1em"
-                            ),
+                            font_size={
+    "initial": "0.6em",
+    "xs": "0.7em",
+    "sm": "0.8em",
+    "md": "0.9em",
+    "lg": "1em",
+    "xl": "1em"
+},
                             font_weight="bold",
                             color=TextColor.SECONDARY.value,
                             class_name="countdown-label"
@@ -354,14 +354,14 @@ def countdown_timer() -> rx.Component:
                         spacing="1"
                     ),
                     
-                    spacing=rx.breakpoints(
-                        initial="1",
-                        xs="2", 
-                        sm="2",
-                        md="3",
-                        lg="3",
-                        xl="3"
-                    ),
+                    spacing={
+    "initial": "1",
+    "xs": "2",
+    "sm": "2",
+    "md": "3",
+    "lg": "3",
+    "xl": "3"
+},
                     justify="center",
                     flex_wrap="wrap",
                     width="100%",
@@ -395,14 +395,14 @@ def countdown_timer() -> rx.Component:
         ),
         
         # Estilos del contenedor
-        padding=rx.breakpoints(
-            initial="1.5em",
-            xs="2em", 
-            sm="2.5em",
-            md="3em",
-            lg="4em",
-            xl="4em"
-        ),
+        padding={
+    "initial": "1.5em",
+    "xs": "2em",
+    "sm": "2.5em",
+    "md": "3em",
+    "lg": "4em",
+    "xl": "4em"
+},
         background=f"linear-gradient(135deg, {Color.ACCENT.value}, {Color.SECONDARY.value}, {Color.QUATERNARY.value})",
         border_radius="16px",
         border=f"3px solid {Color.SECONDARY.value}",

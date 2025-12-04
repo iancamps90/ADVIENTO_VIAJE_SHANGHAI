@@ -88,14 +88,14 @@ def _render_day_sections(content: str) -> rx.Component:
             rx.box(
                 rx.text(
                     sections['intro'],
-                    font_size=rx.breakpoints(
-                        initial="1em",
-                        xs="1.1em", 
-                        sm="1.2em",
-                        md="1.3em",
-                        lg="1.3em",
-                        xl="1.3em"
-                    ),
+                    font_size={
+    "initial": "1em",
+    "xs": "1.1em",
+    "sm": "1.2em",
+    "md": "1.3em",
+    "lg": "1.3em",
+    "xl": "1.3em"
+},
                     color="#FFFFFF",
                     text_align="center",
                     line_height="1.6",
@@ -117,28 +117,28 @@ def _render_day_sections(content: str) -> rx.Component:
                 rx.vstack(
                     rx.text(
                         "🎯 RETO DEL DÍA",
-                        font_size=rx.breakpoints(
-                            initial="1.2em",
-                            xs="1.3em", 
-                            sm="1.4em",
-                            md="1.5em",
-                            lg="1.5em",
-                            xl="1.5em"
-                        ),
+                        font_size={
+    "initial": "1.2em",
+    "xs": "1.3em",
+    "sm": "1.4em",
+    "md": "1.5em",
+    "lg": "1.5em",
+    "xl": "1.5em"
+},
                         font_weight="bold",
                         color="#FFD700",
                         text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
                     ),
                     rx.text(
                         sections['challenge'],
-                        font_size=rx.breakpoints(
-                            initial="0.9em",
-                            xs="1em", 
-                            sm="1.1em",
-                            md="1.2em",
-                            lg="1.2em",
-                            xl="1.2em"
-                        ),
+                        font_size={
+    "initial": "0.9em",
+    "xs": "1em",
+    "sm": "1.1em",
+    "md": "1.2em",
+    "lg": "1.2em",
+    "xl": "1.2em"
+},
                         color="#FFFFFF",
                         text_align="center",
                         line_height="1.6",
@@ -163,28 +163,28 @@ def _render_day_sections(content: str) -> rx.Component:
                 rx.vstack(
                     rx.text(
                         "🧳 PREPARATIVOS DE MALETA",
-                        font_size=rx.breakpoints(
-                            initial="1.1em",
-                            xs="1.2em", 
-                            sm="1.3em",
-                            md="1.4em",
-                            lg="1.4em",
-                            xl="1.4em"
-                        ),
+                        font_size={
+    "initial": "1.1em",
+    "xs": "1.2em",
+    "sm": "1.3em",
+    "md": "1.4em",
+    "lg": "1.4em",
+    "xl": "1.4em"
+},
                         font_weight="bold",
                         color="#FFD700",
                         text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
                     ),
                     rx.text(
                         sections['preparations'],
-                        font_size=rx.breakpoints(
-                            initial="1.1em",
-                            xs="1.2em", 
-                            sm="1.3em",
-                            md="1.4em",
-                            lg="1.4em",
-                            xl="1.2em"
-                        ),
+                        font_size={
+    "initial": "1.1em",
+    "xs": "1.2em",
+    "sm": "1.3em",
+    "md": "1.4em",
+    "lg": "1.4em",
+    "xl": "1.2em"
+},
                         color="#FFFFFF",
                         text_align="left",
                         line_height="1.6",
@@ -211,28 +211,28 @@ def _render_day_sections(content: str) -> rx.Component:
                 rx.vstack(
                     rx.text(
                         "🎥 VIDEO DEL DÍA",
-                        font_size=rx.breakpoints(
-                            initial="1.1em",
-                            xs="1.2em", 
-                            sm="1.3em",
-                            md="1.4em",
-                            lg="1.4em",
-                            xl="1.4em"
-                        ),
+                        font_size={
+    "initial": "1.1em",
+    "xs": "1.2em",
+    "sm": "1.3em",
+    "md": "1.4em",
+    "lg": "1.4em",
+    "xl": "1.4em"
+},
                         font_weight="bold",
                         color="#FFD700",
                         text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
                     ),
                     rx.text(
                         sections['video'],
-                        font_size=rx.breakpoints(
-                            initial="0.9em",
-                            xs="1em", 
-                            sm="1.1em",
-                            md="1.2em",
-                            lg="1.2em",
-                            xl="1.2em"
-                        ),
+                        font_size={
+    "initial": "0.9em",
+    "xs": "1em",
+    "sm": "1.1em",
+    "md": "1.2em",
+    "lg": "1.2em",
+    "xl": "1.2em"
+},
                         color="#FFFFFF",
                         text_align="center",
                         line_height="1.6",
@@ -257,28 +257,28 @@ def _render_day_sections(content: str) -> rx.Component:
                 rx.vstack(
                     rx.text(
                         "🧧 EXTRA PARA EL GRUPO",
-                        font_size=rx.breakpoints(
-                            initial="1.1em",
-                            xs="1.2em", 
-                            sm="1.3em",
-                            md="1.4em",
-                            lg="1.4em",
-                            xl="1.4em"
-                        ),
+                        font_size={
+    "initial": "1.1em",
+    "xs": "1.2em",
+    "sm": "1.3em",
+    "md": "1.4em",
+    "lg": "1.4em",
+    "xl": "1.4em"
+},
                         font_weight="bold",
                         color="#FFD700",
                         text_shadow="2px 2px 4px rgba(0,0,0,0.8)"
                     ),
                     rx.text(
                         sections['extra'],
-                        font_size=rx.breakpoints(
-                            initial="0.9em",
-                            xs="1em", 
-                            sm="1.1em",
-                            md="1.2em",
-                            lg="1.2em",
-                            xl="1.2em"
-                        ),
+                        font_size={
+    "initial": "0.9em",
+    "xs": "1em",
+    "sm": "1.1em",
+    "md": "1.2em",
+    "lg": "1.2em",
+    "xl": "1.2em"
+},
                         color="#FFFFFF",
                         text_align="center",
                         line_height="1.6",
@@ -337,39 +337,39 @@ def day_detail(day_number: int) -> rx.Component:
         rx.box(
             rx.heading(
                 f"Día {day_number}",
-                size=rx.breakpoints(
-                    initial="6",
-                    xs="7", 
-                    sm="8",
-                    md="8",
-                    lg="8",
-                    xl="8"
-                ),
+                size={
+    "initial": "6",
+    "xs": "7",
+    "sm": "8",
+    "md": "8",
+    "lg": "8",
+    "xl": "8"
+},
                 color=TextColor.ACCENT.value,
                 class_name="chinese-text golden-glow"
             ),
             rx.text(
                 "Calendario de Adviento Shanghai 2025",
-                font_size=rx.breakpoints(
-                    initial="0.8em",
-                    xs="0.9em", 
-                    sm="1em",
-                    md="1.1em",
-                    lg="1.1em",
-                    xl="1.1em"
-                ),
+                font_size={
+    "initial": "0.8em",
+    "xs": "0.9em",
+    "sm": "1em",
+    "md": "1.1em",
+    "lg": "1.1em",
+    "xl": "1.1em"
+},
                 color="#FFFFFF",
                 text_shadow="1px 1px 2px rgba(0,0,0,0.8)"
             ),
             align="center",
-            padding=rx.breakpoints(
-                initial="1em",
-                xs="1.5em", 
-                sm="2em",
-                md="2em",
-                lg="2em",
-                xl="2em"
-            ),
+            padding={
+    "initial": "1em",
+    "xs": "1.5em",
+    "sm": "2em",
+    "md": "2em",
+    "lg": "2em",
+    "xl": "2em"
+},
             background=f"linear-gradient(135deg, {Color.BACKGROUND.value}, {Color.SECONDARY.value})",
             border_radius="12px",
             border=f"2px solid {Color.SECONDARY.value}",
@@ -381,14 +381,14 @@ def day_detail(day_number: int) -> rx.Component:
             rx.vstack(
                 rx.heading(
                     day_name,
-                    size=rx.breakpoints(
-                        initial="4",
-                        xs="5", 
-                        sm="6",
-                        md="6",
-                        lg="6",
-                        xl="6"
-                    ),
+                    size={
+    "initial": "4",
+    "xs": "5",
+    "sm": "6",
+    "md": "6",
+    "lg": "6",
+    "xl": "6"
+},
                     color="#FFFFFF",
                     text_align="center",
                     margin_bottom=Size.BIG.value,
@@ -496,14 +496,14 @@ def day_detail(day_number: int) -> rx.Component:
                             rx.el.iframe(
                                 src=day_video,
                                 width="100%",
-                                height=rx.breakpoints(
-                                    initial="180px",
-                                    xs="200px", 
-                                    sm="220px",
-                                    md="250px",
-                                    lg="280px",
-                                    xl="300px"
-                                ),
+                                height={
+    "initial": "180px",
+    "xs": "200px",
+    "sm": "220px",
+    "md": "250px",
+    "lg": "280px",
+    "xl": "300px"
+},
                                 border_radius="8px",
                                 max_width="560px"
                             ),
@@ -532,48 +532,48 @@ def day_detail(day_number: int) -> rx.Component:
                 align="center",
                 spacing="3"
             ),
-            padding=rx.breakpoints(
-                initial="1em",
-                xs="1.5em", 
-                sm="2em",
-                md="2.5em",
-                lg="3em",
-                xl="3em"
-            ),
+            padding={
+    "initial": "1em",
+    "xs": "1.5em",
+    "sm": "2em",
+    "md": "2.5em",
+    "lg": "3em",
+    "xl": "3em"
+},
             background=f"linear-gradient(135deg, {Color.PRIMARY.value}, {Color.QUATERNARY.value})",
             border_radius="12px",
             border=f"2px solid {Color.ACCENT.value}",
             box_shadow=f"0 8px 16px {Color.QUATERNARY.value}",
             width="100%",
-            max_width=rx.breakpoints(
-                initial="95%",
-                xs="90%", 
-                sm="85%",
-                md="900px",
-                lg="1000px",
-                xl="1100px"
-            ),
+            max_width={
+    "initial": "95%",
+    "xs": "90%",
+    "sm": "85%",
+    "md": "900px",
+    "lg": "1000px",
+    "xl": "1100px"
+},
             class_name="chinese-card fade-in"
         ),
         
         align="center",
-        spacing=rx.breakpoints(
-            initial="2",
-            xs="3", 
-            sm="4",
-            md="4",
-            lg="4",
-            xl="4"
-        ),
+        spacing={
+    "initial": "2",
+    "xs": "3",
+    "sm": "4",
+    "md": "4",
+    "lg": "4",
+    "xl": "4"
+},
         style=styles.max_width_style,
-        padding=rx.breakpoints(
-            initial="0.5em",
-            xs="1em", 
-            sm="1.5em",
-            md="2em",
-            lg="2em",
-            xl="2em"
-        )
+        padding={
+    "initial": "0.5em",
+    "xs": "1em",
+    "sm": "1.5em",
+    "md": "2em",
+    "lg": "2em",
+    "xl": "2em"
+}
     )
 
 

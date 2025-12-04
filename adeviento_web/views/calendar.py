@@ -657,14 +657,14 @@ def calendar() -> rx.Component:
     return rx.vstack(
         rx.heading(
             "Camino a Shanghai 🇨🇳 🐉",
-            size=rx.breakpoints(
-                initial="6",
-                xs="7", 
-                sm="8",
-                md="9",
-                lg="9",
-                xl="9"
-            ),
+            size={
+                "initial": "6",
+                "xs": "7", 
+                "sm": "8",
+                "md": "9",
+                "lg": "9",
+                "xl": "9"
+            },
             color="#DC143C",
             class_name="chinese-text",
             text_align="center",
@@ -736,14 +736,14 @@ def calendar() -> rx.Component:
                 )
                 for _, number in enumerate(range(0, len(_shanghai_days)))
             ],
-            columns=rx.breakpoints(
-                initial="2",
-                xs="3", 
-                sm="4",
-                md="5",
-                lg="5",
-                xl="5"
-            ),
+            columns={
+                "initial": "2",
+                "xs": "3", 
+                "sm": "4",
+                "md": "5",
+                "lg": "5",
+                "xl": "5"
+            },
             spacing="3",
             width="100%",
             padding_y=Size.BIG.value,

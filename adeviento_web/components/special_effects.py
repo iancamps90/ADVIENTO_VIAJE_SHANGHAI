@@ -128,14 +128,14 @@ def celebration_banner(day_number: int) -> rx.Component:
     return rx.box(
         rx.text(
             messages[day_number],
-            font_size=rx.breakpoints(
-                initial="1.2em",
-                xs="1.4em",
-                sm="1.6em",
-                md="1.8em",
-                lg="2em",
-                xl="2em"
-            ),
+            font_size={
+    "initial": "1.2em",
+    "xs": "1.4em",
+    "sm": "1.6em",
+    "md": "1.8em",
+    "lg": "2em",
+    "xl": "2em"
+},
             font_weight="bold",
             color=colors[day_number],
             text_align="center",
@@ -207,14 +207,14 @@ def countdown_enhanced() -> rx.Component:
                     rx.text(
                         id="countdown-days",
                         data_countdown="days",
-                        font_size=rx.breakpoints(
-                            initial="1.5em",
-                            xs="1.8em",
-                            sm="2em",
-                            md="2.2em",
-                            lg="2.5em",
-                            xl="2.5em"
-                        ),
+                        font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                         font_weight="bold",
                         color="#DC143C",
                         class_name="countdown-number"
@@ -237,14 +237,14 @@ def countdown_enhanced() -> rx.Component:
                     rx.text(
                         id="countdown-hours",
                         data_countdown="hours",
-                        font_size=rx.breakpoints(
-                            initial="1.5em",
-                            xs="1.8em",
-                            sm="2em",
-                            md="2.2em",
-                            lg="2.5em",
-                            xl="2.5em"
-                        ),
+                        font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                         font_weight="bold",
                         color="#DC143C",
                         class_name="countdown-number"
@@ -267,14 +267,14 @@ def countdown_enhanced() -> rx.Component:
                     rx.text(
                         id="countdown-minutes",
                         data_countdown="minutes",
-                        font_size=rx.breakpoints(
-                            initial="1.5em",
-                            xs="1.8em",
-                            sm="2em",
-                            md="2.2em",
-                            lg="2.5em",
-                            xl="2.5em"
-                        ),
+                        font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                         font_weight="bold",
                         color="#DC143C",
                         class_name="countdown-number"
@@ -297,14 +297,14 @@ def countdown_enhanced() -> rx.Component:
                     rx.text(
                         id="countdown-seconds",
                         data_countdown="seconds",
-                        font_size=rx.breakpoints(
-                            initial="1.5em",
-                            xs="1.8em",
-                            sm="2em",
-                            md="2.2em",
-                            lg="2.5em",
-                            xl="2.5em"
-                        ),
+                        font_size={
+    "initial": "1.5em",
+    "xs": "1.8em",
+    "sm": "2em",
+    "md": "2.2em",
+    "lg": "2.5em",
+    "xl": "2.5em"
+},
                         font_weight="bold",
                         color="#DC143C",
                         class_name="countdown-number"

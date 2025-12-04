@@ -21,6 +21,9 @@ def shanghai_info() -> rx.Component:
         background="rgba(0,0,0,0.5)",
         border_radius="8px",
         border=f"1px solid {Color.SECONDARY.value}",
-        display=rx.breakpoints(initial="none", sm="block")
+        display={
+            "initial": "none",
+            "sm": "block"
+        }
     )
 
