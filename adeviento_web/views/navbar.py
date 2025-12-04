@@ -17,14 +17,7 @@ def navbar() -> rx.Component:
             ),
             rx.text(
                 "Calendario de Adviento Shanghai 2025 🇨🇳🏮🎁❄️🎊",
-                font_size=rx.breakpoints(
-                    initial="0.8em",
-                    xs="0.9em", 
-                    sm="1em",
-                    md="1.1em",
-                    lg="1.2em",
-                    xl="1.2em"
-                ),
+                font_size="1rem",
                 font_weight="bold",
                 color="white"
             ),
