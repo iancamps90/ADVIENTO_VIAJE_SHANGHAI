@@ -10,4 +10,5 @@ config = rx.Config(
     db_url="sqlite:///reflex.db",
     env=rx.Env.PROD,
     disable_plugins=["reflex.plugins.sitemap.SitemapPlugin"],
+    cors_allowed_origins=["*"],
 )
