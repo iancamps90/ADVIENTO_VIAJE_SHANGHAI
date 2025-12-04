@@ -2,7 +2,7 @@
 reflex==0.4.3
 sqlmodel==0.0.14
 sqlalchemy==2.0.23
-pydantic==1.10.12
+pydantic>=1.10.13,<2.0.0
 
 # --- Dependencias de entorno ---
 gunicorn
